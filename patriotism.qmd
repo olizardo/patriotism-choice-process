@@ -1,0 +1,398 @@
+---
+title: "Patriotism and the Choice Process: National Pride After 9/11"
+author: "Omar Lizardo"
+date: today
+format:
+  html:
+    toc: true
+    theme: cosmo
+execute:
+  echo: true
+  warning: false
+  message: false
+---
+
+# Introduction
+
+Which groups are more likely to experience increased feelings of national pride after the experience of a threat to nation? In this paper, I use survey data on a representative sample of Americans collected before and after the events of 9/11 to shed light on this question. This "natural experiment" allows me adjudicate between two competing hypotheses regarding the socio-demographic distribution of feeling of national pride after the experience of a threat to the nation.
+
+Theories in the tradition of the "authoritarian personality" conceive of national pride as reflecting a form "irrational conservatism." These theories predict that members of low status groups will be much more likely to experience renewed feelings of national pride after the experience of a threat to the nation. From this perspective, a threat to the nation is seen as endangering the "ontological security" (Giddens 1984) of persons whose lives are characterized by routine and alienating work and who are disengaged from established institutions.
+
+Theories of attachment to collectivities as a nested group on the other hand (Lawler 1992; Mueller and Lawler 1999), point to a different dynamic, and lead to a clearly divergent empirical implication. According to the choice-process approach, individuals are more likely to experience affective attachment to a larger group within which other groups that they belong to is nested (such as the nation), only to the extent that they are able to in fact experience freedom and autonomy in their everyday dealings, and to the extent that this autonomy and freedom is attributed to membership both in the more proximate groups that they are part of, and to the larger unit within which these groups are nested (Lawler 1992).
+
+# Data and Methods
+
+In this modernized workflow, we draw data directly from the General Social Survey (GSS) using reproducible queries, focusing on the years 1996 and 2004 (before and after the events of 9/11). We use the `gssr` package to extract data and handle sample weights appropriately.
+
+```{r}
+#| label: setup-and-data
+#| include: false
+
+library(gssr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(broom)
+library(modelsummary)
+library(haven)
+library(marginaleffects)
+library(psych)
+
+# Fetch data for 1996 and 2004
+gss96 <- gss_get_yr(1996)
+gss04 <- gss_get_yr(2004)
+
+# Relevant variables
+vars_to_keep <- c("year", "age", "educ", "degree", "sex", "race", "polviews", "born", 
+                  "reg16", "region", "sei", "wtssall", "belikeus", "ifwrong")
+
+# Combine datasets, only keeping available variables across both datasets to avoid errors
+gss_comb <- bind_rows(gss96, gss04) %>%
+  select(any_of(vars_to_keep), 
+         starts_with("proud"), 
+         starts_with("am"), 
+         starts_with("mem")) %>%
+  filter(year %in% c(1996, 2004))
+```
+
+We process the U.S. Pride scale and Nationalist scale mirroring the original Stata script, ensuring proper handling of missing values ("IAP", "DK", "NA") and dichotomization. We also construct predictors such as cohort, education categories, and voluntary association memberships.
+
+```{r}
+#| label: data-processing
+#| echo: true
+
+gss_clean <- gss_comb %>%
+  # Strip labelling attributes for simpler manipulation
+  mutate(across(everything(), as.numeric)) %>%
+  
+  # For proud variables: Stata dropped if == 0
+  filter(if_all(prouddem:proudgrp, ~ .x != 0 | is.na(.x))) %>%
+  
+  mutate(
+    # Recodes 0 and 9 to NA for am* variables
+    across(ambornin:amsports, ~ na_if(.x, 0)),
+    across(ambornin:amsports, ~ na_if(.x, 9)),
+    
+    # Dichotomize proud* variables (1 = yes)
+    across(prouddem:proudgrp, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
+    
+    # Dichotomize am* variables for patriotism scale
+    across(ambornin:amfeel, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
+    
+    # Recode amcitizn-ifwrong: 8 = 3, then dichotomize < 3
+    across(c(amcitizn, amshamed, belikeus, ambetter, ifwrong), ~ ifelse(.x == 8, 3, .x)),
+    across(c(amcitizn, amshamed, belikeus, ambetter, ifwrong), ~ ifelse(.x < 3, 1, 0), .names = "{.col}bin"),
+    
+    # Demographic recodes
+    educ = ifelse(educ %in% c(98, 99), NA, educ),
+    degree = ifelse(degree %in% c(8, 9), NA, degree),
+    memnum = ifelse(memnum == -1, NA, ifelse(memnum %in% c(98, 99), 0, memnum)),
+    
+    usaborn = ifelse(born == 1, 1, 0),
+    south = ifelse(reg16 > 4 & region < 8, 1, 0),
+    conservative = ifelse(polviews %in% c(6, 7), 1, 0),
+    
+    # Membership categories and binaries
+    memnumcat = case_when(
+      memnum == 0 ~ "0",
+      memnum %in% 1:2 ~ "1-2",
+      memnum >= 3 ~ "3+",
+      TRUE ~ NA_character_
+    ),
+    memnumcat = factor(memnumcat, levels = c("0", "1-2", "3+")),
+    
+    educcat = case_when(
+      educ <= 6 ~ "0-6 years",
+      educ >= 7 & educ <= 11 ~ "7-11 years",
+      educ == 12 ~ "12 years",
+      educ >= 13 & educ <= 15 ~ "13-15 years",
+      educ == 16 ~ "16 years",
+      educ >= 17 & educ <= 19 ~ "17-19 years",
+      educ >= 20 ~ "20+ years",
+      TRUE ~ NA_character_
+    ),
+    educcat = factor(educcat, levels = c("0-6 years", "7-11 years", "12 years", 
+                                         "13-15 years", "16 years", "17-19 years", "20+ years")),
+    
+    cohort = year - age
+  ) %>%
+  # Dichotomize the individual membership types
+  mutate(across(memfrat:memchurh, ~ ifelse(.x > 0 & !is.na(.x) & .x == 1, 1, 0), .names = "{.col}bin")) %>%
+  rowwise() %>%
+  mutate(
+    # U.S. Pride scale: sum of binary proud items. NA if any are missing.
+    uspridescal = if(any(is.na(c_across(prouddembin:proudgrpbin)))) NA_real_ 
+                  else sum(c_across(prouddembin:proudgrpbin)),
+    
+    # Patriotism scale
+    patriotscal = if(any(is.na(c_across(c(amborninbin, amcitbin, amlivedbin, amgovtbin, amfeelbin))))) NA_real_ 
+                  else sum(c_across(c(amborninbin, amcitbin, amlivedbin, amgovtbin, amfeelbin))),
+                  
+    # Nationalist scale (mean reversed)
+    nationalistscal = 6 - mean(c_across(c(amcitizn, belikeus, ambetter, ifwrong)), na.rm = TRUE)
+  ) %>%
+  ungroup() %>%
+  # Filter missing data out of the weight to ensure smooth modeling
+  filter(!is.na(wtssall))
+
+# Ensure appropriate factors for models
+gss_clean <- gss_clean %>%
+  mutate(
+    year_f = factor(year),
+    sex_f = factor(sex),
+    race_f = factor(race)
+  )
+```
+
+# Results
+
+To make the regression tables cleaner, we first define a dictionary of clean variable labels.
+
+```{r}
+#| label: setup-labels
+#| echo: false
+
+coef_labels <- c(
+  "educ" = "Education (Years)",
+  "cohort" = "Birth Cohort",
+  "year_f2004" = "Year: 2004",
+  "educ:year_f2004" = "Education × Year 2004",
+  "sei" = "Occupational Status (SEI)",
+  "sex_f2" = "Female",
+  "race_f2" = "Race: Black",
+  "race_f3" = "Race: Other",
+  "south" = "Region: South",
+  "nationalistscal" = "Nationalist Scale",
+  "memnum" = "Total Memberships (Count)",
+  "memnumcat1-2" = "Memberships: 1-2",
+  "memnumcat3+" = "Memberships: 3+",
+  "memfratbin" = "Fraternal Group",
+  "memservbin" = "Service Club",
+  "memvetbin" = "Veterans Group",
+  "mempolitbin" = "Political Club",
+  "memunionbin" = "Labor Union",
+  "memsportbin" = "Sports Group",
+  "memyouthbin" = "Youth Group",
+  "memschlbin" = "School Service",
+  "memhobbybin" = "Hobby Club",
+  "memgreekbin" = "School Fraternity",
+  "memnatbin" = "Nationality Group",
+  "memfarmbin" = "Farm Organization",
+  "memlitbin" = "Literary/Art Group",
+  "memprofbin" = "Professional Society",
+  "memchurhbin" = "Church Group",
+  "(Intercept)" = "Intercept"
+)
+```
+
+We first visualize the change in the U.S. Pride Scale score between 1996 and 2004. As shown in @fig-pride-boxplot, national pride distributions shifted post-9/11.
+
+```{r}
+#| label: fig-pride-boxplot
+#| fig-cap: "U.S. Pride Scale Score by Year"
+
+ggplot(gss_clean %>% filter(!is.na(uspridescal)), 
+       aes(x = factor(year), y = uspridescal, weight = wtssall)) +
+  geom_boxplot(fill = "lightblue") +
+  labs(x = "Year", y = "U.S. Pride Scale Score") +
+  theme_minimal()
+```
+
+## Scale Validation
+
+Before running models, we assess the internal reliability of the scales constructed for this analysis.
+
+```{r}
+#| label: scale-reliability
+#| echo: false
+
+# Calculate Cronbach's alpha for the U.S. Pride scale
+pride_items <- gss_clean %>% select(prouddembin:proudgrpbin)
+pride_alpha <- psych::alpha(pride_items, check.keys = FALSE)$total$raw_alpha
+
+# Calculate Cronbach's alpha for the Patriotism scale
+patriot_items <- gss_clean %>% select(amborninbin, amcitbin, amlivedbin, amgovtbin, amfeelbin)
+patriot_alpha <- psych::alpha(patriot_items, check.keys = FALSE)$total$raw_alpha
+
+# Calculate Cronbach's alpha for the Nationalism scale
+nat_items <- gss_clean %>% select(amcitizn, belikeus, ambetter, ifwrong)
+nat_alpha <- psych::alpha(nat_items, check.keys = FALSE)$total$raw_alpha
+
+cat("Cronbach's alpha for U.S. Pride scale:", round(pride_alpha, 3), "\n")
+cat("Cronbach's alpha for Patriotism scale:", round(patriot_alpha, 3), "\n")
+cat("Cronbach's alpha for Nationalism scale:", round(nat_alpha, 3), "\n")
+```
+
+## Binary Item Models
+
+We examine how the individual likelihoods of being "very proud" of various aspects of the U.S. changed from 1996 to 2004 by running survey-weighted logistic regressions for each binary indicator.
+
+```{r}
+#| label: tbl-logistic-pride
+#| results: asis
+
+# Identify binary pride variables
+pride_bins <- grep("^proud.*bin$", names(gss_clean), value = TRUE)
+
+logit_models <- list()
+for(v in pride_bins) {
+  # formula: var ~ year_f + cohort
+  f <- as.formula(paste(v, "~ year_f + cohort"))
+  m <- glm(f, data = gss_clean, family = quasibinomial(), weights = wtssall)
+  logit_models[[v]] <- m
+}
+
+# Show a selection of these models, converting estimates to Odds Ratios
+modelsummary(logit_models[1:5], 
+             stars = TRUE, 
+             exponentiate = TRUE,
+             coef_map = coef_labels,
+             align = "lccccc",
+             title = "Logistic Regressions of Individual Pride Items (Odds Ratios)",
+             output = "markdown")
+```
+
+## Nationalism and Irrational Conservatism
+
+Before analyzing U.S. Pride, we can look at the "Nationalism" scale. The "irrational conservatism" perspective posits that 9/11 should have driven an increase in nationalism, particularly among lower-status groups. We estimate whether Nationalism increased overall, and whether the effect of education on Nationalism changed over time.
+
+```{r}
+#| label: tbl-nationalism
+#| results: asis
+
+# Baseline change in nationalism
+mod_nat_base <- lm(nationalistscal ~ year_f + cohort, data = gss_clean, weights = wtssall)
+
+# Interaction of education and period on nationalism
+mod_nat_int <- lm(nationalistscal ~ educ * year_f + cohort, data = gss_clean, weights = wtssall)
+
+modelsummary(list("Base Change" = mod_nat_base, "Educ Interaction" = mod_nat_int),
+             stars = TRUE,
+             coef_map = coef_labels,
+             align = "lcc",
+             title = "Predictors of Nationalism Scale (1996 vs 2004)",
+             output = "markdown")
+```
+
+As the Indiana presentation notes indicate, neither the need-based nor the irrational conservatism hypotheses fully explain the patterns of national pride and nationalism after 9/11. We now turn to U.S. Pride under the Choice-Process framework.
+
+## Pride Scale Regression Analysis
+
+We estimate OLS models comparing the effects of education, occupational status (SEI), and nested group memberships on national pride across the two periods. Instead of purely subsetting, we fit a pooled model to formally test the interaction between education and the survey year (1996 vs 2004).
+
+```{r}
+#| label: tbl-regression-educ
+#| results: asis
+
+# Sub-setted models
+mod_educ_96 <- lm(uspridescal ~ educ + cohort, data = gss_clean, subset = year == 1996, weights = wtssall)
+mod_educ_04 <- lm(uspridescal ~ educ + cohort, data = gss_clean, subset = year == 2004, weights = wtssall)
+
+# Pooled model with interaction
+mod_educ_interaction <- lm(uspridescal ~ educ * year_f + cohort, data = gss_clean, weights = wtssall)
+
+modelsummary(list("1996" = mod_educ_96, "2004" = mod_educ_04, "Pooled Interaction" = mod_educ_interaction), 
+             stars = TRUE, 
+             coef_map = coef_labels,
+             align = "lccc",
+             title = "Effects of Education on U.S. Pride Scale (1996 vs 2004)",
+             output = "markdown")
+```
+
+To better visualize how the effect of education on national pride shifted post-9/11, we plot the predicted marginal effects of education for both years.
+
+```{r}
+#| label: fig-marginal-educ
+#| fig-cap: "Predicted U.S. Pride Score across Education Levels by Year"
+#| echo: false
+
+plot_predictions(mod_educ_interaction, condition = c("educ", "year_f")) +
+  labs(x = "Years of Education", y = "Predicted U.S. Pride Score", color = "Year", fill = "Year") +
+  theme_minimal()
+```
+
+```{r}
+#| label: tbl-regression-sei
+#| results: asis
+
+mod_sei_96 <- lm(uspridescal ~ sei + cohort, data = gss_clean, subset = year == 1996, weights = wtssall)
+mod_sei_04 <- lm(uspridescal ~ sei + cohort, data = gss_clean, subset = year == 2004, weights = wtssall)
+
+modelsummary(list("1996" = mod_sei_96, "2004" = mod_sei_04), 
+             stars = TRUE, 
+             coef_map = coef_labels,
+             align = "lcc",
+             title = "Effects of SEI on U.S. Pride Scale (1996 vs 2004)",
+             output = "markdown")
+```
+
+## Nested Membership and Nationalism (2004)
+
+Finally, following the choice process framework, we assess how voluntary association membership acts as a nested grouping structure that correlates with attachment to the nation. We evaluate this against a full suite of demographic controls (Gender, Race, Region).
+
+```{r}
+#| label: tbl-regression-full-2004
+#| results: asis
+
+# Baseline with demographics
+mod_base <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south, 
+               data = gss_clean, subset = year == 2004, weights = wtssall)
+
+# Adding membership dummy (as evaluated in presentation slide 36)
+mod_mem_cat <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south + memnumcat, 
+                  data = gss_clean, subset = year == 2004, weights = wtssall)
+
+# Adding continuous membership count
+mod_mem_cont <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south + memnum, 
+                   data = gss_clean, subset = year == 2004, weights = wtssall)
+
+# Full model with Nationalism
+mod_full <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south + memnum + nationalistscal, 
+               data = gss_clean, subset = year == 2004, weights = wtssall)
+
+modelsummary(list("Demographics" = mod_base, "Mem (Categorical)" = mod_mem_cat, "Mem (Count)" = mod_mem_cont, "Full (+ Nationalism)" = mod_full), 
+             stars = TRUE, 
+             coef_map = coef_labels,
+             align = "lcccc",
+             title = "Predictors of U.S. Pride (2004 sample only)",
+             output = "markdown")
+```
+
+```{r}
+#| label: fig-membership-forest
+#| fig-cap: "Coefficients of Specific Association Memberships on U.S. Pride (Controlling for Cohort)"
+#| echo: false
+#| fig-height: 6
+
+# Examining the effects of specific types of organizational memberships
+mem_bins <- grep("^mem.*bin$", names(gss_clean), value = TRUE)
+mem_bins <- setdiff(mem_bins, c("memnumbin", "memotherbin", "memgrp1bin", "memgrp2bin", "memgrp3bin", "memgrp4bin", "memgrp5bin"))
+
+# Fit models and extract coefficients for each membership type
+mem_results <- lapply(mem_bins, function(v) {
+  f <- as.formula(paste("uspridescal ~", v, "+ cohort"))
+  m <- lm(f, data = gss_clean, weights = wtssall)
+  # Extract tidy results and keep only the membership coefficient
+  res <- tidy(m, conf.int = TRUE) %>% filter(term == v)
+  # Add the clean label for plotting
+  res$clean_name <- coef_labels[v]
+  res
+}) %>% bind_rows()
+
+# Plot the estimates ordered by effect size
+ggplot(mem_results, aes(x = estimate, y = reorder(clean_name, estimate), color = clean_name)) +
+  geom_point(size = 3) +
+  geom_errorbarh(aes(xmin = conf.low, xmax = conf.high), height = 0, linewidth = 0.8, alpha = 0.4) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "red") +
+  labs(title = "Effect of Memberships on National Pride",
+       x = "Estimate (Change in U.S. Pride Scale)",
+       y = "Membership Type") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+The results above reveal a crucial dynamic at the heart of the choice-process approach. While the overall *volume* of voluntary memberships (the `memnum` count variable in Table 4) does not significantly predict national pride, specific *types* of organizational memberships have strong, distinct effects. A simple count of memberships assumes all groups foster national attachment equally. However, according to choice-process theory, affective attachment to the nation requires that the proximate group be cognitively "nested" within the national structure. Groups that are inherently linked to the national fabric—such as Veterans Groups, Political Clubs, and Fraternal Organizations—foster autonomy that is easily attributed to the larger national collective, resulting in increased U.S. pride. Conversely, when all memberships are aggregated, the positive effects of these highly-nested groups are diluted by the noise of locally-focused or apolitical associations, explaining why sheer volume fails to capture the underlying sociological mechanism.
+
+# Conclusion
+
+By migrating the project to R and Quarto, the data collection, cleaning, and analysis are now fully transparent and reproducible within a single integrated document.

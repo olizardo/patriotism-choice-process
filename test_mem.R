@@ -1,0 +1,5 @@
+library(gssr)
+gss96 <- gss_get_yr(1996)
+gss04 <- gss_get_yr(2004)
+cat("1996 mem vars:", grep("^mem", names(gss96), value=T), "\n")
+cat("2004 mem vars:", grep("^mem", names(gss04), value=T), "\n")

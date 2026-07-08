@@ -1,0 +1,7 @@
+library(gssr)
+library(dplyr)
+gss04 <- gss_get_yr(2004)
+cat("Proud: ", grep("proud", names(gss04), value=T), "\n")
+cat("Am: ", grep("^am", names(gss04), value=T), "\n")
+cat("Mem: ", grep("^mem", names(gss04), value=T), "\n")
+cat("Other: ", intersect(c("educ", "degree", "age", "born", "reg16", "region", "polviews", "year", "if92who", "if00who"), names(gss04)), "\n")

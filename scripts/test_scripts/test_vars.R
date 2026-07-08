@@ -1,0 +1,6 @@
+library(gssr)
+library(dplyr)
+gss96 <- gss_get_yr(1996)
+gss04 <- gss_get_yr(2004)
+cat("Weights 96: ", grep("wt", names(gss96), value=T), "\n")
+cat("Weights 04: ", grep("wt", names(gss04), value=T), "\n")

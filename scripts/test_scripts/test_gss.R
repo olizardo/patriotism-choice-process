@@ -1,0 +1,8 @@
+if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
+if (!requireNamespace("gssr", quietly = TRUE)) remotes::install_github("kjhealy/gssr")
+library(gssr)
+library(dplyr)
+gss1996 <- gss_get_yr(1996)
+gss2004 <- gss_get_yr(2004)
+print(dim(gss1996))
+print(dim(gss2004))

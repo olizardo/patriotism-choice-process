@@ -1,0 +1,7 @@
+library(gssr)
+library(dplyr)
+gss96 <- gss_get_yr(1996)
+gss04 <- gss_get_yr(2004)
+needed <- c("amcitizn", "amshamed", "belikeus", "ambetter", "ifwrong")
+cat("1996 missing:", setdiff(needed, names(gss96)), "\n")
+cat("2004 missing:", setdiff(needed, names(gss04)), "\n")
