@@ -3,6 +3,14 @@
 \usepackage{authblk}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{tabularray}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\UseTblrLibrary{booktabs}
+\UseTblrLibrary{siunitx}
+\newcommand{\tinytableTabularrayUnderline}[1]{\underline{#1}}
+\newcommand{\tinytableTabularrayStrikeout}[1]{\sout{#1}}
+\NewTableCommand{\tinytableDefineColor}[3]{\definecolor{#1}{#2}{#3}}
 \usepackage{hyperref}
 \hypersetup{
   colorlinks=true,
@@ -33,11 +41,11 @@ Which groups are more likely to experience increased feelings of national pride 
 
 Which groups are more likely to experience increased feelings of national pride after the experience of a threat to the nation? In this paper, I use survey data on a representative sample of Americans collected before and after the events of 9/11 to shed light on this question. This ``natural experiment'' allows me to adjudicate between competing hypotheses regarding the socio-demographic distribution of feelings of national pride following a threat to the nation.
 
-Theories in the tradition of the ``authoritarian personality'' \citep{adorno1950authoritarian-a52} and the modern political science of the personality correlates of political ideology \citep{jost2007are-871, jost2017ideology-f69, jost2008ideology-368} conceive of national pride as reflecting a form of ``irrational conservatism,'' driven by fundamentally ingrained motivational and affective factors that differ across people. These theories predict that members of low-status groups will be much more likely to experience renewed feelings of national pride after experiencing a threat to the nation. From this perspective, a threat to the nation is seen as endangering the ``ontological security'' of persons whose lives are characterized by routine and alienating work, who are disengaged from established institutions, or who have been left behind by recent structural changes to the economy and rapid cultural shifts in dominant values \citep{wuthnow2019left-c34}.
+Theories in the tradition of the ``authoritarian personality'' \citep{adorno1950authoritarian-a52} and the modern political science of the personality correlates of political ideology \citep{jost2007are-871, jost2017ideology-f69, jost2008ideology-368} conceive of national pride as reflecting a form of ``irrational conservatism,'' driven by fundamentally ingrained motivational and affective factors that differ across people. These theories predict that members of low-status groups will be much more likely to experience renewed feelings of national pride after experiencing a threat to the nation. From this perspective, a threat to the nation is seen as endangering the ``ontological security'' \citep{giddens1984constitution} of persons whose lives are characterized by routine and alienating work, who are disengaged from established institutions, or who have been left behind by recent structural changes to the economy and rapid cultural shifts in dominant values \citep{wuthnow2019left-c34}.
 
-Theories of attachment to collectivities as a nested group \citep{lawler1992affective-8c8}, on the other hand, point to a different dynamic and lead to a clearly divergent empirical implication. According to the choice-process approach, individuals are more likely to experience affective attachment to a larger group within which other groups that they belong to are nested (such as the nation), \textit{only} to the extent that they are able to in fact experience freedom and autonomy in their everyday dealings, and to the extent that this autonomy and freedom is \textit{attributed} to membership both in the more proximate groups that they are part of, and to the larger unit within which these groups are nested. 
+Theories of attachment to collectivities as a nested group \citep{lawler1992affective-8c8, mueller1999commitment}, on the other hand, point to a different dynamic and lead to a clearly divergent empirical implication. According to the choice-process approach, individuals are more likely to experience affective attachment to a larger group within which other groups that they belong to are nested (such as the nation), \textit{only} to the extent that they are able to in fact experience freedom and autonomy in their everyday dealings, and to the extent that this autonomy and freedom is \textit{attributed} to membership both in the more proximate groups that they are part of, and to the larger unit within which these groups are nested. 
 
-These two propositions suggest that, given that high status individuals are more likely to be in structural positions that afford autonomy and self-direction \citep{kohn1977class-ee1, kohn1978reciprocal-f1b}, and given that they are more likely to belong to ``nested-subgroups," such as voluntary associations \citep{dederichs2024join-411}, within which feelings of attachment to super-ordinate collectivities can be fostered and made salient, the choice-process theory predicts that it will be high-status individuals who will be more likely to experience renewed feelings of national pride following a threat to the nation.
+These two propositions suggest that, given that high status individuals are more likely to be in structural positions that afford autonomy and self-direction \citep{kohn1969class, kohn1977class-ee1, kohn1978reciprocal-f1b}, and given that they are more likely to belong to ``nested-subgroups," such as voluntary associations \citep{bell1956social, freeman1957correlates, janoski1996pathways, knoke1986associations, mcpherson1981dynamic, scott1957membership, tomeh1973formal, dederichs2024join-411}, within which feelings of attachment to super-ordinate collectivities can be fostered and made salient, the choice-process theory predicts that it will be high-status individuals who will be more likely to experience renewed feelings of national pride following a threat to the nation.
 
 In this paper, 
 
@@ -45,9 +53,9 @@ In this paper,
 
 \subsection{The Needs-Based and Irrational Conservatism Models}
 
-Standard approaches in social psychology geared toward explaining individual differences in affective attachment to nations as collectivities usually point to factors associated with the emotional needs that such feelings of national pride meet \citep{jost2007are-871}. Thus, classic studies of the authoritarian personality noted how persons who scored high on authoritarianism scales were also prone to express ``irrational'' feelings of pride and ``blind'' attachment to the nation conceived as a solidary collectivity \citep{adorno1950authoritarian-a52}. Excessive attachment to national groups is usually regarded as pathological and as leading to various suboptimal societal outcomes, such as support for authoritarian or charismatic leaders and less support for democratic or inclusive institutions \citep{santos2024liberal-conservative-a61}.\footnote{Social Identity Theory and Self-Categorization Theory can also be considered ``need-based'' theories \citep{hogg2000social-e0d}. In these frameworks, the self-enhancement motive leads individuals to become affectively attached to prestigious national collectivities. Individuals become attached to national groups in the very same way that they become attached to any other group---if the group is perceived as meeting emotional needs for self-esteem, prestige, and a sense of efficacy and belonging. } 
+Standard approaches in social psychology geared toward explaining individual differences in affective attachment to nations as collectivities usually point to factors associated with the emotional needs that such feelings of national pride meet \citep{jost2007are-871}. Thus, classic studies of the authoritarian personality noted how persons who scored high on authoritarianism scales were also prone to express ``irrational'' feelings of pride and ``blind'' attachment to the nation conceived as a solidary collectivity \citep{adorno1950authoritarian-a52, pettigrew1999placing}. Excessive attachment to national groups is usually regarded as pathological and as leading to various suboptimal societal outcomes, such as support for authoritarian or charismatic leaders and less support for democratic or inclusive institutions \citep{santos2024liberal-conservative-a61}.\footnote{Social Identity Theory and Self-Categorization Theory can also be considered ``need-based'' theories \citep{hogg2000social-e0d}. In these frameworks, the self-enhancement motive leads individuals to become affectively attached to prestigious national collectivities. Individuals become attached to national groups in the very same way that they become attached to any other group---if the group is perceived as meeting emotional needs for self-esteem, prestige, and a sense of efficacy and belonging. } 
 
-If feelings of national pride are an expression of either authoritarianism or irrational conservatism, then we should find it overrepresented among those groups marked by the socio-demographic characteristics typically associated with these cognitive and affective orientations. The bulk of the research suggests this refers to low-status, low-education groups, typically alienated from mainstream institutions and disempowered in their everyday interactions \citep{jost2017working-608, jost2003social-206}. This implies that post-9/11 increases in national affective attachment in the U.S. should be concentrated among lower-status groups, who may be more likely to react to epistemic and existential threats to the status quo by becoming affectively attached to the nation, thereby increasing their belief in the propriety and desirability of existing systems.
+If feelings of national pride are an expression of either authoritarianism or irrational conservatism, then we should find it overrepresented among those groups marked by the socio-demographic characteristics typically associated with these cognitive and affective orientations. The bulk of the research suggests this refers to low-status, low-education groups, typically alienated from mainstream institutions and disempowered in their everyday interactions \citep{collins1986weberian, jost2017working-608, jost2003social-206}. This implies that post-9/11 increases in national affective attachment in the U.S. should be concentrated among lower-status groups, who may be more likely to react to epistemic and existential threats to the status quo by becoming affectively attached to the nation, thereby increasing their belief in the propriety and desirability of existing systems.
 
 \subsection{Lawler's Choice-Process Theory and Nested Attachments}
 
@@ -65,29 +73,64 @@ This sense of saliency should be stronger for individuals embedded in nested sub
 
 To adjudicate between these hypotheses, I rely on data from the 1996 and 2004 waves of the General Social Survey (GSS). These two waves, collected before and after the events of September 11, 2001, include a special module on attitudes toward the United States, providing an ideal natural experiment to assess shifts in national attachment. 
 
-Two primary dependent variables are analyzed: a U.S. Pride scale and a Nationalism scale. The U.S. Pride scale is an additive index constructed from questions asking respondents how proud they are of America across various domains (e.g., the way democracy works, its political influence, economic achievements, scientific achievements, history, and fair treatment of groups). The Nationalism scale captures agreement with statements asserting American superiority and blind loyalty (e.g., ``I would rather be a citizen of America than of any other country'').
+\subsection{Dependent Variables}
+Two primary dependent variables are analyzed: a U.S. Pride scale and a Nationalism scale. The U.S. Pride scale is an additive index constructed from ten questions asking respondents how proud they are of America across various domains. The prompt asks, ``How proud are you of America in each of the following...'' followed by domains such as the way democracy works, its political influence, economic achievements, social security system, scientific and technological achievements, sports, arts and literature, armed forces, history, and fair treatment of groups. Response categories are ``Very proud,'' ``Somewhat proud,'' ``Not very proud,'' and ``Not proud at all.'' Each item was dichotomized so that ``Very proud'' equals 1 and all other responses equal 0, yielding an additive scale from 0 to 10 (Cronbach's $\alpha = 0.80$).
 
-To evaluate nested subgroup embeddedness, I utilize data on voluntary association memberships available in the 2004 wave, categorizing memberships across fifteen different types of groups (e.g., fraternal, political, veterans, and professional associations).
+The Nationalism scale captures agreement with statements asserting American superiority and blind loyalty \citep{schatz1999varieties}. It is computed as the mean of four items: (1) ``I would rather be a citizen of America than of any other country in the world,'' (2) ``The world would be a better place if people from other countries were more like the Americans,'' (3) ``Generally speaking, America is a better country than most other countries,'' and (4) ``People should support their country even if the country is in the wrong.'' Responses were recorded on a 5-point Likert scale ranging from ``Strongly agree'' (1) to ``Strongly disagree'' (5). The items were reverse-coded prior to averaging so that higher values indicate stronger nationalism (Cronbach's $\alpha = 0.64$).
+
+\subsection{Independent Variables}
+The primary independent variables of interest are education, occupational status, and embeddedness in nested subgroups (voluntary associations). Education is measured continuously as the highest year of school completed (ranging from 0 to 20). Occupational status is measured using Duncan's Socioeconomic Index (SEI), a continuous measure assigning status scores to detailed Census occupation codes.
+
+To evaluate nested subgroup embeddedness, I utilize data on voluntary association memberships available in the 2004 wave. Respondents were asked whether they belonged to any of 15 different types of groups (e.g., fraternal, service, veterans, political, labor union, sports, youth, school, hobby, school fraternity/sorority, nationality, farm, literary/art, professional, and church-affiliated groups). Each membership type is represented as a binary indicator (1 = Yes, 0 = No). I also calculate the total number of memberships per respondent to capture overall associational embeddedness.
 
 \section{Results}
 
 \subsection{The Period Effect on Pride Items}
 
-An initial examination of the binary items comprising the U.S. Pride scale confirms a substantial period effect between 1996 and 2004. Survey-weighted logistic regressions indicate that the likelihood of respondents reporting being ``very proud'' of the United States significantly increased across nearly all measured domains. Notably, pride in America's armed forces, history, and fair treatment of all groups saw dramatic increases post-9/11. The overall distribution of the U.S. Pride scale shifted markedly upward in 2004 compared to 1996.
+An initial examination of the binary items comprising the U.S. Pride scale confirms a substantial period effect between 1996 and 2004. Survey-weighted logistic regressions indicate that the likelihood of respondents reporting being ``very proud'' of the United States significantly increased across nearly all measured domains. Notably, pride in America's armed forces, history, and fair treatment of all groups saw dramatic increases post-9/11. The overall distribution of the U.S. Pride scale shifted markedly upward in 2004 compared to 1996 (see Figure \ref{fig:pride_boxplot}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{plots/fig-pride-boxplot.pdf}
+\caption{U.S. Pride Scale Score by Year}
+\label{fig:pride_boxplot}
+\end{figure}
 
 \subsection{Nationalism and Irrational Conservatism}
 
-The irrational conservatism perspective predicts that 9/11 should have driven an increase in nationalism, particularly among lower-status and less-educated groups. However, our baseline and interaction models assessing the Nationalism scale yield a different picture. While baseline nationalism was higher in 1996, the interaction between education and the survey year on the Nationalism scale is not substantively significant. The need-based and irrational conservatism hypotheses fail to fully capture the changing dynamics of national attachment after 9/11, as the anticipated surge in blindly patriotic nationalism among the dispossessed did not neatly materialize as the primary driver of the 9/11 effect.
+The irrational conservatism perspective predicts that 9/11 should have driven an increase in nationalism, particularly among lower-status and less-educated groups. However, our baseline and interaction models assessing the Nationalism scale yield a different picture. While baseline nationalism was higher in 1996, the interaction between education and the survey year on the Nationalism scale is not substantively significant. The need-based and irrational conservatism hypotheses fail to fully capture the changing dynamics of national attachment after 9/11, as the anticipated surge in blindly patriotic nationalism among the dispossessed did not neatly materialize as the primary driver of the 9/11 effect (Table 2).
+
+\input{Tabs/tbl-nationalism.tex}
 
 \subsection{Education, Occupational Status, and the 9/11 Effect}
 
-Turning to the U.S. Pride scale under the Choice-Process framework, we compare the effects of education and occupational status (SEI) across the two periods. OLS models reveal a striking reversal. In 1996, education and occupational status had a weak or slightly negative association with national pride. However, in 2004, the effect becomes positive and significant. A pooled model formally testing the interaction between education and the survey year confirms a significant, positive interaction term. Higher levels of education and occupational status were strongly associated with increased national pride \textit{after} 9/11. This shift directly supports the choice-process prediction: individuals with greater structural autonomy experienced the most dramatic increase in their national attachment patterns under the new distal attribution regime.
+Turning to the U.S. Pride scale under the Choice-Process framework, we compare the effects of education and occupational status (SEI) across the two periods. OLS models reveal a striking reversal. In 1996, education and occupational status had a weak or slightly negative association with national pride. However, in 2004, the effect becomes positive and significant. A pooled model formally testing the interaction between education and the survey year confirms a significant, positive interaction term. Higher levels of education and occupational status were strongly associated with increased national pride \textit{after} 9/11. This shift directly supports the choice-process prediction: individuals with greater structural autonomy experienced the most dramatic increase in their national attachment patterns under the new distal attribution regime. Table 3 presents the regression models showing this interaction, and Figure \ref{fig:marginal_educ} plots the marginal effects, clearly demonstrating the steeper slope of education in 2004. Table 4 confirms a similar trend for occupational status (SEI).
+
+\input{Tabs/tbl-regression-educ.tex}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{plots/fig-marginal-educ.pdf}
+\caption{Predicted U.S. Pride Score across Education Levels by Year}
+\label{fig:marginal_educ}
+\end{figure}
+
+\input{Tabs/tbl-regression-sei.tex}
 
 \subsection{Nested Membership and National Attachment}
 
 Following the choice-process framework, we assess how voluntary association membership acts as a nested grouping structure that correlates with attachment to the nation using the 2004 sample. A crucial dynamic emerges when disaggregating organizational memberships. While the overall sheer volume of voluntary memberships does not unilaterally drive national pride, specific \textit{types} of organizational memberships have strong, distinct effects.
 
-According to choice-process theory, affective attachment to the nation requires that the proximate group be cognitively nested within the national structure. Our results confirm this: groups that are inherently linked to the national fabric---such as Veterans Groups, Political Clubs, and Fraternal Organizations---foster autonomy that is easily attributed to the larger national collective, resulting in significantly increased U.S. pride. When memberships are merely aggregated into a total count, the positive effects of these highly-nested groups are diluted by the noise of locally-focused or apolitical associations. 
+According to choice-process theory, affective attachment to the nation requires that the proximate group be cognitively nested within the national structure. Our results confirm this: groups that are inherently linked to the national fabric---such as Veterans Groups, Political Clubs, and Fraternal Organizations---foster autonomy that is easily attributed to the larger national collective, resulting in significantly increased U.S. pride. When memberships are merely aggregated into a total count, the positive effects of these highly-nested groups are diluted by the noise of locally-focused or apolitical associations (see Table 5 and Figure \ref{fig:membership_forest}). 
+
+\input{Tabs/tbl-regression-full-2004.tex}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.0\textwidth]{plots/fig-membership-forest.pdf}
+\caption{Effect of Specific Association Memberships on U.S. Pride (Controlling for Cohort)}
+\label{fig:membership_forest}
+\end{figure}
 
 \section{Discussion and Conclusion}
 
@@ -96,6 +139,45 @@ After the traumatic events of 9/11, the United States appears to have switched f
 Instead, the results are consistent with the implications of the choice-process approach. Post-9/11, it was precisely those individuals more likely to experience autonomy in their day-to-day behavior---the highly educated and those in high-status occupations---who increased their attachment to the national collectivity. Furthermore, embeddedness in specific nested groups accounts for how the positive affect generated in local, structured contexts is transferred to the nation.
 
 An important analytical distinction must be maintained between class-based \textit{expression rules} and \textit{feeling rules}. While lower-status individuals may be more likely to \textit{express} national pride (e.g., via bumper stickers or overt patriotic displays), they were paradoxically less likely as a group to experience a proportional \textit{increase} in affective attachment. High-status individuals embedded in nested groups were actually more likely to \textit{feel} increased national pride after 9/11, even if they were less likely to outwardly express it in stereotypical ways. By shifting our theoretical lens to the choice process, we can better understand the structural and affective foundations of modern patriotism.
+
+\clearpage
+\appendix
+\section{Descriptive Statistics}
+
+\begin{table}[htbp]
+\centering
+\caption{Descriptive Statistics for Variables Used in Analysis}
+\label{tab:descriptives}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Continuous Variables} & \textbf{Mean} & \textbf{Std. Dev.} & \textbf{Min} & \textbf{Max} \\
+\midrule
+U.S. Pride Scale & 3.88 & 2.79 & 0.0 & 10.0 \\
+Nationalism Scale & 3.72 & 0.71 & 1.0 & 5.0 \\
+Education (Years) & 13.5 & 2.91 & 0.0 & 20.0 \\
+Occupational Status (SEI) & 49.3 & 19.4 & 17.1 & 97.2 \\
+Total Memberships & 1.61 & 1.88 & 0.0 & 13.0 \\
+\midrule
+\textbf{Voluntary Association Memberships} & \textbf{\% Yes} & & & \\
+\midrule
+Church-affiliated & 31.0\% & & & \\
+Sports & 16.8\% & & & \\
+Professional & 15.1\% & & & \\
+School & 14.1\% & & & \\
+Hobby & 10.8\% & & & \\
+Literary or Art & 10.5\% & & & \\
+Youth & 10.3\% & & & \\
+Labor Union & 9.6\% & & & \\
+Service & 9.6\% & & & \\
+Fraternal & 6.8\% & & & \\
+Veterans & 5.3\% & & & \\
+Political & 4.3\% & & & \\
+School Fraternity/Sorority & 4.2\% & & & \\
+Farm & 3.0\% & & & \\
+Nationality & 2.7\% & & & \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 \bibliography{references} 
 
