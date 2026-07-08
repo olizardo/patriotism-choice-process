@@ -1,0 +1,33 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+entry=none,label=none,
+note{}={+ p \num{< 0.1}, * p \num{< 0.05}, ** p \num{< 0.01}, *** p \num{< 0.001}},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]},
+hline{2}={1-2}{solid, black, 0.05em},
+hline{10}={1-2}{solid, black, 0.05em},
+hline{1}={1-2}{solid, black, 0.08em},
+hline{17}={1-2}{solid, black, 0.08em},
+column{2}={}{halign=c},
+column{1}={}{halign=l},
+}                     %% tabularray inner close
+& 1996 \\
+Education (Years) & \num{-0.063}* \\
+& (\num{0.031}) \\
+Birth Cohort & \num{-0.046}*** \\
+& (\num{0.005}) \\
+Political Ideology (Conservative) & \num{0.687}*** \\
+& (\num{0.207}) \\
+Intercept & \num{94.622}*** \\
+& (\num{10.124}) \\
+Num.Obs. & \num{1029} \\
+R2 & \num{0.094} \\
+R2 Adj. & \num{0.092} \\
+AIC & \num{5033.7} \\
+BIC & \num{5058.4} \\
+Log.Lik. & \num{-2511.842} \\
+RMSE & \num{2.70} \\
+\end{talltblr}
+\end{table}

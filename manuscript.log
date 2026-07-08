@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  8 JUL 2026 09:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.28)  8 JUL 2026 09:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -474,59 +474,59 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 56.
  [3] [4] [5] [6] [7]
-<Plots/fig-logistic-pride.pdf, id=196, 505.89pt x 361.35pt>
+<Plots/fig-logistic-pride.pdf, id=200, 505.89pt x 361.35pt>
 File: Plots/fig-logistic-pride.pdf Graphic file (type pdf)
 <use Plots/fig-logistic-pride.pdf>
 Package pdftex.def Info: Plots/fig-logistic-pride.pdf  used on input line 97.
 (pdftex.def)             Requested size: 469.75502pt x 335.54477pt.
-<Plots/fig-pride-bar.pdf, id=197, 433.62pt x 289.08pt>
+<Plots/fig-pride-bar.pdf, id=201, 433.62pt x 289.08pt>
 File: Plots/fig-pride-bar.pdf Graphic file (type pdf)
 <use Plots/fig-pride-bar.pdf>
 Package pdftex.def Info: Plots/fig-pride-bar.pdf  used on input line 104.
 (pdftex.def)             Requested size: 375.80544pt x 250.5492pt.
  [8 <./Plots/fig-logistic-pride.pdf>] (./Tabs/tbl-nationalism.tex) [9 <./Plots/fig-pride-bar.pdf>] [10] (./Tabs/tbl-regression-educ.tex)
-<Plots/fig-marginal-educ.pdf, id=232, 433.62pt x 289.08pt>
+<Plots/fig-marginal-educ.pdf, id=235, 433.62pt x 289.08pt>
 File: Plots/fig-marginal-educ.pdf Graphic file (type pdf)
 <use Plots/fig-marginal-educ.pdf>
 Package pdftex.def Info: Plots/fig-marginal-educ.pdf  used on input line 123.
 (pdftex.def)             Requested size: 375.80544pt x 250.5492pt.
- [11 <./Plots/fig-marginal-educ.pdf>] [12] (./Tabs/tbl-regression-full-2004.tex
-Overfull \hbox (105.55632pt too wide) in paragraph at lines 44--45
- [][] 
- []
-
-)
-<Plots/fig-membership-forest.pdf, id=253, 505.89pt x 433.62pt>
+ [11 <./Plots/fig-marginal-educ.pdf>] [12] (./Tabs/tbl-regression-full-2004.tex)
+<Plots/fig-membership-forest.pdf, id=255, 505.89pt x 433.62pt>
 File: Plots/fig-membership-forest.pdf Graphic file (type pdf)
 <use Plots/fig-membership-forest.pdf>
 Package pdftex.def Info: Plots/fig-membership-forest.pdf  used on input line 138.
 (pdftex.def)             Requested size: 469.75502pt x 402.65372pt.
- [13] [14] [15 <./Plots/fig-membership-forest.pdf>] [16] (./manuscript.bbl [17
+ [13] [14] [15 <./Plots/fig-membership-forest.pdf>] [16]
+Overfull \hbox (1.09271pt too wide) in paragraph at lines 153--153
+[]\OT1/cmr/bx/n/17.28 Supplementary Mod-els with Po-lit-i-cal Ide-ol-ogy (1996
+ []
 
-] [18] [19]) [20] (./manuscript.aux)
+(./Tabs/tbl-app-nationalism.tex) (./Tabs/tbl-app-regression-educ.tex) (./manuscript.bbl [17
+
+] [18] [19] [20] [21]) [22] (./manuscript.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
 Package rerunfilecheck Info: File `manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: 9B1E400DC9DB45B598C024E311CCB0EB;3466.
+(rerunfilecheck)             Checksum: 4BBA36A7D28976388D507F80D15A256D;3815.
  ) 
 Here is how much of TeX's memory you used:
- 16374 strings out of 469097
- 342026 string characters out of 5457857
- 765061 words of memory out of 5000000
- 45190 multiletter control sequences out of 15000+600000
+ 16517 strings out of 469097
+ 345354 string characters out of 5457857
+ 770531 words of memory out of 5000000
+ 45325 multiletter control sequences out of 15000+600000
  633972 words of font info for 61 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 74i,9n,112p,1445b,2719s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,9n,112p,1445b,2774s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
  </home/omarlizardo/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/omarlizardo/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (20 pages, 192577 bytes).
+Output written on manuscript.pdf (22 pages, 195714 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
- 77 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 381 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,45 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+entry=none,label=none,
+note{}={+ p \num{< 0.1}, * p \num{< 0.05}, ** p \num{< 0.01}, *** p \num{< 0.001}},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]Q[]},
+hline{2}={1-5}{solid, black, 0.05em},
+hline{22}={1-5}{solid, black, 0.05em},
+hline{1}={1-5}{solid, black, 0.08em},
+hline{29}={1-5}{solid, black, 0.08em},
+column{2-5}={}{halign=c},
+column{1}={}{halign=l},
+}                     %% tabularray inner close
+& Demographics & Mem (Cat) & Mem (Count) & Full (+ Nat) \\
+Education (Years) & \num{0.014} & \num{-0.014} & \num{-0.011} & \num{0.057}+ \\
+& (\num{0.032}) & (\num{0.033}) & (\num{0.033}) & (\num{0.032}) \\
+Birth Cohort & \num{-0.025}*** & \num{-0.024}*** & \num{-0.024}*** & \num{-0.016}** \\
+& (\num{0.005}) & (\num{0.005}) & (\num{0.005}) & (\num{0.005}) \\
+Female & \num{-0.686}*** & \num{-0.659}*** & \num{-0.661}*** & \num{-0.572}*** \\
+& (\num{0.166}) & (\num{0.166}) & (\num{0.166}) & (\num{0.159}) \\
+Race: Black & \num{-1.279}*** & \num{-1.305}*** & \num{-1.322}*** & \num{-1.134}*** \\
+& (\num{0.258}) & (\num{0.258}) & (\num{0.258}) & (\num{0.247}) \\
+Race: Other & \num{-0.128} & \num{-0.075} & \num{-0.100} & \num{-0.087} \\
+& (\num{0.338}) & (\num{0.338}) & (\num{0.338}) & (\num{0.323}) \\
+Nationalist Scale &  &  &  & \num{1.171}*** \\
+&  &  &  & (\num{0.121}) \\
+Total Memberships (Count) &  &  & \num{0.115}* & \num{0.113}** \\
+&  &  & (\num{0.045}) & (\num{0.043}) \\
+Memberships: 1-2 &  & \num{0.412}* &  &  \\
+&  & (\num{0.199}) &  &  \\
+Memberships: 3+ &  & \num{0.683}** &  &  \\
+&  & (\num{0.221}) &  &  \\
+Intercept & \num{53.425}*** & \num{50.830}*** & \num{51.459}*** & \num{30.874}** \\
+& (\num{10.190}) & (\num{10.202}) & (\num{10.206}) & (\num{9.983}) \\
+Num.Obs. & \num{975} & \num{974} & \num{974} & \num{974} \\
+R2 & \num{0.069} & \num{0.079} & \num{0.076} & \num{0.157} \\
+R2 Adj. & \num{0.065} & \num{0.072} & \num{0.070} & \num{0.151} \\
+AIC & \num{4743.8} & \num{4735.3} & \num{4736.6} & \num{4649.0} \\
+BIC & \num{4778.0} & \num{4779.2} & \num{4775.7} & \num{4692.9} \\
+Log.Lik. & \num{-2364.920} & \num{-2358.627} & \num{-2360.318} & \num{-2315.508} \\
+RMSE & \num{2.57} & \num{2.55} & \num{2.56} & \num{2.41} \\
+\end{talltblr}
+\end{table}

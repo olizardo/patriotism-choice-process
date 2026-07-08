@@ -1,45 +1,47 @@
 \begin{table}
 \centering
 \begin{talltblr}[         %% tabularray outer open
-caption={Predictors of U.S. Pride (2004 sample only)},
+entry=none,label=none,
 note{}={+ p \num{< 0.1}, * p \num{< 0.05}, ** p \num{< 0.01}, *** p \num{< 0.001}},
 ]                     %% tabularray outer close
 {                     %% tabularray inner open
 colspec={Q[]Q[]Q[]Q[]Q[]},
 hline{2}={1-5}{solid, black, 0.05em},
-hline{22}={1-5}{solid, black, 0.05em},
+hline{24}={1-5}{solid, black, 0.05em},
 hline{1}={1-5}{solid, black, 0.08em},
-hline{29}={1-5}{solid, black, 0.08em},
+hline{31}={1-5}{solid, black, 0.08em},
 column{2-5}={}{halign=c},
 column{1}={}{halign=l},
 }                     %% tabularray inner close
-& Demographics & Mem (Categorical) & Mem (Count) & Full (+ Nationalism) \\
-Education (Centered at 12) & \num{0.014} & \num{-0.014} & \num{-0.011} & \num{0.057}+ \\
+& Demographics & Mem (Cat) & Mem (Count) & Full (+ Nat) \\
+Education (Years) & \num{0.017} & \num{-0.010} & \num{-0.007} & \num{0.059}+ \\
 & (\num{0.032}) & (\num{0.033}) & (\num{0.033}) & (\num{0.032}) \\
-Birth Cohort (Centered at 1955) & \num{-0.025}*** & \num{-0.024}*** & \num{-0.024}*** & \num{-0.016}** \\
+Birth Cohort & \num{-0.025}*** & \num{-0.024}*** & \num{-0.024}*** & \num{-0.016}** \\
 & (\num{0.005}) & (\num{0.005}) & (\num{0.005}) & (\num{0.005}) \\
-Female & \num{-0.686}*** & \num{-0.659}*** & \num{-0.661}*** & \num{-0.572}*** \\
-& (\num{0.166}) & (\num{0.166}) & (\num{0.166}) & (\num{0.159}) \\
-Race: Black & \num{-1.279}*** & \num{-1.305}*** & \num{-1.322}*** & \num{-1.134}*** \\
-& (\num{0.258}) & (\num{0.258}) & (\num{0.258}) & (\num{0.247}) \\
-Race: Other & \num{-0.128} & \num{-0.075} & \num{-0.100} & \num{-0.087} \\
-& (\num{0.338}) & (\num{0.338}) & (\num{0.338}) & (\num{0.323}) \\
-Nationalist Scale &  &  &  & \num{1.171}*** \\
-&  &  &  & (\num{0.121}) \\
-Total Memberships (Count) &  &  & \num{0.115}* & \num{0.113}** \\
+Female & \num{-0.706}*** & \num{-0.677}*** & \num{-0.679}*** & \num{-0.583}*** \\
+& (\num{0.167}) & (\num{0.167}) & (\num{0.167}) & (\num{0.160}) \\
+Race: Black & \num{-1.331}*** & \num{-1.355}*** & \num{-1.373}*** & \num{-1.165}*** \\
+& (\num{0.260}) & (\num{0.260}) & (\num{0.261}) & (\num{0.250}) \\
+Race: Other & \num{-0.087} & \num{-0.036} & \num{-0.060} & \num{-0.064} \\
+& (\num{0.339}) & (\num{0.339}) & (\num{0.339}) & (\num{0.324}) \\
+Region: South & \num{0.256} & \num{0.250} & \num{0.252} & \num{0.146} \\
+& (\num{0.177}) & (\num{0.177}) & (\num{0.177}) & (\num{0.170}) \\
+Nationalist Scale &  &  &  & \num{1.164}*** \\
+&  &  &  & (\num{0.122}) \\
+Total Memberships (Count) &  &  & \num{0.115}* & \num{0.112}** \\
 &  &  & (\num{0.045}) & (\num{0.043}) \\
-Memberships: 1-2 &  & \num{0.412}* &  &  \\
+Memberships: 1-2 &  & \num{0.406}* &  &  \\
 &  & (\num{0.199}) &  &  \\
-Memberships: 3+ &  & \num{0.683}** &  &  \\
+Memberships: 3+ &  & \num{0.680}** &  &  \\
 &  & (\num{0.221}) &  &  \\
-Intercept & \num{4.993}*** & \num{4.672}*** & \num{4.822}*** & \num{0.135} \\
-& (\num{0.146}) & (\num{0.185}) & (\num{0.161}) & (\num{0.509}) \\
+Intercept & \num{53.833}*** & \num{51.190}*** & \num{51.826}*** & \num{31.206}** \\
+& (\num{10.188}) & (\num{10.200}) & (\num{10.204}) & (\num{9.992}) \\
 Num.Obs. & \num{975} & \num{974} & \num{974} & \num{974} \\
-R2 & \num{0.069} & \num{0.079} & \num{0.076} & \num{0.157} \\
-R2 Adj. & \num{0.065} & \num{0.072} & \num{0.070} & \num{0.151} \\
-AIC & \num{4743.8} & \num{4735.3} & \num{4736.6} & \num{4649.0} \\
-BIC & \num{4778.0} & \num{4779.2} & \num{4775.7} & \num{4692.9} \\
-Log.Lik. & \num{-2364.920} & \num{-2358.627} & \num{-2360.318} & \num{-2315.508} \\
-RMSE & \num{2.57} & \num{2.55} & \num{2.56} & \num{2.41} \\
+R2 & \num{0.071} & \num{0.081} & \num{0.077} & \num{0.157} \\
+R2 Adj. & \num{0.066} & \num{0.073} & \num{0.071} & \num{0.150} \\
+AIC & \num{4743.7} & \num{4735.3} & \num{4736.6} & \num{4650.3} \\
+BIC & \num{4782.8} & \num{4784.1} & \num{4780.5} & \num{4699.1} \\
+Log.Lik. & \num{-2363.873} & \num{-2357.626} & \num{-2359.299} & \num{-2315.136} \\
+RMSE & \num{2.56} & \num{2.55} & \num{2.55} & \num{2.41} \\
 \end{talltblr}
 \end{table}
