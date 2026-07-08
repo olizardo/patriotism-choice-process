@@ -80,20 +80,26 @@ coef_labels <- c(
 mod_nat_base <- lm(nationalistscal ~ year_f + cohort, data = gss_clean, weights = wtssall)
 mod_nat_int <- lm(nationalistscal ~ educ * year_f + cohort, data = gss_clean, weights = wtssall)
 modelsummary(list("Base Change" = mod_nat_base, "Educ Interaction" = mod_nat_int),
-             stars = TRUE, coef_map = coef_labels, output = "Tabs/tbl-nationalism.tex")
+             stars = TRUE, coef_map = coef_labels, 
+             title = "Predictors of Nationalism Scale (1996 vs 2004)",
+             output = "Tabs/tbl-nationalism.tex")
 
 mod_educ_96 <- lm(uspridescal ~ educ + cohort, data = gss_clean, subset = year == 1996, weights = wtssall)
 mod_educ_04 <- lm(uspridescal ~ educ + cohort, data = gss_clean, subset = year == 2004, weights = wtssall)
 mod_educ_interaction <- lm(uspridescal ~ educ * year_f + cohort, data = gss_clean, weights = wtssall)
 modelsummary(list("1996" = mod_educ_96, "2004" = mod_educ_04, "Pooled Interaction" = mod_educ_interaction), 
-             stars = TRUE, coef_map = coef_labels, output = "Tabs/tbl-regression-educ.tex")
+             stars = TRUE, coef_map = coef_labels, 
+             title = "Effects of Education on U.S. Pride Scale (1996 vs 2004)",
+             output = "Tabs/tbl-regression-educ.tex")
 
 mod_base <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south, data = gss_clean, subset = year == 2004, weights = wtssall)
 mod_mem_cat <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south + memnumcat, data = gss_clean, subset = year == 2004, weights = wtssall)
 mod_mem_cont <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south + memnum, data = gss_clean, subset = year == 2004, weights = wtssall)
 mod_full <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south + memnum + nationalistscal, data = gss_clean, subset = year == 2004, weights = wtssall)
 modelsummary(list("Demographics" = mod_base, "Mem (Cat)" = mod_mem_cat, "Mem (Count)" = mod_mem_cont, "Full (+ Nat)" = mod_full), 
-             stars = TRUE, coef_map = coef_labels, output = "Tabs/tbl-regression-full-2004.tex")
+             stars = TRUE, coef_map = coef_labels, 
+             title = "Predictors of U.S. Pride (2004 sample only)",
+             output = "Tabs/tbl-regression-full-2004.tex")
 
 # APPENDIX MODELS (with conservative, dropping NAs on conservative, ONLY 1996)
 gss_cons_96 <- gss_clean %>% filter(year == 1996 & !is.na(conservative))
@@ -101,9 +107,13 @@ gss_cons_96 <- gss_clean %>% filter(year == 1996 & !is.na(conservative))
 mod_nat_base_app <- lm(nationalistscal ~ cohort + conservative, data = gss_cons_96, weights = wtssall)
 mod_nat_int_app <- lm(nationalistscal ~ educ + cohort + conservative, data = gss_cons_96, weights = wtssall)
 modelsummary(list("Base Change" = mod_nat_base_app, "With Educ" = mod_nat_int_app),
-             stars = TRUE, coef_map = coef_labels, output = "Tabs/tbl-app-nationalism.tex")
+             stars = TRUE, coef_map = coef_labels, 
+             title = "Predictors of Nationalism Scale (1996 Subsample with Ideology)",
+             output = "Tabs/tbl-app-nationalism.tex")
 
 mod_educ_96_app <- lm(uspridescal ~ educ + cohort + conservative, data = gss_cons_96, weights = wtssall)
 modelsummary(list("1996" = mod_educ_96_app), 
-             stars = TRUE, coef_map = coef_labels, output = "Tabs/tbl-app-regression-educ.tex")
+             stars = TRUE, coef_map = coef_labels, 
+             title = "Effects of Education on U.S. Pride Scale (1996 Subsample with Ideology)",
+             output = "Tabs/tbl-app-regression-educ.tex")
 

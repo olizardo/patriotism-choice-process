@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex manuscript"] 1783528825.25211 "manuscript.aux" "manuscript.bbl" "manuscript" 1783528827.7961 0
+["bibtex manuscript"] 1783530147.61523 "manuscript.aux" "manuscript.bbl" "manuscript" 1783530148.877 0
   "./references.bib" 1783523034.71664 8992 ab8f6ce80a5bb4eb6f1510070ac4c87b ""
   "/home/omarlizardo/.TinyTeX/texmf-dist/bibtex/bst/base/apalike.bst" 1782672754.0784 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "manuscript.aux" 1783528827.66965 6436 7d198efb2bced85479e52d253e091550 "pdflatex"
+  "manuscript.aux" 1783530148.82152 8204 653691376fc4a9704ca6c82ea4d45de1 "pdflatex"
   (generated)
   "manuscript.bbl"
   "manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1783528825.27369 "manuscript.tex" "manuscript.pdf" "manuscript" 1783528827.79652 0
+["pdflatex"] 1783530147.63356 "manuscript.tex" "manuscript.pdf" "manuscript" 1783530148.87715 0
   "/home/omarlizardo/.TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1782672755.05341 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/home/omarlizardo/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1782672755.14941 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/home/omarlizardo/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1782672755.14441 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -95,15 +95,15 @@
   "Plots/fig-marginal-educ.pdf" 1783527312.05255 6624 068aa4fe308fbb7007bc95b06550df42 ""
   "Plots/fig-membership-forest.pdf" 1783527312.90654 6703 33730e9bcb0d5cde7f62dc25b0891244 ""
   "Plots/fig-pride-bar.pdf" 1783525955.74367 4833 74eecc5848bee81b83d8ff12b9bc3610 ""
-  "Tabs/tbl-app-nationalism.tex" 1783528809.4539 1238 76f2e8c234e82f63ad51a85b53f6ddf8 ""
-  "Tabs/tbl-app-regression-educ.tex" 1783528809.6639 981 ec0b97788906f4f7b1915269cb693839 ""
-  "Tabs/tbl-nationalism.tex" 1783528807.92092 1297 1ecb92f1bfc9e27fb77e30d9de28fe72 ""
-  "Tabs/tbl-regression-educ.tex" 1783528808.38991 1481 9c547bfe4e4a8c116ed7611e5bc79c82 ""
-  "Tabs/tbl-regression-full-2004.tex" 1783528808.9989 2476 fffba237abcc0bebad34cd1c9614da92 ""
-  "manuscript.aux" 1783528827.66965 6436 7d198efb2bced85479e52d253e091550 "pdflatex"
-  "manuscript.bbl" 1783528825.26968 6206 f67869c2ccb4d7ee2f9d0bb1d35de4bf "bibtex manuscript"
-  "manuscript.out" 1783528827.67065 3815 4bba36a7d28976388d507f80d15a256d "pdflatex"
-  "manuscript.tex" 1783528626.48239 22994 bd3444712875c1662be0712a4284425d ""
+  "Tabs/tbl-app-nationalism.tex" 1783529925.53072 1318 65bf8e58f884493b38b93c1b167449e4 ""
+  "Tabs/tbl-app-regression-educ.tex" 1783529925.53272 1063 b91164b80e945890d0107cba755a906a ""
+  "Tabs/tbl-nationalism.tex" 1783529925.52672 1357 2efe5df34f7e883f32fb21218961f744 ""
+  "Tabs/tbl-regression-educ.tex" 1783529925.52872 1543 d4b1d155b33c1523c95391bf7c4d0c5f ""
+  "Tabs/tbl-regression-full-2004.tex" 1783529925.52972 2530 354dbe15d65a844e5d430c506d7f6188 ""
+  "manuscript.aux" 1783530148.82152 8204 653691376fc4a9704ca6c82ea4d45de1 "pdflatex"
+  "manuscript.bbl" 1783530147.62953 6206 f67869c2ccb4d7ee2f9d0bb1d35de4bf "bibtex manuscript"
+  "manuscript.out" 1783530148.82252 4555 ff160a71af1f4422ea16fd4a23a99b31 "pdflatex"
+  "manuscript.tex" 1783530139.04162 28414 c43e304ee801253c600f3cbc97bf6b33 ""
   (generated)
   "manuscript.aux"
   "manuscript.log"
