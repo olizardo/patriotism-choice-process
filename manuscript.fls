@@ -177,6 +177,9 @@ INPUT ./Plots/fig-membership-forest.pdf
 INPUT ./Plots/fig-membership-forest.pdf
 INPUT ./Plots/fig-membership-forest.pdf
 INPUT ./Plots/fig-membership-forest.pdf
+INPUT ./manuscript.bbl
+INPUT ./manuscript.bbl
+INPUT manuscript.bbl
 INPUT ./Tabs/tbl-app-nationalism.tex
 INPUT ./Tabs/tbl-app-nationalism.tex
 INPUT Tabs/tbl-app-nationalism.tex
@@ -184,9 +187,6 @@ INPUT ./Tabs/tbl-app-regression-educ.tex
 INPUT ./Tabs/tbl-app-regression-educ.tex
 INPUT Tabs/tbl-app-regression-educ.tex
 INPUT /home/omarlizardo/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT ./manuscript.bbl
-INPUT ./manuscript.bbl
-INPUT manuscript.bbl
 INPUT manuscript.aux
 INPUT ./manuscript.out
 INPUT ./manuscript.out

@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex manuscript"] 1783530147.61523 "manuscript.aux" "manuscript.bbl" "manuscript" 1783530148.877 0
+["bibtex manuscript"] 1783531360.62381 "manuscript.aux" "manuscript.bbl" "manuscript" 1783531361.8784 0
   "./references.bib" 1783523034.71664 8992 ab8f6ce80a5bb4eb6f1510070ac4c87b ""
   "/home/omarlizardo/.TinyTeX/texmf-dist/bibtex/bst/base/apalike.bst" 1782672754.0784 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "manuscript.aux" 1783530148.82152 8204 653691376fc4a9704ca6c82ea4d45de1 "pdflatex"
+  "manuscript.aux" 1783531361.82189 7960 707fc4fae2cc3027eb1b4a45fc388f4a "pdflatex"
   (generated)
   "manuscript.bbl"
   "manuscript.blg"
   (rewritten before read)
-["pdflatex"] 1783530147.63356 "manuscript.tex" "manuscript.pdf" "manuscript" 1783530148.87715 0
+["pdflatex"] 1783531360.64029 "manuscript.tex" "manuscript.pdf" "manuscript" 1783531361.87868 0
   "/home/omarlizardo/.TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1782672755.05341 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/home/omarlizardo/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1782672755.14941 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/home/omarlizardo/.TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1782672755.14441 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -100,10 +100,10 @@
   "Tabs/tbl-nationalism.tex" 1783529925.52672 1357 2efe5df34f7e883f32fb21218961f744 ""
   "Tabs/tbl-regression-educ.tex" 1783529925.52872 1543 d4b1d155b33c1523c95391bf7c4d0c5f ""
   "Tabs/tbl-regression-full-2004.tex" 1783529925.52972 2530 354dbe15d65a844e5d430c506d7f6188 ""
-  "manuscript.aux" 1783530148.82152 8204 653691376fc4a9704ca6c82ea4d45de1 "pdflatex"
-  "manuscript.bbl" 1783530147.62953 6206 f67869c2ccb4d7ee2f9d0bb1d35de4bf "bibtex manuscript"
-  "manuscript.out" 1783530148.82252 4555 ff160a71af1f4422ea16fd4a23a99b31 "pdflatex"
-  "manuscript.tex" 1783530139.04162 28414 c43e304ee801253c600f3cbc97bf6b33 ""
+  "manuscript.aux" 1783531361.82189 7960 707fc4fae2cc3027eb1b4a45fc388f4a "pdflatex"
+  "manuscript.bbl" 1783531360.63583 6206 f67869c2ccb4d7ee2f9d0bb1d35de4bf "bibtex manuscript"
+  "manuscript.out" 1783531361.82189 4222 e6c389e2bf02e3824c8c91229933d070 "pdflatex"
+  "manuscript.tex" 1783531351.81726 28683 c772c752a13925012ef0132d165f8fc3 ""
   (generated)
   "manuscript.aux"
   "manuscript.log"
