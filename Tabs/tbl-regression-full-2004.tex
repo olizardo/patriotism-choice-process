@@ -1,0 +1,48 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+caption={Predictors of U.S. Pride (2004 sample only)},
+label={tab:full2004},
+note{}={+ p \num{< 0.1}, * p \num{< 0.05}, ** p \num{< 0.01}, *** p \num{< 0.001}},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]Q[]},
+hline{2}={1-5}{solid, black, 0.05em},
+hline{24}={1-5}{solid, black, 0.05em},
+hline{1}={1-5}{solid, black, 0.08em},
+hline{31}={1-5}{solid, black, 0.08em},
+column{2-5}={}{halign=c},
+column{1}={}{halign=l},
+}                     %% tabularray inner close
+& Demographics & Mem (Cat) & Mem (Count) & Full (+ Nat) \\
+Education (Years) & \num{0.017} & \num{-0.010} & \num{-0.007} & \num{0.059}+ \\
+& (\num{0.032}) & (\num{0.033}) & (\num{0.033}) & (\num{0.032}) \\
+Birth Cohort & \num{-0.025}*** & \num{-0.024}*** & \num{-0.024}*** & \num{-0.016}** \\
+& (\num{0.005}) & (\num{0.005}) & (\num{0.005}) & (\num{0.005}) \\
+Female & \num{-0.706}*** & \num{-0.677}*** & \num{-0.679}*** & \num{-0.583}*** \\
+& (\num{0.167}) & (\num{0.167}) & (\num{0.167}) & (\num{0.160}) \\
+Race: Black & \num{-1.331}*** & \num{-1.355}*** & \num{-1.373}*** & \num{-1.165}*** \\
+& (\num{0.260}) & (\num{0.260}) & (\num{0.261}) & (\num{0.250}) \\
+Race: Other & \num{-0.087} & \num{-0.036} & \num{-0.060} & \num{-0.064} \\
+& (\num{0.339}) & (\num{0.339}) & (\num{0.339}) & (\num{0.324}) \\
+Region: South & \num{0.256} & \num{0.250} & \num{0.252} & \num{0.146} \\
+& (\num{0.177}) & (\num{0.177}) & (\num{0.177}) & (\num{0.170}) \\
+Nationalist Scale &  &  &  & \num{1.164}*** \\
+&  &  &  & (\num{0.122}) \\
+Total Memberships (Count) &  &  & \num{0.115}* & \num{0.112}** \\
+&  &  & (\num{0.045}) & (\num{0.043}) \\
+Memberships: 1-2 &  & \num{0.406}* &  &  \\
+&  & (\num{0.199}) &  &  \\
+Memberships: 3+ &  & \num{0.680}** &  &  \\
+&  & (\num{0.221}) &  &  \\
+Intercept & \num{53.833}*** & \num{51.190}*** & \num{51.826}*** & \num{31.206}** \\
+& (\num{10.188}) & (\num{10.200}) & (\num{10.204}) & (\num{9.992}) \\
+Num.Obs. & \num{975} & \num{974} & \num{974} & \num{974} \\
+R2 & \num{0.071} & \num{0.081} & \num{0.077} & \num{0.157} \\
+R2 Adj. & \num{0.066} & \num{0.073} & \num{0.071} & \num{0.150} \\
+AIC & \num{4743.7} & \num{4735.3} & \num{4736.6} & \num{4650.3} \\
+BIC & \num{4782.8} & \num{4784.1} & \num{4780.5} & \num{4699.1} \\
+Log.Lik. & \num{-2363.873} & \num{-2357.626} & \num{-2359.299} & \num{-2315.136} \\
+RMSE & \num{2.56} & \num{2.55} & \num{2.55} & \num{2.41} \\
+\end{talltblr}
+\end{table}

@@ -1,0 +1,442 @@
+Empirical expectations
+Which subgroups experienced the most dramatic increase in their national attachment patterns post 9/11?
+Need-based and “irrational conservatism” theories predict that 
+those with the largest needs for self-esteem or those more initially predisposed toward ethnocentric bias should become more attached 
+The choice process view on the other hand, predicts that 
+those who experience the most autonomy in their day to day life and those embedded in nested groups should become more attached 
+The theoretical status of 9/11
+Low SES individuals 
+Tend to display more ethnocentric, militaristic  attitudes and more “blindly patriotic” sentiments (Sullivan et al 1992; Schatz et al 1999) 
+Are less likely to have social outlets that meet their needs for self-esteem and group belongingness
+May “compensate” by becoming “excessively” attached to the nation
+Post 9/11 increases in national affective attachment in the U.S. should thus be concentrated in this group
+The theoretical status of 9/11
+From the choice-process perspective on the other hand
+9/11 can instead be seen as a “shock” to the 
+cultural rules 
+that govern the attribution of responsibility for the positive feelings engendered by the choice process
+Normally in individualistic societies like the U.S., the 
+proximal rule
+ dominates
+Local groups tend to garner stronger feelings of attachment than global groups (Lawler 1992)
+1996
+2004
+Nako-Treas SEI Score
+0.00230
+0.0102** 
+(0.58)
+(2.59)   
+Cohort
+-0.0473***
+-0.0268***
+(-10.13)
+(-5.43)   
+Constant
+95.40***
+56.11***
+(10.45)
+(5.78)   
+N
+1255
+1152   
+t-statistics in parentheses
+* p&lt;0.05, ** p&lt;0.01, *** p&lt;0.001
+The theoretical status of 9/11
+Therefore we should expect that Increased feelings of national pride should be more likely among 
+those with the largest psychological needs for identification with a prestigious group (lower status individuals)
+those more initially predisposed toward 
+ingroup-outgroup
+ bias (the “blindly patriotic”)
+The theoretical status of 9/11
+From both need-based and irrational conservatism perspectives, 9/11 is an external “shock” that 
+Increases 
+ingroup-outgroup
+ differentiation 
+Leads to processes of self-categorization and 
+ingroup-outgroup
+ bias
+Results in more intense feelings of affective attachment to the collectivity
+t-statistics in parentheses
+* p&lt;0.05, ** p&lt;0.01, *** p&lt;0.001
+1996
+2004
+Nationalism Scale Score
+1.284***
+1.199***
+(12.12)
+(11.27)   
+Cohort
+-0.0324***
+-0.0176***
+(-7.33)
+(-3.82)   
+Constant
+61.66***
+33.98***
+(7.07)
+(3.73)   
+N
+1302
+1212  
+The choice process
+Positive Emotion
+Attribution process
+(group is seen as responsible for the opportunity to act freely)
+Efficacious action in a structured context
+(perceived freedom of choice)
+“Responsibility Rules”
+(Proximal versus Distal)
+Affective attachment to the collectivity
+How proud are you of America in each of the following?
+exp(b)
+X-squared
+p-value
+The way democracy works
+1.61
+81.06
+0.0000
+Its political influence in the world
+1.26
+15.75
+0.0001
+America's economic achievements
+1.85
+144.49
+0.0000
+Its social security system
+1.27
+11.37
+0.0007
+Its scientific and technological achievements
+1.58
+91.76
+0.0000
+Its achievements in sports
+1.37
+42.70
+0.0000
+Its achievements in the arts and literature
+1.82
+139.19
+0.0000
+America's armed forces
+3.73
+641.00
+0.0000
+Its history
+2.01
+204.40
+0.0000
+Its fair and equal treatment of all groups in society
+1.85
+110.97
+0.0000
+The period effect: by item
+t-statistics in parentheses
+* p&lt;0.05, ** p&lt;0.01, *** p&lt;0.001
+U.S
+. Pride
+Nationalism
+Education
+-0.0300
+-0.0572***
+(-1.15)
+(-9.06)   
+Period
+1.155***
+0.149***
+(10.55)
+(5.53)   
+Education x Period
+0.102**
+0.00609   
+(2.70)
+(0.65)   
+Cohort
+-0.0370***
+-0.00844***
+(-11.28)
+(-10.51)   
+Constant
+75.41***
+20.16***
+(11.77)
+(12.86)   
+N
+2521
+2561 
+The theoretical status of 9/11
+From the choice-process perspective on the other hand
+Post 9/11 there has been a weakening of the proximal rule and the emergence of a 
+distal 
+rule 
+Under a distal responsibility regime, the
+ nation 
+becomes more salient as the ultimate source of choice-opportunities
+This sense of saliency should be stronger for individuals embedded in nested subgroups
+The theoretical status of 9/11
+From the choice-process perspective on the other hand
+Efficacious action in structured social arenas and embeddedness in nested subgroups should be 
+positively
+ connected affective attachment to the national collectivity when the proximal rule is weakened
+Data and variables:  nested subgroups
+Number of memberships in voluntary associations (2004 only)
+Fifteen total types (range 0-13; mean=1.6, SD=1.9):
+Fraternal
+Service
+Veteran
+Political Club
+Labor Union
+Sports Club
+Youth Group
+School Service
+Hobby Club
+School Fraternity
+Nationality Group
+Farm Organization
+Literary or Art
+Professional Society
+Church
+Median and 
+interquartile
+ range
+The 9/11 effect
+Data and variables: nationalism
+How much do you agree or disagree with the following statements? (1=agree strongly, 2=agree, 3=neither agree or disagree, 4=disagree, 5=disagree strongly)
+I would rather be a citizen of America than of any other country in the world
+The world would be a better place if people from other countries were more like the Americans
+Generally speaking, America is a better country than most other countries
+People should support their country even if the country is in the wrong
+Scale created by computing the mean across responses (
+Cronbach’s
+ alpha=0.63; range 1-5, reverse coded)
+Data and variables: national pride
+How proud are you of America in each of the following? (1=very proud, 2=somewhat proud, 3=not very proud, 4=not proud at all, 5=can’t choose)
+The way democracy works
+Its political influence in the world
+America's economic achievements
+Its social security system
+Its scientific and technological achievements
+Its achievements in sports
+Its achievements in the arts and literature
+America's armed forces
+Its history
+Its fair and equal treatment of all groups in society
+Additive scale created using the number of “very proud” responses (
+Cronbach’s
+ alpha=0.73; range:  0-10)
+Data Source
+General Social Survey 1996 and 2004 waves (N=2557)
+Module on attitudes toward the U.S.
+“National Pride” and “nationalism” series
+1996
+2004
+Education
+-0.0508
+0.139*  
+(-0.90)
+(2.36)   
+Cohort
+-0.0452***
+-0.0278***
+(-9.97)
+(-5.89)   
+Constant
+91.60***
+58.04***
+(10.37)
+(6.26)   
+N
+1309
+1212   
+t-statistics in parentheses
+* p&lt;0.05, ** p&lt;0.01, *** p&lt;0.001
+The theoretical status of 9/11
+High SES individuals
+Are more likely to engage in high autonomy everyday behavior in structured social contexts
+Are more likely to belong to multiple nested subgroups
+Post 9/11 increases in national affective attachment in the U.S. should thus be concentrated in this group
+Lawler’s choice-process theory	
+National groups will be the object of strong positive affective attachments to the extent that they are 
+perceived as responsible 
+for giving the person
+A structured “menu” of choices 
+“Responsibility rules” prescribe a “distal” over a “proximal” allocation of affect
+Lawler’s choice-process theory	
+National groups will be the object of strong positive affective attachments to the extent that they are 
+perceived as responsible 
+for giving the person
+The individual is embedded in nested groups that allow for the transfer of positive affect from smaller to larger collectivities (
+Etzioni
+ 1968)
+Where does national pride come from? The irrational conservatism model
+National pride is usually correlated with manifestations of “
+blind patriotism
+” (Schatz, 
+Staub
+ and 
+Lavine
+ 1999)
+“Patriotic” respondents much more likely 
+(Sullivan et 
+al 1992):
+to support militarism
+to reject national criticism
+to show uncritical support for government policies
+to be ideologically conservative
+“Excessive” attachment to national groups is usually regarded as pathological (
+Adorno
+ et al 1950)
+Thanks!
+Questions?
+Comments?
+Suggestions?
+Where does national pride come from?  The needs based model
+Social Identity Theory and Self-Categorization Theory can be considered “need” based theories
+Self-enhancement motive leads individuals to become affectively attached to prestigious national collectivities
+Self-identity and self-categorization is attained by defining the 
+ingroup
+ in relation to the 
+outgroup
+Affective attachment to the nation usually accompanied by feelings of 
+superiority
+ and 
+dominance
+ in relation to other national groups
+Lawler’s choice-process theory	
+National groups will be the object of strong positive affective attachments to the extent that they are 
+perceived as responsible 
+for giving the person
+A sense of autonomy and freedom
+A sense of control over their environment (self-efficacy)
+Discussion and Conclusion
+From the choice-process perspective, after 9/11 lower status individuals less likely to increase their levels of national pride than high status individuals due to the fact that
+They are less likely to experience autonomy in their everyday affairs, and thus less likely to be part of the affective choice process
+Low status individuals less likely to be embedded in nested groups (low “social capital”)
+Where does national pride come from?  The needs based model
+Individuals become attached to national groups in the very same way that they become attached to any other group
+Attachment to national groups is likely if the group is perceived as meeting emotional needs
+Most important among these needs are those related to self-esteem, prestige and a sense of efficacy and belonging
+Where does national pride come from?  Psychological social psychology
+In the following national pride will be considered an example of 
+affective attachment 
+to a collectivity
+Two major set of perspectives in psychology
+The “psychological needs” view
+Affective attachment to groups rooted in the ability of those groups to satisfy individual needs for self-esteem, identity, prestige, etc.
+The “irrational” conservatism view
+Affective attachment to the nation as unquestioning submission and loyalty
+Discussion and Conclusion
+What about those pesky bumper stickers?
+An analytical distinction from 
+Hochschild
+:  class-based 
+expression rules 
+must be kept separate from 
+feeling rules
+.
+Lower status individuals 
+more
+ likely to 
+express 
+national pride even as they are 
+less
+ likely as a group to feel it
+High-status individuals embedded in nested groups actually 
+more
+ likely to 
+feel
+ national pride (after 9/11), but less likely to 
+express
+ it
+Discussion and Conclusion
+The choice-process perspective predicts that
+Efficacious and autonomous action in socially structured contexts increases affective attachment to the national group under a new attribution regime (post 9/11)
+Post 9/11, it was precisely those individuals more likely to experience autonomy in their day to day behavior that increased their attachment to the national collectivity
+Embeddedness in nested groups accounts for the association between markers of status and autonomy (i.e. education) and higher degrees of affective attachment to the national group after 9/11
+t-statistics in parentheses
+* p&lt;0.05, ** p&lt;0.01, *** p&lt;0.001
+Model
+ 1
+Model
+ 2
+Education
+0.0565*
+0.0252   
+(2.08)
+(0.88)   
+Cohort
+-0.0253***
+-0.0238***
+(-5.41)
+(-5.09)   
+Gender (Women=1)
+-0.802***
+-0.780***
+(-5.34)
+(-5.21)   
+Race (Black=1)
+-1.357***
+-1.373***
+(-5.88)
+(-5.97)   
+Race (Other=1)
+-0.153
+-0.0947   
+(-0.54)
+(-0.33)   
+Region (South=1)
+0.390*
+0.390*  
+(2.33)
+(2.35)   
+Number
+ 
+of 
+Memberships (1-2)
+0.449*  
+(2.54)   
+Number
+ 
+of 
+Memberships (3+)
+0.695***
+(3.46)   
+Constant
+53.37***
+50.49***
+(5.83)
+(5.52)   
+N
+1212
+1212  
+Lawler’s choice-process theory	
+Persons are usually embedded in social structures composed of 
+nested groups
+Persons engage in 
+structured action
+ within these concrete social contexts
+Groups provide individuals with a “context of choice” within which successful purposive action occurs
+Positive emotions produced by the sense of autonomy and control afforded by the group unleash an 
+attribution process
+A sociological perspective?
+What does sociology have to say?
+Lawler’s choice-process theory	
+Persons value individuality, freedom and self efficacy
+Persons form individual-to-individual affective attachments
+Persons form individual-to-collectivity affective attachments
+These two types of attachments are empirically and analytically distinct (Parsons 1951)
+	
+(Post-9/11) national pride as affective attachment to a large group:  a choice-process analysis
+Omar Lizardo
+University of Notre Dame
+olizardo@nd.edu
+Warning:  you may only blog about this talk if you are going to say nice things about it
+Discussion and Conclusion
+After 9/11 U.S. appears to have switched from a “local” to a “national” affective attachment rule
+Psychological perspectives on nationalism don’t help us in predicting 
+which
+ individuals were more likely to experience national pride in the most recent period
+Needs-based approaches predict that those with the most dire needs for belongingness, self-esteem and prestige (low status groups) should increase their attachment
+Irrational conservatism approaches predict that those with high levels of nationalism should have increased their attachment
+Neither is the case for the rise in feelings of national pride in post 9/11 U.S.
