@@ -2,7 +2,13 @@
   "permission": {
     "bash": {
       "mkdir *": "allow",
-      "mv *": "allow"
+      "mv *": "allow",
+      "git pull *": "allow",
+      "git merge *": "allow",
+      "pandoc *": "allow",
+      "python3 *": "allow",
+      "echo *": "allow",
+      "cat *": "allow"
     }
   }
 }
