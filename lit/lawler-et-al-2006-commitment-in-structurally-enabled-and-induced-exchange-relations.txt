@@ -1,0 +1,1095 @@
+             #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+                                                                              Social Psychology Quarterly
+                                                                              2006, Vol. 69, No. 2, 183–200
+
+
+                                             Commitment in Structurally Enabled
+                                               and Induced Exchange Relations*
+                                                                            EDWARD J. LAWLER
+                                                                                    Cornell University
+                                                                                  SHANE R. THYE
+                                                                         University of South Carolina
+                                                                               JEONGKOO YOON
+                                                                         Ajou University, South Korea
+
+
+       Network structures both enable and constrain the development of social relations. This
+       research investigates these features by comparing the development of commitments in
+       structurally enabled and structurally induced exchange relations. We integrate ideas
+       from the theory of relational cohesion and the choice process theory of commitment. In
+       an experiment we manipulate and compare a structurally enabled relation with a struc-
+       turally induced relation. The main hypotheses are that a structurally enabled relation
+       generates a greater sense of control, more positive emotions, greater perceived cohe-
+       sion, and more commitment behavior than a structurally induced relation. The results
+       of the experiment support these hypotheses. The implication is that enabling and con-
+       straining features of network structures exert important effects on cohesion and com-
+       mitment in relations within those structures.
+
+    Contemporary social exchange theory                  with those preferences. Structures may
+emphasizes networks in which actors prefer               either enhance or limit actors’ opportunity
+some exchange partners to others, and in                 to exchange with their preferred partners.
+which the social structure shapes the degree             Giddens (1984) conceptualizes this phe-
+to which they are able to exchange with                  nomenon in terms of the “enabling” and
+their preferred partners (Emerson 1972,                  “constraining” features of social structure
+1981). In this tradition, partner preferences            (also see Blau 1994); we adopt this idea. We
+are based on the expected profits attached               offer the concepts of “structurally enabled”
+to alternative exchange relations; these                 and “structurally induced” social relations
+profits are embedded in the structural                   to capture how a network promotes or con-
+arrangements or network ties (Ekeh 1974;                 strains interaction.
+Emerson 1981; Willer and Anderson 1981).                      In structurally enabled relations, the
+Nearly all work in social exchange theory                actors prefer to exchange with one another
+implicitly adopts an assumption that social              on the basis of the incentives embedded in
+structures shape actors’ preferences as well             the structure, and subsequently they can con-
+as their capacity to make choices consistent             summate exchange. Structurally induced
+                                                         relations occur when two actors each would
+   * This research was supported by NSF Grant SBR-
+                                                         prefer to exchange elsewhere, but have no
+9614860. An earlier version of this paper was present-   choice except to exchange with one another.
+ed at the 2001 meetings of the American Sociological     This distinction has an important, yet unrec-
+Association. The authors thank Emily Arnold,             ognized, place in the history of exchange the-
+Jennifer Triplett, Leia Velasquez, and Christine
+Witkowski for comments. We also thank Dana Thye
+                                                         ory. Early on, Homans (1950) emphasized
+for help with the experiments and Marty Kuhn for         that more highly valued relations produce
+designing the computer program used in this              greater sentiment, but also that a “compan-
+research. Authorship is alphabetical and does not        ionship of misery” develops in induced or
+reflect differential contributions. Communications
+                                                         forced exchange relations. Moreover, the ear-
+should be sent to Edward J. Lawler, School of
+Industrial and Labor Relations, Ives Hall, Cornell       liest exchange network studies explicitly
+University, Ithaca, NY, 14853; ejl3@cornell.edu.         manipulated whether relations were of high
+                                                     183
+           #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+184                     SOCIAL PSYCHOLOGY QUARTERLY
+or low value (Cook and Emerson 1978; Stolte       enabled and induced relations. The choice
+and Emerson 1977) and implicitly created          process theory, however, adds that percep-
+enabled and induced relations. Those early        tions of choice or control will heighten com-
+studies detected no theoretically important       mitment in structurally enabled exchange
+power differences across such relations; since    relations.
+that time, most of the theory and research has
+held relational value constant (for an excep-                   BACKGROUND
+tion, however, see Bonacich and Friedkin
+1998). Thus the distinction between enabled            Enabled and induced relations are fun-
+and induced relations has not been part of        damental dimensions within social networks.
+the theoretical landscape.                        Consider an everyday example involving two
+     In this paper we reintroduce this distinc-   couples (A–G, B–D) having dinner at one of
+tion to exchange theory. Specifically, we         the couples’ homes. Assume that A and B are
+examine whether enabled and induced rela-         coworkers who have an incentive to use the
+tions respectively alter the formation of rela-   evening to resolve some work-related issues
+tional commitments. Commitment is defined         off-site, whereas D and G have never met. In
+broadly as an actor’s tie to a relation, group,   the course of the evening, A and B settle in
+or organization (Kanter 1968). To theorize        the kitchen and “talk shop,” while D and G
+and predict how structural conditions alter       are left in the living room to interact by them-
+the commitment process, we integrate ideas        selves. D and G do not prefer to interact
+from the theory of relational cohesion (see       alone with each other, but this situation is
+Lawler and Yoon 1996, 1998; Lawler, Thye,         induced by the fact that A and B have an
+and Yoon 2000) and a choice process theory        incentive to converse alone. The exogenous
+of person-to-group commitments (Lawler            structure of relations brought to the evening
+1992, 1997; Mueller and Lawler 1999). The         essentially shapes the actors’ preferences
+former proposes an emotional/affective            about who to interact with most, and the
+explanation for the development of commit-        four-actor network breaks down into two
+ment in exchange relations; the latter propos-    dyadic interactions as the evening proceeds.
+es that people become more strongly               The A–B interaction is enabled and based on
+committed to social units (relations, groups,     a mutual preference of A and B for each
+organizations) that give them a sense of con-     other; the interaction of D and G is induced
+trol. An implication is that the emotional/       because it is not based on a mutual prefer-
+affective process of relational cohesion theo-    ence.
+ry should be stronger in structurally enabled          In this study we examine a similar four-
+than in structurally induced exchange rela-       actor network in which two exchange rela-
+tions because the former generate a greater       tions will form simultaneously. In one
+sense of control. At issue is whether repeated    relation, the actors prefer each other on the
+transactions promote or inhibit commitment        basis of incentives embedded in the struc-
+processes in enabled versus induced               ture; in the other, the incentives lead them to
+exchanges (Emerson 1981).                         prefer others. The former relation is struc-
+     Building on relational cohesion theory,      turally enabled; the latter is structurally
+we hypothesize that repeated exchange can         induced. Elster (1986) identifies three ele-
+promote commitment in both enabled and            ments of a rational choice situation that can
+induced social relations, insofar as repetitive   conceptualize such relations: actors have (1)
+exchange generates positive emotions in           a set of options, shaped by the social struc-
+each case. Drawing upon the choice process        ture, (2) beliefs about the payoffs attached to
+theory of commitment (Lawler 1992), we fur-       the options, and (3) a subjective preference
+ther predict that a lack of perceived control     ranking of the options. As he states, “To act
+will inhibit emotional reactions in structural-   rationally, then, simply means to choose the
+ly induced exchange relations, and thereby        highest-ranked [option] in the feasible set”
+will weaken relational commitments. Thus          (p. 4). According to Elster’s framework, pref-
+the claim from relational cohesion theory is      erences are subjective utilities; “choice”
+that commitment will emerge in both               behavior involves a set of options with a pref-
+             #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+                                 COMMITMENT IN EXCHANGE                                                       185
+
+erence ranking.1 As applied to exchange net-
+works, the structure generates (1) a set of
+partner options, (2) perceptions of the pay-
+offs likely from each partner, and (3) a pref-
+erence ranking of partners based on the
+expected payoffs (also see Molm and Cook
+1995).2
+     Theoretically, an exchange or exchange
+relation is enabled if two conditions are com-            Figure 1. The Box Network
+bined: actors mutually prefer one another,
+and the structure gives them the capacity to              structurally induced relations, network
+actualize their preferences. It is the joint              exchange theories predict equal divisions of
+occurrence of these conditions that generates             profit, even if the total profit at stake differs
+a sense of control, because the ability to                across such relations. Nevertheless, social
+choose preferred partners reflects agency or              units—groups, networks, communities, or
+efficacy (Weiner 1986). Structurally enabled              societies—often are stratified in part by the
+relations embody these conditions. In con-                actors’ capacity to realize preferences or by
+trast, structurally induced relations occur               whether they must “settle” for something
+when actors prefer to exchange elsewhere,                 less. In this sense, our theory and experiment
+but have no choice except to interact with                can be construed as addressing a fundamen-
+one another. Within a group, a network, or                tal aspect of social stratification.
+even a society, individuals with low power or                  The box network depicted in Figure 1
+status often occupy this position. Network                illustrates this phenomenon. Assume an
+exchange theories suggest incentive condi-                “exclusively” or “negatively” connected net-
+tions that will produce both enabled and                  work in which an actor can exchange with
+induced relations.                                        only one other at a given point in time
+     To date, contemporary exchange theory                (Emerson 1972; Willer 1999). Each line rep-
+has focused primarily on network constraints              resents a structurally possible exchange; the
+and how these affect the exercise of power                numbers represent the total profit (value)
+and the frequency of exchange (see Skvoretz               available in each exchange relation. Actors A
+and Lovaglia 1995; Willer 1999). Such work                and B have an incentive to exchange with
+cannot explain differences between struc-                 each other because this exchange generates
+turally enabled and structurally induced                  the greatest joint value (1,200 units of profit).
+exchange relations as long as the underlying              In contrast, D and G do not have such an
+power conditions are the same. If relative                incentive because the value available from
+power is equal in structurally enabled and                their relation (400 units of profit) is less than
+                                                          the alternative for each (600 units of profit).
+   1 No assumption is made about the overall quality      Actors A and B should prefer each other and
+of the choices. The point is that options exist, and      should be able to repeatedly consummate
+behavior reflects a “choice” among these options.The      exchange. Actors D and G, however, should
+presence of options that actors can choose is suffi-      be unable to actualize their preference for A
+cient for a choice situation in Elster’s terms. We sub-   and B; thus D and G exchange ex post facto.
+scribe to this view; thus our use of the term choice
+should be read as options that an actor can take
+                                                          This box structure therefore generates an
+regardless of how good or how wise these options          A–B relation that is structurally enabled, and
+are.                                                      a D–G relation that is structurally induced.3
+   2 Theoretically, actors’ preference rankings also
+
+may be due to structural conditions such as social or
+                                                             3
+role identities associated with positions in the struc-        Homans (1950) makes a related point. He argues
+ture (Stryker 1980; Tajfel and Turner 1986) or to         that frequent interaction generates sentiment in rela-
+homophily generated by ecological niches (Blau            tions primarily when actors have alternative partners
+1994; McPherson and Smith-Lovin 2002). Exchange           and when exchange with those partners would gener-
+and rational choice theories interpret these as differ-   ate lower payoffs. That is, the mere fact of an option is
+ent forms of incentive; here we use differential pay-     important, regardless of its quality. If actors have no
+offs in the network to create the theorized preference    options or are stuck with each other, sentiment will
+rankings.                                                 not develop or will be weaker (Homans 1950).
+            #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+186                      SOCIAL PSYCHOLOGY QUARTERLY
+    For theoretical and empirical purposes,        damental property is interconnectedness;
+we use the box network of Figure 1 to com-         that is, contingencies across possible
+pare the effects of enabled and induced            exchange relations. The box network shown
+exchange relations on cohesion and commit-         in Figure 1 illustrates this. The four relations
+ment processes. We address the following           are interconnected because each actor can
+questions: Can relational cohesion and com-        exchange with only one other at any given
+mitment emerge in structurally induced rela-       point in time. That is, when A exchanges with
+tions? If so, are cohesion and commitment          B, G and D also can exchange, but A–G or
+stronger when exchange relations are struc-        B–D cannot. The interconnectedness of the
+turally enabled than when they are struc-          A–B and D–G relations in the box network is
+turally induced? In the following sections we      the structural reason why D and G exchange
+elaborate the properties of exchange net-          with each other even though they do not pre-
+works that generate enabled and induced            fer each other as exchange partners.
+relations, using the relational cohesion and            Another important property of exchange
+choice process theories of commitment.             networks is the availability of an exchange
+                                                   partner (Cook et al. 1983; Markovsky et al.
+                  THEORY                           1988). Modern exchange theory recognizes
+Enabled and Induced Network Relations              that availability is based on the configuration
+                                                   of alternative partners and on the value pro-
+    The work of Richard Emerson in the             duced by exchanges (Emerson 1972, 1981;
+1970s engendered a significant transforma-         Willer 1999): that is, the alternatives of one’s
+tion in social exchange theorizing (Molm and       alternatives. In the box network, for example,
+Cook 1995). Before Emerson (1972, 1981),           G and D are available to A and B because D
+exchange theory focused primarily on dyads,        and G do not have alternative partners who
+as evident in the early work of Thibaut and        provide more profit than is possible in A–G
+Kelley (1959), Homans (1961), and Blau             and B–D. In the Figure 1 network, each actor
+(1964). In contrast, Emerson put forth the         has two alternatives, but the differences in
+notion that dyads are part of a larger set of      values across the relations make A and B less
+potential and actual exchange relations—for        available to D and G than the converse.4
+example, an exchange network (Emerson                   Within each focal dyad (A–B, D–G) con-
+1972, 1981). Thus, in analyzing a dyad, he         nectedness, availability, and value are held
+argued that it is important to consider its        constant in the Figure 1 box structure. That is,
+broader connection to other dyads: that is,        A and B have access to relations of equal
+the larger network in which it is embedded.        value and availability; thus the two are equal
+This approach gave Emerson’s theorizing a          in power relative to one another. The same is
+decidedly structural theme. This shift of focus    true for actors D and G. Given these condi-
+to network structure has framed exchange           tions, exchange theories of power such as
+theory and research for the past 25 years.         exchange network theory (Willer 1999),
+    Research has demonstrated that                 power dependence theory (Emerson 1972),
+exchange networks affect an array of phe-          and the core (Bienenstock and Bonacich
+nomena including profit divisions (Bonacich        1992) would not distinguish between enabled
+and Bienenstock 1993; Cook and Whitmeyer           and induced relations; all of these theories
+1992; Friedkin 1992; Skvoretz and Willer
+1993; Willer 1999), exchange frequencies
+                                                      4 The differential profit potentials across A—B and
+(Markovsky et al. 1993; Skvoretz and
+                                                   D—G in the box network may be construed as a con-
+Lovaglia 1995), and differential responses to
+                                                   found, but this confound is necessary and justified
+exchange and exclusion (Skvoretz and Zhang         theoretically. Our concept of induced relations is mul-
+1997; Thye, Lovaglia, and Markovsky 1997;          tidimensional; by definition it entails the conjunction
+Walker et al. 2000). In this corpus of research,   of partner preferences based on more profit potential
+several properties stand out as important to       in some relations than in others, and a structural
+                                                   opportunity to achieve or actualize these preferences.
+the formation of exchange relations. These         Without a difference in profit potential, the enabled/
+also are important to an examination of            induced phenomenon in exchange networks could
+enabled and induced relations. The most fun-       not be isolated and tested.
+             #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+                                COMMITMENT IN EXCHANGE                                                    187
+
+
+
+
+Figure 2. Theoretical Model of Relational Cohesion
+
+predict equal exchange frequencies and equal            violated; that is, in a structurally induced rela-
+divisions of profit in A–B and D–G.5 We theo-           tion.
+rize an important difference between enabled                 Relational cohesion theory makes four
+and induced relations created by the overall            fundamental points. First, structural power
+distribution of relational value.                       shapes who is likely to exchange with whom.A
+                                                        distinction is made between the total and rela-
+Theory of Relational Cohesion                           tive power in a relationship (Bacharach and
+                                                        Lawler 1981; Molm 1990). Total power is the
+     Relational cohesion theory posits an emo-          average difference in prospective payoffs
+tional/affective process through which struc-           between a focal relation and alternative rela-
+turally enabled exchange should promote the             tions; it captures the degree of interdepen-
+development of cohesion and commitment                  dence across relations. Relative power is the
+(Lawler et al. 2000; Lawler and Yoon 1996;              difference in power between any two actors
+Thye, Yoon, and Lawler 2002). The emotion-              (Markovsky et al 1988; Willer 1999). Although
+al/affective impact of frequent exchange is the         the structurally enabled (A–B) and the struc-
+centerpiece of the theory; this distinguishes it        turally induced (D–G) relations in the box
+                                                        structure are both equal power relations, they
+from uncertainty reduction and trust explana-
+                                                        differ in total or average power: the A–B rela-
+tions of commitment (see Cook and Emerson
+                                                        tion can generate more value for its members
+1984; Kollock 1994, 1999). The theoretical
+                                                        than the D–G relation. In systems of social
+model outlining this endogenous process is              stratification, for example, relations of disad-
+shown in Figure 2. Relational cohesion theory           vantaged people tend to generate less value
+does not suggest or address the “enabled ver-           for them than do the relations of advantaged
+sus induced” comparison. It assumes that                people. Bacharach and Lawler (1981) offer
+actors develop partner preferences and select           “total power” as a way to conceptualize differ-
+potential exchange partners in the context of           ences in value across relations (also see
+structural constraints and opportunities. In            Molm’s [1987] concept of average power).The
+fact, it is a scope condition of the theory that        concept of enabled/induced relations extends
+actors have alternatives, but that these alterna-       this notion.
+tives are less good than those in a focal rela-              Second, successful exchange generates
+tion, which the box network creates for the             emotions or feelings along a positive/negative
+A–B relation but not for the D–G relation               dimension (Lawler and Yoon 1996; Russell
+(also see Homans 1950).The scope of relation-           1980). All other things being equal, actors
+al cohesion theory presumes a structurally              “feel good” when they achieve an exchange
+enabled exchange relation. One aim of the               with another and they “feel bad” when they do
+current research is to examine relational cohe-         not. An emotion is defined as a short-term
+                                                        positive or negative evaluative state that
+sion theory in a context where this condition is
+                                                        involves both physiological and cognitive
+                                                        components (Izard 1991; Kemper 1978;
+   5 Early work in exchange theory explicitly studied   Lazarus 1984). Two everyday emotions are
+similar networks. Stolte and Emerson (1977) exam-       emphasized: pleasure/satisfaction and inter-
+ined networks in which some relations offered 13        est/excitement (Lawler and Yoon 1996).6 The
+resources while others offered three. Cook and
+Emerson (1978) examined networks in which some
+                                                        theory indicates that exchange is an accom-
+relations were worth 24 resources and others only
+eight. Neither study found theoretically important
+differences across such relations. More recently,
+Bonacich and Friedkin (1998) reintroduced exchange         6 These reflect the two dimensions of the circum-
+
+theorists to networks with unequally valued             plex model, but also Izard’s contrast of joy and inter-
+exchange relations.                                     est as fundamental everyday emotions (Izard 1991).
+             #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+188                          SOCIAL PSYCHOLOGY QUARTERLY
+plishment; when it is achieved, actors feel                   Repeated exchanges that are structurally
+pleased and satisfied while also becoming                 enabled rather than induced may activate
+interested and excited about the prospects                and enhance the strength of the commitment
+for future exchange (see Izard 1991). In the              process—for example, the posited effects on
+box network, successful exchange in A–B                   positive emotion and perceived cohesion. Yet
+represents such an accomplishment; thus                   because the theory of relational cohesion
+repeated exchange should produce positive                 assumes enabled exchange as a constant, we
+emotions in A–B. We test whether this also                must supplement that theory in order to
+extends to a structurally induced relation,               explain how these two types of relations dif-
+D–G, which technically falls outside the                  fer with respect to the nature and degree of
+scope of relational cohesion theory.                      commitment. For this purpose, we turn to the
+    Third, feelings and emotions are attrib-              choice process theory of commitment
+uted partially to social units such as exchange           (Lawler 1992).
+relations. This occurs because emotions have
+                                                          Choice Process Theory
+ambiguous sources, and actors want to repro-
+duce positive emotions and avoid negative                      The choice process theory draws atten-
+emotions. With repeated exchange, the rela-               tion to the fact that exchanges generate a
+tion or group becomes more salient for                    sense of control for actors. The foundational
+actors; in the process, a group boundary and a            idea is that actors develop stronger affective
+sense of togetherness emerge (also see                    commitments to those relations or groups
+Collins 1981, 1989; Durkheim 1915). Lawler                which give them a greater “sense of control”
+and colleagues have construed this as a group             (Lawler 1992, 1997).This idea is supported by
+formation process wherein the relation or                 an array of theoretical and empirical litera-
+group becomes an expressive object for                    tures. Bandura (1997) treats control or effica-
+actors and something of value in itself                   cy beliefs as fundamental to human agency,
+(Lawler 2002; Lawler and Thye 1999).7                     motivating people to explore and manipulate
+    Fourth, as the exchange relation                      their environment (also see White 1959).
+becomes cohesive, actors become more                      Gecas (1989) argues that efficacy is a core
+strongly committed to their relation as a uni-            dimension of the self which motivates corre-
+tary object. Several behaviors reflect commit-            sponding self-affirming behavior. A sense of
+ment: staying with an exchange partner                    control also produces positive emotional
+despite good alternatives, giving gifts unilat-           reactions (Bandura 1997; Izard 1991;
+                                                          Westcott 1988) and is a source of intrinsic
+erally and without strings attached, and
+                                                          motivation (Deci 1980; Reeve and Nix 1997).
+engaging in new joint ventures that involve a
+                                                          Overall, self-determination, autonomy, and
+risk of exploitation or malfeasance. Various
+                                                          sense of control have been important themes
+forms of altruistic or “forgiving” behaviors
+                                                          in research by psychologists and sociologists
+also could be included, as well as informal,
+                                                          over the past few decades. Implicitly or
+negotiated understandings of what behaviors               explicitly, most of these approaches posit a
+demonstrate a relational commitment (see                  positive emotional response to experiences
+Hochschild 1989).                                         that generate a sense of control (Bandura
+                                                          1997; Giddens 1984; Kohn and Slomczynski
+   7 Lawler (2001) developed an “affect theory of         1990; Westcott 1988).
+social exchange,” which elaborates the basis for the           On the basis of this theory, sense of con-
+attribution of emotion to the social unit. Social unit    trol is determined by the enabling and con-
+attributions are traced to the fundamental “fact” that
+social exchange entails a joint task which neither
+                                                          straining dimensions of a social structure
+actor can accomplish alone. According to the affect       (Lawler 1992). Three propositions of the
+theory of social exchange, actors attribute emotions to   choice process theory are important to our
+the relevant social units (e.g., exchange relations)      analysis of commitment in enabled and
+insofar as actors’ contributions to the exchange task
+                                                          induced relations. First, the positive emo-
+are nonseparable and when the task fosters a sense of
+shared responsibility for the results of efforts to       tions, generated by a sense of control,
+exchange.                                                 strengthen affective attachments to the social
+              #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+                               COMMITMENT IN EXCHANGE                                                       189
+
+
+
+
+Figure 3. The Effects Of Structurally Enabled Exchanges
+
+unit that is perceived as the source of control.          ditions. First, the network is negatively con-
+Second, given multiple, nested social units,              nected meaning that each actor can consum-
+positive emotions strengthen affective                    mate an exchange with only one other at a
+attachments to the most proximal social unit              given point. Second, each actor has at least
+(relation, group) more than to the larger                 two alternative partners. Third, the structure
+social unit in which it is nested (network,               creates clear preferences of partner based on
+organization). The theory applies to dyads in             the fact that profit or value is higher in some
+a network, cliques in a group, work teams                 relations than in others.8
+within an organization, departments within a                   The main predictions for structurally
+university, or communities within a state. In             enabled (A–B) and structurally induced
+exchange networks, dyadic relations are the               (D–G) relations are as follows:
+proximal unit, and the network is the larger                Hypothesis 1: A structurally enabled (A–B)
+unit of relevance. Third, repeated experi-                  exchange relation will produce stronger posi-
+ences of control enhance the value of the                   tive emotions than a structurally induced
+social unit as such. Exchange networks by                   relation.
+definition entail repeated opportunities for
+social exchange.                                            Hypothesis 2: A structurally enabled
+     The main implication is that exchange                  exchange relation will produce greater per-
+relations should be stronger objects of                     ceived cohesion than a structurally induced
+                                                            relation.
+attachment in structurally enabled than in
+structurally induced exchange. Figure 3                     Hypothesis 3: A structurally enabled
+depicts the principles that the choice process              exchange relation will produce greater per-
+theory adds to relational cohesion theory.                  ceived relation value than a structurally
+Structurally enabled relations unleash a sim-               induced relation.
+ple causal chain; such relations generate
+                                                            Hypothesis 4: Commitment behavior (gift
+greater perceived control than structurally
+                                                            giving) will be greater in a structurally
+induced relations; this, in turn, enhances the              enabled exchange relation than in a struc-
+positive feelings from exchange. In terms of                turally induced exchange relation.
+relational cohesion theory (Figure 2), per-
+ceived control heightens the positive emo-
+tions created by exchange. Thus, whereas
+                                                             8
+cohesion and commitment may occur in both                      Three other noteworthy conditions are built into
+structurally enabled and structurally induced             the experiment. First, the actors know the shape of the
+                                                          network, though not the nature of the agreements
+relations (from relational cohesion theory),              reached by others. Second, the exchanges take a nego-
+the choice process theory predicts that the               tiated form, which is the standard practice in research
+exchange-to-emotion-to-cohesion process                   on exchange networks. We do not know whether the
+will be stronger in structurally enabled rela-            results would apply to reciprocal forms of exchange
+                                                          (see Molm, Peterson, and Takahashi 1999), but we see
+tions.
+                                                          no theoretical reasons to presume otherwise. Third,
+                                                          both of the relations that form in the box are equal
+Predictions                                               power relations, and thus we hold relative power con-
+                                                          stant; this is important because equal power is known
+    Our predictions and empirical test                    to generate a stronger exchange-to-emotion-to-cohe-
+assume three basic contextual or scope con-               sion process (Lawler and Yoon 1993, 1996, 1998).
+             #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+190                         SOCIAL PSYCHOLOGY QUARTERLY
+    In addition, the choice process theory               Subjects
+suggests the following difference between
+the exchange relations:                                       Subjects were undergraduate students at
+                                                         a large eastern university. A total of 48 same-
+  Hypothesis 5: Perceived control will be                sex groups of four (24 female, 24 male) were
+  greater in a structurally enabled than in a            assigned randomly to positions in the box
+  structurally induced exchange relation.                network. Thus the analysis involved 48 A–B
+    We also test the theoretical model of                dyads and 48 D–G dyads. No subjects were
+relational cohesion theory, as in previous               excluded from the analysis.
+research (see Figure 2). This analysis will
+allow us to determine whether the predicted              Procedures
+causal effects are present for (1) exchange                   Upon their arrival, subjects were ushered
+frequency on positive emotion, (2) positive              into separate cubicles, where they received
+emotion on perceived cohesion, and (3) per-              written instructions. These explained that
+ceived cohesion on commitment. These                     each person in the study would represent one
+effects could occur even if the differences              of four organizations, termed Alpha, Beta,
+predicted in Hypotheses 1 through 4 are pre-             Gamma, and Delta. Each of the organiza-
+sent. The prediction implied is as follows:              tions purportedly developed specialized
+  Hypothesis 6: Within both structurally                 computer products for sale to other corpora-
+  enabled and structurally induced exchange              tions. The instructions indicated that because
+  relations, there will be positive effects of           of an increasingly competitive and uncertain
+  exchange frequency on emotion, emotion on              market, each company could benefit from
+  perceived cohesion, and perceived cohesion             joint research projects with other organiza-
+  on commitment.                                         tions to develop new competitive products.
+     The choice process theory and our analy-                 The cover story explained that their joint
+sis of enabled and induced exchange rela-                efforts would produce pools of profit that
+tions lead to the following prediction:                  would be divided among them; some joint
+                                                         efforts would produce larger pools than oth-
+  Hypothesis 7: The effects predicted in                 ers. The subjects were shown a diagram
+  Hypothesis 6, will be stronger in the struc-           depicting the four people in the experiment
+  turally enabled relation than in the induced
+                                                         connected in a box network. Subjects, howev-
+  relation.
+                                                         er, knew only the amount of profit available
+                                                         with their two prospective partners. Thus
+                    METHOD                               actors in the network could not make com-
+                                                         parisons between A–B and D–G relations.
+Experimental Design                                      All subjects were told that their task in the
+                                                         study was to negotiate on behalf of their
+     The box network of Figure 1 is used to              organization with two other companies. Their
+generate the two dyadic exchange relations:              goal was to secure as much profit as possible
+structurally enabled (A–B) and structurally              for their company.
+induced (D–G). In accord with our theoriz-                    The instructions explained that because
+ing, this box structure creates both a mutual            of changing market conditions, the profit
+preference for exchange between A and B                  divisions from the joint venture must be
+and a structural capacity to actualize this              negotiated anew each year. More specifically,
+preference (see Figure 3). These conditions              the subjects were told that the study would
+do not exist for G and D.9                               simulate up to 20 negotiation episodes,
+                                                         defined as “years.” The experiments actually
+   9 Within the structurally induced relation (D–G),     ended after the fourteenth episode (year) to
+to explore whether loss aversion (negotiating losses     preclude end effects. If a subject could not
+rather than gains) would attenuate the commitment        reach an agreement with one of the others in
+process, we included a variation in which the actors
+were negotiating costs (–100) rather than benefits
+(400).The results suggest some attenuation, but it was   order to increase statistical power and focus on our
+not strong. We have combined these variations in         primary concerns.
+              #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+                                  COMMITMENT IN EXCHANGE                                                          191
+a given year, they would earn nothing for that             level, and most have consistently yielded
+episode. Each representative had informa-                  good measurement properties (see Lawler et
+tion only on the profits he or she earned from             al. 2000; Lawler and Yoon 1993, 1996, 1998).11
+an agreement, a condition that is consistent               The hypotheses are tested by contrasting the
+with related work (Lawler and Yoon 1993,                   enabled (A–B) and the induced (D–G) rela-
+1996). When the experiment was complete,                   tions on questionnaire (emotion, predictabil-
+the assistant explained the research,                      ity, cohesion, partner preferences) and
+answered questions, and paid the subjects                  behavioral (exchange frequency, gift giving)
+using a standard formula that converted                    measures.
+profit points to money.                                         Exchange frequency is the proportion
+     In the negotiations, each actor claimed a             of negotiation episodes in which a given
+portion of the profit from the joint venture.              dyad reaches agreement during the first
+These claims were lodged simultaneously, so                eight episodes of negotiation. Previous
+no subject knew what claims currently were                 research indicates that this is sufficient time
+being made by the other individuals. The                   for the effects of exchange on emotion to
+actual bargaining took place on microcom-                  develop (see Lawler and Yoon 1996). More-
+puters connected to each other from separate               over, because an episode contains five
+cubicles. Each episode (year) consisted of a               rounds of offers and counteroffers, there
+maximum of five bargaining rounds. Each                    can be as many as 40 behavioral exchanges
+round consisted of a single claim by each per-             by episode 8.
+son (see Figure 1). To make a claim, each per-                  Total profit and profit difference were
+son simply indicated (in multiples of 1) how               control variables in the analysis. Total profit
+many profit units his or her company wished                was the average sum of the profits earned by
+to claim. For any given round, the subjects                the actors, in each relation, across the first
+could repeat their previous claim or make a                eight episodes. The maximum total profit is
+concession by lowering their claim. They                   constant within any given relation, but it dif-
+could not retract earlier concessions, that is,            fers across the four relations, as shown in
+subjects could not raise their claims. An                  Figure 1. Profit difference was the sum of the
+agreement occurred when the two claims for                 absolute profit differences between any two
+any relation were equal to or less than the                actors across the first eight episodes, divided
+total profit available on that relation. The               by the number of times they reached agree-
+negotiation continued until an agreement                   ment. Because the profit available on each of
+was reached or until the end of the fifth                  the four relations differs, we standardized
+round, whichever came first. If an agreement               this average score so it could range between 0
+was not reached by round 5, each subject                   (the minimum average profit difference for
+earned zero points for that episode.10                     any relation) and 1,200 (the maximum profit
+                                                           difference for the relation with the largest
+Measures                                                   pool).
+                                                                To measure positive emotions, subjects
+    Computerized questionnaires were                       reported their feelings about the negotiations
+administered after episodes 8 and 14.                      along a series of nine-point bipolar adjec-
+Measures of positive emotion, predictability,              tives. The pleasure/satisfaction index was
+perceived cohesion, and partner preferences                based on the sum of scores on four items: dis-
+were based on questions administered after                 pleased/pleased, unhappy/happy, not satis-
+episode 8. All measures are at the dyadic                  fied/satisfied, and discontented/contented.
+
+                                                              11 For reasons outlined in Thye (2000b), we con-
+    10 The procedures integrated features from
+
+research on network exchange theory (Markovsky et          ducted separate reliability analyses on the dyadic
+al. 1988; Willer 1999) and on relational cohesion theo-    questionnaire measures from A–B and D–G. For
+ry (Lawler and Yoon 1996). Drawn from the former is        A–B, the reliability estimates for pleasure/satisfac-
+the fact that subjects divide a pool of profits and make   tion, interest/excitement, relational cohesion, and per-
+simultaneous demands on that pool; drawn from the          ceptions of control were rxx = .90, .73, .88, and .76
+latter is a negotiation process involving offers and       respectively. For D–G, the reliability estimates for
+counteroffers within a transaction period or episode.      these scales were rxx = .88, .78, .85, and .80 respectively.
+           #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+192                     SOCIAL PSYCHOLOGY QUARTERLY
+The interest/excitement index summed the          relationship with the other two members;
+following four items: not interesting/interest-   whether or not you decide to give a gift is
+ing, boring/exciting, unenthusiastic/enthusi-     completely up to you and the gift vouchers
+astic, and unmotivating/motivating.               you do not give become yours to keep.” Two
+     Partner preference was measured just         gift vouchers were given to the subjects at the
+before episodes 8 through 14. Each subject        close of negotiation for each gift episode. The
+was asked to indicate the person “with whom       subjects then could give these gifts to the oth-
+they would most prefer to reach an agree-         ers or keep them for themselves by pressing
+ment” (see Thye 2000a). We constructed            the appropriate key on their keyboard.
+dyadic index by calculating the number of         Subjects did not learn whether others had
+mutual partner choices (cases in which A          given them gifts until the end of all negotia-
+selects B and B selects A) for each dyad.         tions; at that time the experimenter
+These responses provide a measure of the          exchanged a piece of candy for each gift
+degree to which subjects preferred to             voucher held by each subject. The lack of
+exchange with one another.                        knowledge about others’ gift behavior
+     Perceptions of control were measured         ensured that subjects did not treat gifts as an
+after episode 8, to capture a key variable of     explicit part of the focal exchange.
+relevance to the choice process theory                 Gift giving was measured at the dyad
+(Lawler 1992). The measure summed sub-            level. We used the ratio of gift-giving fre-
+jects’ responses to questions asking the          quency over the total number of possible
+extent to which subjects (1) believed they        gifts (2 actors ⫻ 2 gifts ⫻ 6 episodes = 24 total
+had choice over the deals they made, (2) had      gifts) to index the aggregate level of gift giv-
+been able to control what happened, (3) had       ing for each dyad. This measure could range
+been able to reach agreements with each           from 0 to 1.
+partner, and (4) believed they had an impact
+on the bargaining outcome. All items were                           RESULTS
+measured on Likert scales (1 = “not at all”; 9=
+                                                       The analysis is divided into three parts.
+“very much”).
+                                                  First, we test Hypotheses 1 to 5 by comparing
+     Perceived cohesion was measured after
+                                                  the mean values of key variables for A–B and
+episode 8 with the following items:
+                                                  D–G dyads. Second, to test Hypotheses 6 and
+distant/close, coming apart/coming together,
+                                                  7, we examine and compare the key moments
+fragile/solid, and divisive/cohesive.
+                                                  of the theoretical model (see Figure 2) sepa-
+     Relational value also was measured after
+                                                  rately for A–B and D–G dyads. This analysis
+episode 8, with the following series of bipolar
+                                                  tests the chain logic of relational cohesion
+adjectives: not valuable/valuable, not pre-
+                                                  theory for each exchange relation. Finally, we
+cious/precious, insignificant/significant.
+                                                  examine the impact of perceived control on
+     Gift behavior is the propensity of actors
+                                                  positive emotion to examine the logic under-
+to give one another gifts. As in related
+                                                  lying the effects posited by the relational
+research (Lawler et al. 2000; Lawler and
+                                                  cohesion and choice process theories.
+Yoon 1996), the gifts in this study were token
+(worth very little monetarily), unilateral
+                                                  Establishment of the
+(given without knowing whether the other
+                                                  Enabled-Induced Manipulation
+would reciprocate), and noncontingent (with
+no implied expectations of reciprocal gifts).          Responses to both behavioral and cogni-
+In short, the gifts were expressive rather than   tive measures indicate that our enabled-ver-
+instrumental or strategic.                        sus-induced manipulation produced the
+     Beginning in episode 9 and continuing        intended order for partner preference and
+through the end of episode 14, each subject       structural capacity to consummate exchange
+could provide gift vouchers to one or both of     across dyads. First, the partner preference
+the others to whom they were connected. The       data revealed that the members of the A–B
+instructions, administered between episodes       dyad chose one another as mutually pre-
+8 and 9, explained: “The gift option is a         ferred exchange partners in 70 percent of the
+chance to express how you feel about your         episodes, while D and G chose one another
+             #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+                               COMMITMENT IN EXCHANGE                                                  193
+only 8 percent of the time (delta = 62%, one-             ed, perceived greater relational cohesion,
+tailed t = 14.59, p < .001). Thus the network             ascribed more subjective value to their rela-
+produced the ordinal ranking of partner pref-             tionship, and were more likely to give one
+erences, as required by the theory.                       another small token gifts. Thus we find strong
+     Second, the theory asserts that when                 and consistent support for the main hypothe-
+actors have mutual preferences which are                  ses (1 through 5). Next we ask whether the
+actualized, they experience a greater sense of            mediating emotional/affective process is pre-
+autonomy or perceived control (see Figure                 sent and equally strong across enabled and
+3). To examine this point, we tallied the pro-            induced relations.
+portion of episodes in which two actors
+selected one another as preferred partners                The Endogenous Process
+and then consummated exchange. This mea-
+sure captures whether or not actors’ partner                   The endogenous emotional/affective
+preferences are realized episode by episode               process contains two key links (see Figure 2):
+(across episodes 9 to 14). In the analysis we             exchange-to-emotion and emotion-to-cohe-
+regressed perceived control (in this case,                sion. The analysis tests for these effects with-
+using the measure after episode 14) on this               in each dyad, and we compare the relevant
+index, controlling for all other variables                coefficients. Profit differences and total prof-
+(including profits). As expected, when A and              its in the relations are controlled statistically
+B expressed a preference for exchanging                   in these analyses.
+with one another, and then consummated                         Exchange-to-emotion effects. The results
+exchange, subjects reported a greater sense               for exchange frequency and positive emotion
+of control; the same was true for actors D and            reveal strong support for relational cohesion
+G, though they realized their preferences less            theory in both enabled and induced
+often (for A–B, beta = .35, p < .025; for D–G,            exchange relations. The first and second
+beta = .33, p < .05). In sum, these results indi-         columns of Table 2 indicate that when actors
+cate that the box network produced the con-               in the A–B relation exchanged frequently,
+ditions necessary to test the main hypotheses.            they experienced stronger feelings of plea-
+                                                          sure/satisfaction (beta = .73, p < .001) and of
+Enabled Versus Induced Relations                          interest/excitement (beta = .24, p < .05). The
+     Table 1 compares key measures for the                same basic results occur in the D–G dyads:
+structurally enabled A–B relation and the                 again, significant effects emerged for plea-
+structurally induced D–G relation, using t-               sure/satisfaction (beta = 45, p < .001) and for
+tests (one-tailed). The mean values for A–B               interest/excitement (beta = .41, p < .01). Thus,
+were significantly larger than those for D–G              in accord with Hypothesis 6, the emotional
+on each cognitive, emotional, and behavioral              effects of exchange frequency are evident
+measure. Actors in the enabled relation                   regardless of whether the relation is struc-
+found it easier to reach agreement, perceived             turally enabled or structurally induced. This
+more control, were more pleased and excit-                finding extends the scope of relational cohe-
+
+Table 1. T-Test of Key Constructs Between A—B (N = 48) and G—D (N = 48).
+
+Variable                              Mean (SD) A—B                  Mean (SD) G—D               Difference
+Agreement Frequency (1–8)               .63       (.20)                .52        (.22)             .11***
+Perceived Control                      6.06      (1.23)               5.61       (1.40)             .45***
+Pleasure/Satisfaction                  5.89      (1.59)               4.70       (1.49)            1.19***
+Interest/Excitement                    5.83      (1.17)               4.91       (1.24)             .92***
+Relational Value                       6.88      (1.30)               5.40       (1.61)            1.48***
+Relational Cohesion                    5.84      (1.59)               4.94       (1.47)             .90***
+Gift Exchange (9–14)                    .33       (.17)                .25        (.22)             .08***
+Note: All variables were measured after episode 8 except gift exchange, which was measured across episodes 9
+through 14.
+*p ≤ .05; *** p ≤ .001 (one-tailed test)
+               #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+194                            SOCIAL PSYCHOLOGY QUARTERLY
+Table 2. Standardized OLS Estimates of Paths in the Theoretical Model
+
+                                                               A—B                             G—D
+Independent                                 PS                 IE        RC         PS           IE        RC
+Total Profit (TP)                           .10                .07     –.04        .06         –.08        .02
+Profit Difference (PD)                      .26*               .41**    .02        .04          .12       –.13
+Agreement Frequency (AF)                    .73***             .24*     .23*       .45***       .41**      .18*
+Pleasure/Satisfaction (PS)                  .—                 .—       .77***     .—           .—         .67***
+Interest/Excitement (IE)                    .—                 .—       .08        .—           .—         .09
+N                                           .48                .48      .48        .48          .48        .48
+R2                                          .52                .16      .82        .21          .23        .68
+Note: All variables were measured after episode 8.
+*p ≤ .05; **p ≤ .01; ***p ≤ .001 (one-tailed test)
+
+
+
+sion theory, and affirms the distinct and inde-                       Emotion-to-cohesion effects. The third
+pendent role of emotion.12                                       and sixth columns of Table 2 contain the
+    Comparing regression coefficients for                        regression coefficients for perceived cohe-
+A–B and for D–G dyads, we observe differ-                        sion in each relation. Results for the emo-
+ences in the strength of coefficients that sup-                  tion-to-cohesion link in the enabled relation
+port Hypothesis 7. The impact of exchange                        (beta = .77, p < .001) strongly affirm
+frequency on pleasure/satisfaction is signifi-                   Hypothesis 6, as do the effects in the induced
+cantly stronger (beta = .73 vs. beta = .45; chi-                 relation (beta = .67, p < .001), but the differ-
+square = 5.24, p = .022) in the structurally                     ence between these regression coefficients
+enabled relation (A–B). This pattern did not                     was not statistically significant (chi-square =
+                                                                 .48, p = .49). These results suggest that posi-
+occur in the coefficients for interest/excite-
+                                                                 tive emotions arising from exchange enhance
+ment (beta = .24 vs. beta = .41, ns). 13
+                                                                 actors’ perception of a cohesive relation in
+Pleasure/satisfaction plays a stronger role
+                                                                 both enabled and induced relations.
+than interest/excitement, a result consistent
+with previous findings (Lawler et al. 2000).
+                                                                 The Role of Perceived Control
+
+                                                                      We conducted three supplemental analy-
+  12 As a supplemental analysis we created a variable
+                                                                 ses to examine how perceptions of control
+that measured the absolute difference between prof-              interface with the above findings. First and
+its (unstandardized) earned for the A–B relation and
+for the A–G and B–D relations. This measure cap-                 most important, we tested whether more fre-
+tures the relative profit advantage of the A–B rela-             quent exchange generated perceptions of
+tion. The results from a regression of pleasure/                 control and, in turn, whether perceived con-
+satisfaction on this profit advantage did not reveal a
+                                                                 trol enhanced positive feelings (see Figure 3).
+significant effect on positive emotions for profit in
+A–B versus D-G relations (beta = .13, ns); moreover,             The results indicated that, with controls for
+all other findings remained the same. Thus we find no            all other variables including profit differ-
+indication here or elsewhere in the results that the             ences, exchange frequency significantly
+total profits available, the profit differences within
+relations, or the profit differences between relations
+                                                                 increased the sense of control for both A–B
+explain or alter other effects observed in the study.            and D–G dyads (betas = .53 and .60 respec-
+   13 We tested the equality of effect sizes between
+                                                                 tively; p < .001 for each); and a heightened
+A–B and D–G using LISREL’s equality specification                sense of control enhanced positive emotions
+(Jöreskog & Sörbom 1993). First, we calculated a chi-
+square value under the assumption of equal effect                in the form of pleasure/satisfaction (for A–B,
+size. Second, we estimated another chi-square value              beta = .37, p < .01; for D–G, beta = .70, p <
+by freeing the equality assumption, which saved one              .001). These results offer important support
+degree of freedom. Third, we used the difference in              to the exchange-to-control-to-emotion links
+the two chi-square values with one degree of freedom
+as the test statistic to test the equality of the two effect     in our theorizing, and to our conception of
+sizes.                                                           how the theory of relational cohesion (Figure
+            #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+                             COMMITMENT IN EXCHANGE                                                   195
+2) connects with the choice process theory          breakdown at this particular “moment” in
+(Figure 3).                                         the relational cohesion process.
+     Second, to assess a “profit potential”
+interpretation for A–B versus D–G differ-           Gift-Giving Effects
+ences, we compared the effects of perceived
+control with profits on positive emotions. We            The final step in the test of relational
+created a dummy variable for relation (A–B          cohesion theory is to regress gift giving on all
+= 1; D–G = 0; N = 96) and then regressed per-       antecedent variables simultaneously to
+ceived control on that dummy. The results           determine whether cohesion exerts the
+showed that structurally enabled relations          largest effect (as predicted). Table 3 shows
+generate greater perceived control (beta =          the results for both exchange relations. In the
+.17, p < .05). Furthermore, a regression of         case of the enabled relation (A–B), the
+pleasure/satisfaction on perceived control          largest positive coefficient is for relational
+and profits indicates, as expected, that per-       cohesion, though this effect is not significant
+ceived control exerts a significant positive        (beta = .27, p = .46). Yet the comparison of
+effect on pleasure/satisfaction (beta = .63, p <    coefficients for structurally enabled (A–B)
+.001) net of total profits; the profits also show   and structurally induced (D–G) exchange
+an effect (beta = .26, p < .001). Most impor-       relations shows a significant difference (chi-
+tant for our purposes, perceived control            square = 4.99, p < .03). The impact of per-
+exerts distinct and substantial effects on plea-    ceived cohesion on gift giving was stronger in
+sure/satisfaction.                                  the enabled than in the induced exchange
+     Finally, we asked whether adding per-          relation, despite the lack of a statistically sig-
+ceived control to the regression analysis           nificant effect in A–B. This pattern is consis-
+alters the exchange-to-emotion-to-cohesion          tent with Hypothesis 7.
+process specified by relational cohesion theo-           The results for the D–G exchange rela-
+ry. The results indicate that the substantive       tion are complex. Cohesion exerts a signifi-
+effects reported in Table 2 do not change           cant negative effect on gift giving (beta = -.53,
+when perceived control is added as a covari-        p < .05), and we also find a sizable positive
+                                                    effect for pleasure/satisfaction on gift giving
+ate. The only new finding is that perceived
+                                                    (beta = .72, p < .01). These findings suggest
+control exerts positive effects on cohesion in
+                                                    two countervailing pathways from exchange
+the A–B relation (beta = .22, p < .02), but no
+                                                    to gift giving in the induced relation: a posi-
+effect in the D–G relation. If anything, this
+                                                    tive path through emotion and a negative
+finding strengthens our argument that per-
+                                                    path through both emotion and cohesion.
+ceived control enhances cohesion in struc-
+                                                    The former suggests an interpersonal
+turally enabled relations.
+     To summarize, the endogenous process
+of relational cohesion occurs in both               Table 3. Standardized OLS Estimates of Paths to
+exchange relations. More frequent exchange          Commitment Behavior
+increases pleasure/satisfaction, and plea-                                               Gift Giving
+sure/satisfaction increases perceived cohe-         Independent                       A—B       G—D
+sion. In addition, perceptions of control
+                                                    Total Profit (TP)                   .12     –.26
+reveal predicted relationships with plea-           Profit Difference (PD)              .23     –.16
+sure/satisfaction and cohesion without affect-      Agreement Frequency (AF)           –.07      .14
+ing the fundamental exchange-to-                    Pleasure/Satisfaction (PS)         –.27      .72**
+emotion-to-cohesion process posited by rela-        Interest/Excitement (IE)            .05      .10
+                                                    Relational Cohesion (RC)            .27     –.53*
+tional cohesion theory. The evidence also
+                                                    N                                   .48      .48
+indicates that the endogenous process is            R2                                  .06      .32
+stronger in the enabled than in the induced
+                                                    Note: All variables were measured after episode 8
+relation because of a stronger link between
+                                                    except gift giving, which was measured across
+exchange and emotion. An induced, equal-            episodes 9 through 14.
+power exchange relation is vulnerable to a          *p ≤ .05; **p ≤ .01 (one-tailed test)
+              #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+196                          SOCIAL PSYCHOLOGY QUARTERLY
+process, the latter a relational or group                  from exchange, and (3) perceptions that the
+process. The positive effect through plea-                 relation is coming together as a cohesive unit.
+sure/satisfaction may reflect the fact that                (4) Also, as expected, such a relation
+actors still are responsive to each other’s will-          enhances actors’ perceptions of control in the
+ingness to collaborate, and they blame the                 exchange; (5) in turn, their perceptions of
+network for constraints on choice of partner.              control enhance positive emotions and rela-
+The negative effect may indicate that a cohe-              tional cohesion. The differences between
+sive relation is viewed in negative terms,                 enabled and induced relations occur at virtu-
+because without a viable alternative partner,              ally every point in the commitment process
+exchange in D–G strengthens each actor’s                   specified by relational cohesion theory
+sense of being “stuck” with the other.14                   (Lawler and Yoon 1996).15
+                                                                In tests for the endogenous process with-
+                  DISCUSSION                               in each exchange relation, three theoretically
+                                                           important patterns emerge. First, the
+    We theorized the effects of structurally               exchange-to-emotion-to-cohesion effect
+enabled versus structurally induced exchange               occurs in both enabled and induced relations,
+relations by integrating ideas from a choice               suggesting that relational cohesion theory
+process theory of person-to-unit commit-                   can be generalized to exchange relations
+ment (Lawler 1992, 1997) and the theory of                 which are induced or forced by the social
+relational cohesion (Lawler et al. 2000;                   structure. Second, as predicted, this process is
+Lawler and Yoon 1996). From the former we                  generally stronger in enabled than in induced
+take the idea that enabled exchange                        exchange relations. Third, cohesion does not
+enhances actors’ sense of control; this, in                exert positive effects in structurally induced
+turn, fosters positive emotions and feelings               relations, although exchanges make individu-
+(Lawler 1992). From relational cohesion the-               als “feel good” and these feelings make them
+ory we adopt the idea that repetitive                      more prone to give each other gifts. The
+exchange makes actors feel good; this, in                  implication is that if relational cohesion is
+turn, produces perceptions of a cohesive rela-             induced, it has no affect on or reduces com-
+tion and commitment behavior. Relational                   mitment behavior in induced relations (for a
+cohesion theory predicts that in both struc-               related finding, see Lawler and Yoon 1998).
+turally enabled and structurally induced rela-             Overall the findings support key elements of
+tions, cohesion will emerge insofar as actors              both relational cohesion and the choice
+engage in repetitive exchange; the choice                  process theory of commitment, and show
+process theory predicts that the structurally              how the complementary features of these
+enabled relations will enhance positive emo-               theories explain effects of structurally
+tions and cohesion more strongly because of                enabled or induced relations.
+a greater sense of control. Thus, when a net-                   An important implication of this
+work produces two exchange relations(one                   research is that collectively oriented behav-
+enabled and the other induced) the effects on              ior emerges from structural conditions which
+the commitment process are divergent.                      connect an individual’s sense of control (or
+    Our findings support these predictions.                self-efficacy) with a sense of collective effica-
+The structurally enabled A–B relation                      cy. Bandura (1997, 2001) asserts that percep-
+increases (1) exchange frequency, (2) plea-                tions of collective efficacy—that is, the sense
+sure/satisfaction and interest/excitement
+                                                              15 The rate of agreement in the structurally enabled
+  14 The negative sign of the relationship between
+                                                           relation is 63 percent of the total opportunities. This
+perceived cohesion and gift giving dovetails with          demonstrates that the network incentives promote
+some results of Lawler and Yoon (1998). They found         agreement, but exchange is not guaranteed. Instead
+that an actor with no alternatives, who essentially is     the structural incentives provide an initial boundary
+forced by the structure to exchange with a given           within which subjects render offers, consider coun-
+other, perceives greater relational cohesion, but that     teroffers, and choose (or not) to exchange. An impor-
+this actor’s perceived cohesion is related negatively to   tant message of our theorizing is that a sense of
+commitment behavior. Engaging in less commitment           control, positive emotions, and relational cohesion
+behavior may be a way for actors to establish or           are the consequences of interaction and are not pre-
+affirm some sense of control in the situation.             determined by structural incentives.
+             #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+                                COMMITMENT IN EXCHANGE                                                197
+of control arising from joint activity with oth-              To conclude, enabled and induced rela-
+ers—lead individuals to invest more fully in             tions can be found in a variety of contexts,
+group activities, to persist in the face of diffi-       from neighborhood playgrounds to corpo-
+culties or obstacles, and generally to perform           rate boardrooms (Yoon 2001). Our results
+at a higher individual level. Lawler (2001)              suggest that enabled relations promote the
+argues further that perceptions of self- and             growth of commitment because such rela-
+collective efficacy are likely to become inter-          tions affect one’s sense of control and gener-
+twined, especially when the social structure             ate more positive emotions and feelings. We
+generates a joint activity that fosters a sense          also found the seeds of commitment in
+of shared responsibility for the results of that         induced relations, where repeated exchange
+activity.A sense of shared responsibility leads          can foster some positive emotion.
+actors to attribute their individual emotion to          Commitment, however, does not blossom
+the relevant social unit. The results of our             fully in the induced relations, as it does in the
+research are generally consistent with this              enabled relations. In general, these ideas and
+notion: a joint activity (social exchange)               findings can help clarify how and when struc-
+exerts emotional effects that mediate the                tural conditions give rise to relational com-
+influence of structurally enabled relations on           mitments and collectively oriented behaviors
+collectively oriented perceptions and behav-             in groups, organizations, and other social
+ior.16                                                   units.
+     More broadly, this research can be con-
+nected to the larger sociological literature on                         REFERENCES
+“voluntarism” as an integral aspect of human
+activity. Weber’s ([1918] 1968) analysis of              Bacharach, Samuel B. and Edward J. Lawler. 1981.
+                                                               Bargaining: Power, Tactics, and Outcomes.
+social action, Parsons’ (1937) “voluntaristic
+                                                               San Francisco: Jossey-Bass.
+theory of action,” Giddens’ (1984) analysis of           Bandura, Albert. 1997. Self Efficacy: The Exercise
+social structure and social action, and Elster’s               of Control. New York: Freeman.
+(1986) portrayal of rational choice theory are           ———. 2001. “Social Cognitive Theory: An
+only a few of the prominent approaches to                      Agentic Perspective.” Annual Review of
+voluntarism. A theme common to these                           Psychology 52:1–26.
+approaches is that structures prohibit or give           Bienenstock, Elisa Jayne and Phillip Bonacich.
+human actors the capacity to be agents in the                  1992. “The Core As a Solution to
+                                                               Exclusionary Networks.” Social Networks
+social world, that is, to have demonstrable
+                                                               14:231–43.
+effects on their environment (Giddens 1984),             Blau, Peter. 1964. Exchange and Power in Social
+and this situation exerts social psychological                 Life. New York: Wiley.
+effects on actors and their relationships. Our           ———. 1994.         Structural     Contexts      of
+comparison of structurally enabled with                        Opportunities. Chicago: University of
+structurally induced relations suggests a                      Chicago Press.
+somewhat subtle way in which voluntarism                 Bonacich, Phillip and Elisa Jayne Bienenstock.
+may have implications for the emotions and                     1993. “Assignment Games, Chromatic
+                                                               Number and Exchange Theory.” Journal of
+commitments generated in social networks.
+                                                               Mathematical Sociology 17:243–59.
+                                                         Bonacich, Phillip and Noah Friedkin. 1998.
+   16 Future researchers may tease apart the condi-            “Unequally Valued Exchange Relations.”
+tions that produce structurally enabled exchange rela-         Social Psychology Quarterly 61:160–71.
+tions and may assess their distinct effects. In short,   Collins, Randall. 1981. “On the Microfoundations
+one could separate mutual partner preference based             of Macrosociology.” American Journal of
+on profits available in different relations from the           Sociology 86:984–1014.
+capacity to realize preferences. One way to do this      ———. 1989. “Toward a Neo-Meadian Sociology
+would be to hold constant the available profits in all
+                                                               of Mind.” Symbolic Interaction 12:1–32.
+relations (and thus remove differential mutual prefer-
+                                                         Cook, Karen S. and Richard M. Emerson. 1978.
+ences across those relations) and yet constrain
+whether and when actors make an exchange. This                 “Power, Equity, and Commitment in
+process isolates the effect of “completing exchange”           Exchange Networks.” American Sociological
+from “preferring an exchange partner.” Such a study            Review 43:721–39.
+would clarify how the components of enabled              ———. 1984. “Exchange Networks and the
+exchange alter the commitment process.                         Analysis of Complex Organizations.” Pp.
+            #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+198                       SOCIAL PSYCHOLOGY QUARTERLY
+      1–30 in Research on the Sociology of                SIMPLIS Command Language. Chicago:
+      Organizations; vol. 3, edited by Samuel B.          Scientific Software.
+      Bacharach and Edward J. Lawler.                Kanter, Rosabeth M. 1968. “Commitment and
+      Greenwich, CT: JAI.                                 Social Organization: A Study of
+Cook, Karen S., Richarch M. Emerson. Mary R.              Commitment Mechanisms in Utopian
+      Gillmore, and Toshio Yamagishi. 1983. “The          Communities.” American Sociological
+      Distribution of Power in Exchange                   Review 33:499–517.
+      Networks: Theory and Experimental              Kemper, Theodore D. 1978. A Social Interactional
+      Evidence.” American Journal of Sociology            Theory of Emotions. New York: Wiley.
+      89:275–305.                                    Kohn, Melvin L. and Kazimierz M. Slomczynski.
+Cook, Karen S. and Joseph Whitmeyer. 1992. “Two           1990. Social Structure and Self Direction.
+      Approaches to Social Structure: Exchange            Cambridge, UK: Blackwell.
+      Theory and Network Analysis.” Annual           Kollock, Peter 1994. “The Emergence of Exchange
+      Review of Sociology 18:109–27.                      Structures: An Experimental Study of
+Deci, Edward L. 1980. The Psychology of Self              Uncertainty, Commitment, and Trust.”
+      Determination. Lexington, MA: Lexington             American Journal of Sociology 100:315–45.
+      Books.                                         ———. 1999. “The Production of Trust in Online
+Durkheim, Emile. 1915. The Elementary Forms of            Markets.” Pp. 99–124 in Advances in Group
+      Religious Life. New York: Free Press.               Process, vol. 16, edited by Shane R. Thye,
+Ekeh, Peter. 1974. Social Exchange Theory.                Edward J. Lawler, Michael W. Macy, and
+      Cambridge, MA: Harvard University Press.            Henry A. Walker. Stamford, CT: JAI.
+Elster, Jon. 1986. “Introduction.” Pp. 1–33 in       Lawler, Edward J. 1992. “Choice Processes and
+      Rational Choice, edited by Jon Elster. New          Affective Attachments to Nested Groups: A
+      York: New York University Press.                    Theoretical       Analysis.”     American
+Emerson, Richard M. 1972. “Exchange Theory,               Sociological Review 57:327–39.
+      Part II: Exchange Relations and Networks.”     ———. 1997. “Affective Attachments to Nested
+      Pp. 58–87 in Sociological Theories in               Groups: The Role of Rational Choice
+      Progress, vol. 2, edited by Joseph Berger,          Processes.” Pp. 387–403 in Status, Networks,
+      Morris Zelditch Jr., and Bo Anderson.               and Structures: Theory Development in
+      Boston: Houghton Mifflin.                           Group Processes, edited by John Skvoretz,
+———. 1981. “Social Exchange Theory.” Pp.                  Jacek Szmatka, and Joseph Berger. Stanford:
+      30–65 in Social Psychology: Sociological            Stanford University Press.
+      Perspectives, edited by Morris Rosenberg       ———. 2001. “An Affect Theory of Social
+      and Ralph H. Turner. New York: Basic                Exchange.” American Journal of Sociology
+      Books, Inc.                                         107:321–52.
+Friedkin, Noah. 1992. “An Expected Value Model       ———. 2002. “Micro Social Orders.” Social
+      of Social Power: Predictions for Selected           Psychology Quarterly 65:4–17.
+      Exchange Networks.” Social Networks            Lawler, Edward J. and Shane R. Thye. 1999.
+      14:213–29.                                          “Bringing Emotions Into Social Exchange
+Gecas, Viktor. 1989. “The Social Psychology of            Theory.” Annual Review of Sociology
+      Self-Efficacy.” Annual Review of Sociology          25:217–44.
+      15:291–316.                                    Lawler, Edward J., Shane R. Thye, and Jeongkoo
+Giddens, Anthony. 1984. The Constitution of               Yoon. 2000. “Emotion and Group Cohesion
+      Society. Berkeley: University of California         in Productive Exchange.” American Journal
+      Press.                                              of Sociology 106:616–57.
+Hochschild, Arlie R. 1989. “The Economy of           Lawler, Edward J. and Jeongkoo Yoon. 1993.
+      Gratitude.” Pp. 95–113 in The Sociology of          “Power and the Emergence of Commitment
+      Emotions: Original Essays and Research              Behavior in Negotiated Exchange.”
+      Papers, edited by David Franks and E. Doyle         American Sociological Review 58:465–81.
+      McCarthy. Greenwich, CT: JAI.                  ———. 1996. “Commitment in Exchange
+Homans, George L. 1950. The Human Group. New              Relations: Test of a Theory of Relational
+      York: Harcourt Brace Jovanovich.                    Cohesion.” American Sociological Review
+———. 1961. Social Behavior: Its Elementary                61:89–108.
+      Forms. New York: Harcourt Brace and            ———. 1998.“Network Structure and Emotion in
+      Jovanovich.                                         Exchange Relations.” American Sociological
+Izard, Carroll E. 1991. The Psychology of Emotion.        Review 63:871–94.
+      New York: Plenum.                              Lazarus, Richard S. 1984. “On the Primacy of
+Jöreskog, Karl G. and Dag Sörbom. 1993. LISREL            Cognition.” American Psychologist
+      8: Structural Equation Modeling With the            39:124–29.
+            #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+                              COMMITMENT IN EXCHANGE                                               199
+McPherson, Miller and Lynn Smith-Lovin. 2002.              in Exchange Networks.” American
+     “Cohesion and Membership Duration:                    Sociological Review 58:801–18.
+     Linking Groups, Relations, and Individuals      Skvoretz, John and Pidi Zhang. 1997. “Actors’
+     in an Ecology of Affiliations.” Pp.1–36 in            Responses to Outcomes in Exchange
+     Advances in Group Processes, Volume 22:               Networks: The Process of Power
+     Group Cohesion, Trust, and Solidarity, edited         Development.” Sociological Perspectives
+     by Shane R. Thye and Edward J. Lawler.                40:183–97.
+     Oxford, UK: Elsevier.                           Stolte, John F. and Richard M. Emerson. 1977.
+Markovsky, Barry, John Skvoretz, David Willer,             “Structural Inequality: Position and Power in
+     Michael J. Lovaglia, and Jeffery Erger. 1993.         Exchange Structures.” Pp. 117–38 in
+     “The Seeds of Weak Power: An Extension of             Behavioral Theory in Sociology, edited by
+     Network Exchange Theory.” American                    Robert L. Hamblin and James H. Kunkel.
+     Sociological Review 58:197–209.                       New Brunswick, NJ: Transaction Books.
+Markovsky, Barry, David Willer, and Travis Patton.   Stryker, Sheldon. 1980. Symbolic Interactionism: A
+     1988. “Power Relations in Exchange                    Social Structure Version. Menlo Park:
+     Networks.” American Sociological Review               Benjamin/Cummings.
+     53:220–36.                                      Tajfel, Henri and John C. Turner. 1986. “The Social
+Molm, Linda. 1987. “Extending Power                        Identity Theory of Intergroup Behavior.” Pp.
+     Dependency Theory: Power Processes and                7–24 in Psychology of Intergroup Relations,
+     Negative Outcomes.” Pp. 178–98 in                     edited by Steven Worchel and William G.
+     Advances in Group Processes, vol. 4, edited           Austin. Chicago: Nelson-Hall.
+     by Edward J. Lawler and Barry Markovsky.        Thibaut, John W. and Harold H. Kelley. 1959. The
+     Greenwich, CT: JAI.                                   Social Psychology of Groups. New York:
+———. 1990. “Structure, Action, and Outcomes:               Wiley.
+                                                     Thye, Shane R. 2000a. “A Status Value Theory of
+     The Dynamics of Power in Social Exchange.”
+                                                           Power in Exchange Relations.” American
+     American Sociological Review 55:427–47.
+                                                           Sociological Review 65:407–32.
+Molm, Linda and Karen Cook. 1995. “Social
+                                                     ———. 2000b. “Reliability in Experimental
+     Exchange and Exchange Networks.” Pp.
+                                                           Sociology.” Social Forces 74:1277–1309.
+     209–35 in Sociological Perspectives on Social
+                                                     Thye, Shane R., Michael J. Lovaglia, and Barry
+     Psychology, edited by Karen Cook, Gary
+                                                           Markovsky. 1997. “Responses to Social
+     Fine, and James House. Boston: Allyn and
+                                                           Exchange and Social Exclusion in
+     Bacon.
+                                                           Networks.” Social Forces 75:1031–47.
+Molm, Linda, Gretchen Peterson, and Nobuyuki
+                                                     Thye, Shane R., Jeongkoo Yoon, and Edward J.
+     Takahashi. 1999. “Power in Negotiated and
+                                                           Lawler. 2002. “The Theory of Relational
+     Reciprocal      Exchange.”        American            Cohesion: Review of a Research Program.”
+     Sociological Review 64:876–90.                        Pp. 139–66 in Advances in Group Process,
+Mueller, Charles W. and Edward J. Lawler. 1999.            vol. 19, edited by Shane R. Thye and Edward
+     “Commitment to Nested Organizational                  J. Lawler. Oxford: Elsevier.
+     Units: Some Basic Principles and                Walker, Henry A., Shane R. Thye, Brent Simpson,
+     Preliminary Findings.” Social Psychology              Michael J. Lovaglia, David Willer, and Barry
+     Quarterly 62:325–46.                                  Markovsky. 2000. “Network Exchange
+Parsons, Talcott. 1937. The Structure of Social            Theory: Recent Developments and New
+     Action. New York: Free Press.                         Directions.” Social Psychology Quarterly
+Reeve, John Marshall and Glen Nix. 1997.                   63:324–37.
+     “Expressing Intrinsic Motivation Through        Weber, Max. [1918] 1968. Economy and Society.
+     Acts of Exploration and Facial Displays of            Berkeley: University of California Press.
+     Interest.” Motivation and Emotion               Weiner, Bernard. 1986. An Attributional Theory of
+     21:237–50.                                            Motivation and Emotion. New York:
+Russell, James A. 1980. “A Circumplex Model of             Springer-Verlag.
+     Affect.” Journal of Personality and Social      Westcott, Malcolm R. 1988. The Psychology of
+     Psychology 39:1161–78.                                Human Freedom. New York: Springer-
+Skvoretz, John and Michael J. Lovaglia. 1995.              Verlag.
+     “Who Exchanges With Whom: Structural            White, Robert W. 1959.“Motivation Reconsidered:
+     Determinants of Exchange Frequency in                 The Concept of Competence.” Psychological
+     Negotiated Exchange Networks.” Social                 Review 66:297–333.
+     Psychology Quarterly 58:163–77.                 Willer, David. 1999. Network Exchange Theory.
+Skvoretz, John and David Willer. 1993. “Exclusion          Westport, CT: Praeger.
+     and Power: A Test of Four Theories of Power     Willer, David and Bo Anderson, eds. 1981.
+            #2843—Social Psychology Quarterly—VOL. 69 NO. 2—69204-lawler
+
+200                      SOCIAL PSYCHOLOGY QUARTERLY
+    Networks, Exchange, and Coercion. New              Motivation for Workplace Empowerment:
+    York: Elsevier.                                    The Case of Korean Employees.” Social
+Yoon, Jeongkoo. 2001. “The Role of Structure and       Psychology Quarterly 64:195–206.
+
+Edward J. Lawler is the Martin P. Catherwood Professor of Industrial Relations and Professor
+of Sociology at Cornell University, and series coeditor (with Professor Thye) of Advances in
+Group Processes. His theory and research (mostly with Professors Thye and Yoon) concern the
+role of emotion in social exchange, in particular how and when micro orders develop in
+exchange structures.
+
+Shane Thye is an associate professor of sociology at the University of South Carolina, and series
+coeditor of Advances in Group Processes. With several colleagues, he is conducting research
+funded by the National Science Foundation on the emergence of social order in structures of
+exchange. Professor Thye also is pushing the boundaries of his status value theory of power.
+
+Jeongkoo Yoon is a professor in the Organizational Behavior and Human Resource
+Management Department of the School of Business Administration at Ajou University, Sudon,
+South Korea. With Professors Lawler and Thye, he has developed the research program on rela-
+tional cohesion in power and exchange relations. He also has applied the theoretical program to
+key organizational behavior issues such as empowerment, leadership, and organizational com-
+mitment. Professor Yoon’s current research interests are cross-cultural negotiation and micro
+social order.
+

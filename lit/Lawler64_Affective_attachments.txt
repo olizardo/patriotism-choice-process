@@ -1,0 +1,1340 @@
+Affective Attachments to Nested Groups: The Role of Rational Choice Processes
+
+
+
+
+                              Edward J. Lawler
+
+                             Cornell University
+        This paper puts forth an emotional/affective explanation for action in the collective or group
+
+interest. The explanation is based on the choice process theory of affective attachments to groups
+
+(Lawler 1992)—a theory that focuses on individual- to-group ties in a nested-group context where a
+
+subgroup is encompassed within a larger group. According to this theory, choice processes that give
+
+actors a sense of control arouse positive emotions, and these lead to affective group attachments. A
+
+broader implication is that freedom, choice, and self-determination promote action on behalf of the
+
+collective interest through an emotional/ affective process. The choice process, furthermore, has an
+
+important impact on the allocation of affective attachments to the subgroup and the larger group,
+
+independent of the consequences of the actual choices made. In this paper, I show how the choice
+
+process theory of affective attachments supplements in some respects, and modifies in other respects, a
+
+rational choice approach to collectively oriented behavior in groups.
+
+
+        Affective attachments are important to understanding rational choice phenomena because they
+
+promote preference shifts from the individual or self-interest to the group or collective interest. In
+
+rational choice terms, there are at least three broad ways to characterize such a preference shift. First,
+
+affective attachments lead actors to include the group welfare along with their own individual welfare
+
+as components of their utility function (Becker 1976; Harsanyi 1982). In this account, group benefit or
+
+group welfare becomes a part of and contributes to individual profit maximization. Second; affective
+
+attachments make the group welfare a distinct and separate utility function for actors (Margolis 1982).
+
+This presents them with decisions about how to allocate time, effort, or other resources to the group
+
+utility function (G-utility) versus the self-utility function (S-utility). In this account, the group’s welfare is
+
+important in its own right, not just because it contributes to individual benefit (see Margolis 1982). Thus,
+
+maximizing profit does not necessarily entail maximizing individual welfare (S-utility); it can involve
+
+maximizing group welfare, individual welfare, or both. Third, affective attachments may change
+
+metapreferences, or the choice among “sets” of options, without necessarily determining the choice or
+preference within a given set (Sen 1973). Sen (1973, 1977) suggests that different option sets reflect
+
+different goals or values; as a result, a preference for a given option involves a choice of metapreference
+
+(for example, goal, value) as well as a choice among options within this metapreference. From this
+
+approach, the interests of a larger group, local subgroup, and individual member involve distinct
+
+metapreferences. Affective attachments should shift the choice of metapreference to the group (local or
+
+larger). “Group welfare” involves one or more distinct utility functions, but for Sen, individual
+
+maximization remains the underlying motivation.
+
+
+        I adopt the general approach of Margolis and Sen, focusing on their similarities. Affective
+
+attachments presuppose that the group is a distinct social object for actors, a “reality” toward which
+
+they direct emotion and action. Affective attachments give the group and its corresponding utility
+
+function (G-utility) or value in its own right, that is, something from which individuals derive intrinsic
+
+satisfaction. In Margolis’s (1982) terms, the choice of metapreference is a choice of G-utility or S-utility,
+
+and the propensity toward G-utility is based on the intrinsic value of group membership. The stronger
+
+the affective attachments to groups, the greater the intrinsic value of group membership as such, and
+
+the more individuals’ profit maximization will be constrained, framed, or directed toward the group
+
+interest. In this manner, group memberships which initially have an instrumental foundation become
+
+more “expressive” and “taken for granted,” and actors are willing to nurture the collective welfare by,
+
+for example, contributing to public goods (Lawler and Yoon 1996).
+
+
+        The ties between an individual and a group, like those between individuals, can take three basic
+
+forms: utilitarian, affective, or normative (Kanter 1968, 1972). Individuals can be attached to social
+
+entities because those groups are means to particular ends, because they are valued in their own right,
+
+or because they have rules and norms that direct or guide the actors’ behavior (Parsons 1951; Kanter
+
+1968, 1972). The first is instrumental; the second is emotional/ expressive; and the third tends to
+
+contain both instrumental features (that is, group sanctions) and expressive features (internalized
+beliefs). These forms of attachment, of course, are interrelated. I consider in particular the connection
+
+between the instrumental and emotional/affective bases of attachment and theorize how
+
+expressiveness emerges from an instrumental foundation (see also Lawler 1992; Lawler and Yoon 1993,
+
+1996).
+
+
+         Understanding the emotional aspects of person-to-group ties, apart from person-to-person ties,
+
+is fundamental to the problem of social order, as Parsons and others have suggested (Kanter 1968,
+
+1972; Tajfel and Turner 1985; Markov- sky and Lawler 1994). Once the group is “objectified” or becomes
+
+“real” to actors, people are prepared to act toward the group as a distinct entity and therefore
+
+distinguish relations to specific others in the group from relations to the “group itself” (Berger and
+
+Luckmann 1966; Tajfel and Turner 1985). This has important implications for how moral orders are
+
+created and sustained.
+
+
+
+
+                                                Background
+
+
+         Instrumental and expressive forms of attachment have often been pitted against one another,
+
+yet it seems fairly clear that expressive attachments often develop from instrumentally based group
+
+memberships, and expressive relations often become instrumental for actors over time. To assert that
+
+social relations are inherently either instrumental or expressive or to presume that one particular
+
+relationship obtains between the instrumental and the expressive is to ignore the fact that the
+
+instrumental and the expressive are likely to be interrelated in a variety of ways across different
+
+contexts. Of particular relevance here, the processes of making rational calculations and choices should
+
+have emotional consequences for actors, and these consequences may bear on how they perceive the
+
+group and their own connection to it. Rational choice theorists have given little consideration to the
+
+intrinsic value of choice, autonomy, or freedom, although some have acknowledged their importance
+and the potential that they might alter rational choice explanations (see Sen and Williams 1982;
+
+Harsanyi 1982). It is well known, for example, that perceived choice, freedom, or self-determination
+
+arouses positive emotion under certain conditions (for example, White 1959; Deci 1975, 1980; Westcott
+
+1988). Attention to the emotions generated by rational choice processes has the potential to refashion
+
+and improve rational choice explanations of social solidarity (Hechter 1987) if we can specify how and
+
+when emotion produced by rational choice processes has an impact on affective attachments to the
+
+group.
+
+
+         The role of group attachments in producing preference or metapreference shifts is complicated
+
+by the fact that in most social contexts, people act and interact in “nested groups,” that is, in a local
+
+subgroup subsumed within a larger group. Examples are a state within a nation, a division within a
+
+corporation, a department within a university, or an ethnic community in a larger city. When people
+
+make choices in the context of nested groups, the “group welfare” can mean the subgroup or the larger
+
+group, and clearly this choice—implicitly a choice of metapreference—has a bearing on the locus of
+
+social solidarity. My choice process theory of affective attachments addresses this problem. The theory
+
+formulates general principles for explaining when and how choice processes lead actors to develop
+
+stronger affective attachments to subgroups versus the more encompassing group.
+
+
+Emotion and Rational Choice
+
+
+         The broader theoretical issue being addressed is the emotional side of rational choice processes.
+
+Just as psychologists have transcended the sharp dichotomy between cognition and emotion and have
+
+come to see these as interrelated in a variety of interesting and complex ways, theorists of rational
+
+choice and emotion can benefit from more systematic understanding of how rational and emotional
+
+processes are intertwined. Choice behavior is a good context for doing this. The recent work of Robert
+
+Frank (1988) on “passions” as commitment devices or signals and of Bruno Frey (1992a) incorporating
+intrinsic motivation into neoclassical economic principles offer interesting and important pathways for
+
+development, as do Hochschild’s (1983) ideas on the tactical management of emotional expressions in
+
+work settings, and Clark’s (1990) analysis of emotions as strategies for making status claims. A recent
+
+special issue of Rationality and Society on emotion suggests a shift in thinking about the relevance of
+
+emotion among sociological rational choice theorists.
+
+
+        An ecumenical spirit, however, should not overlook the fact that rational and emotional
+
+approaches to human behavior adopt disparate and somewhat incompatible metatheoretical
+
+assumptions. Rational choice theorists begin with the reasonable premise that social structures entail
+
+constraints on choice options and generate incentives (preferences) for adopting certain choices over
+
+others (Elster 1986). In rational choice theory, one imagines relatively “free” actors who make choices
+
+among the options available, based on the incentives associated with those options. Social institutions
+
+are regularized mappings of options and incentives that account for congruent behavior of large
+
+numbers of actors in the same group, organization, or society and for the “taken for grantedness” of
+
+much behavior. Given the emphasis on choice and its consequences, sociological rational choice
+
+theorists accord somewhat less attention to the process of means-ends deliberation by which choices
+
+are made and virtually no attention to the emotional aspects of this process (see, for example, Hechter,
+
+Opp, and Whippier 1990).
+
+
+        Sociological theories of emotion—although revealing less metatheoretical unity or consensus
+
+than rational choice theories—also begin with a reasonable premise, namely, that the “social” in social
+
+action presupposes a nonrational— emotional or normative—foundation for behavior (Berger and
+
+Luckmann 1966; Scheff 1990; Collins 1981). Social solidarity is in part a priori and constitutive of the
+
+social world. From such theories, one imagines actors who have a common bond to one another and
+
+who are constrained to do what is normatively sanctioned by their group; therefore, choice and choice
+processes play a minimal role. The choices people actually have are trivial, compared to the importance
+
+of those already structured into social institutions.
+
+
+        Yet people do make choices all the time; they at least act like some of these are important; and
+
+emotions such as fear, happiness, elation, and depression are clearly induced by people’s choices (for
+
+example, Festinger 1959). Moreover, recent work on emotion emphasizes that the expression of
+
+emotion, while constrained by the social context, is a matter of some choice (Hochschild 1983; Frank
+
+1988; Clark 1990). Emotions such as anger, shame, and happiness are complements of strategic choices,
+
+helping to present the desired impression or image, to convey commitment to a line of action, or to
+
+even solve the “mutual assurance problem” in mixed-motive settings (see Frank 1988, 1990). As
+
+Hochschild (1983) argues, emotions are managed by actors as much as they are dictated by the social
+
+context.
+
+
+        It is also reasonable to suppose that choice processes, not just the actual choices, arouse
+
+feelings and emotions that people perceive as caused by groups in the social context and that form the
+
+basis for their attachments to these groups (Lawler 1992). Outcomes are important but so is process,
+
+and my theory focuses solely on the latter. In the following sections, I synthesize the main ideas of the
+
+choice process theory of affective attachments and illustrate its implications for rational choice
+
+explanations of various phenomena, including the role of intrinsic motivation in persons’ response to
+
+price and regulatory incentive mechanisms (Frey 1992a,b), the differences between primary and
+
+secondary labor markets (Akerlof 1982, 1984), and the impact of person-to-collective dependencies on
+
+social solidarity (Hechter 1987).
+                           The Choice Process Theory of Affective Attachments
+
+
+        The broadest prediction is that people become more emotionally attached to those groups that
+
+give them a generalized sense of control (Lawler 1992). “Sense of control” does not necessarily mean
+
+“real control,” only its perception; and it is grounded in what groups do for or to us, that is, how they
+
+enable or constrain our action. My argument is that the generalized sense of control has an impact on
+
+actors’ attachments above and beyond the positive benefits actually produced by this control. A key
+
+point of the theory is that affective attachments mediate the impact of instrumental conditions on the
+
+development of commitment, solidarity, and the like.
+
+
+        Obviously, groups are likely to vary in the degree that they provide persons the capacity,
+
+objectively or subjectively, to have an impact on the world around them. Everyday commonsense
+
+conceptions of control tend to be embedded in myths about the primary sources and forms of “human
+
+agency” in a given group, organization, or society. Most groups, organizations, or societies contain
+
+myths about how the collective “empowers” individual members, and the everyday interaction of
+
+members can reaffirm or weaken the force of such myths. Inferences about control are therefore group-
+
+mediated, that is, they are social definitions developed and sustained in and by groups and
+
+organizations.
+
+
+        The scope conditions of the theory entail a choice situation in which individual actors in a
+
+nested-group context (for example, a work group in an organization) face some sort of “problem” and
+
+uncertainty about how to deal with the problem. They have a set of options to choose among and some
+
+degree of discretion (from none to much) to reshape the option set. The problem faced and the
+
+associated uncertainty constitute what is defined as a “choice situation”; the process of identifying,
+
+evaluating, and shaping options is the “choice process”; and the result is an actual choice (Lawler 1992).
+
+While group members interact with each other and therefore influence each others interpretation of
+the choice process, this interpersonal influence process is treated by the theory as a given. This is not a
+
+very limiting condition, because theory and research on group formation indicate that even in the
+
+absence of interaction, people may perceive themselves as a member of a group and act differently
+
+toward in-group and out-group members (for example, Tajfel and Turner 1985; Rabbie and Horowitz
+
+1988; Kramer 1993). Some research supports the distinct and separate effects of person-to-group, as
+
+opposed to interpersonal, ties (see also Hogg and Abrams 1990; Markovsky and Lawler 1994).
+
+
+        The key question addressed by the theory is: When and how do choice processes have an
+
+impact on actors’ affective attachment to subgroups versus more encompassing groups? The theory
+
+holds that choice processes increase or decrease actors’ generalized sense of control by producing more
+
+or less perceived choice, and this cognition then arouses positive or negative emotions. The social-
+
+structural context shapes these cognitions and emotions.
+
+
+Social-Structural Context
+
+
+        Social structures have both constraining and enabling features (Elster 1986; Giddens 1984). The
+
+constraint is embedded in the “set of feasible options” among which actors are able to choose (Elster
+
+1986); “enabling” is found in the opportunities provided by the choice. In other words, a social structure
+
+not only limits choice, it also frees actors to choose among a set of feasible options. My theory assumes
+
+a socially defined option set that is partly exogenous (dictated by social structure) and partly
+
+endogenous (shaped by means-ends deliberation). To the degree that actors construct the options or
+
+the options provide them a wide range of opportunities for action, they sense high control (Lawler
+
+1992). The control may not be realized in the consequences or effects of a particular choice, but as a
+
+generalized capacity, it remains there to be used in the future.
+
+
+        Emotion is defined as a short-term positive or negative feeling that involves neurophysiological,
+
+neuromuscular, and often cognitive components (Kemper 1978). Emotion is a transitory feeling; affect,
+an enduring feeling or sentiment attached to an object (Kemper 1978; Gordon 1981). The objects of
+
+concern are subgroups and groups. Emotions are relatively diffuse feelings, and groups are a possible
+
+target for such feelings. The theory contends that in choice situations, cognitive appraisals of choice and
+
+freedom arouse diffuse emotion that then produces further cognitive work. 1 This additional cognitive
+
+work involves an attribution process that forms, strengthens, or weakens affective group attachments
+
+(Lawler 1992).
+
+
+        The attribution process concerns the inferences actors make from the choice process, rather
+
+than from the consequences of the actual choice (Lawler 1992). I argue that actors develop a
+
+commonsense understanding of the social (external) sources of their choice opportunities and their
+
+generalized capacity for control, regardless of whether they attribute choice consequences to internal or
+
+external conditions (Weiner, Russell, and Lerman 1979). These socially constructed understandings
+
+determine the responsibility that actors attribute to nested groups for the positive (or negative) feelings
+
+generated by the choice process. Thus, even in the case of an internal attribution for a behavior or
+
+actual choice (that is, an attribution to the person), I argue that actors have some understanding or
+
+interpretation about where the choice of behavioral options comes from; this can be viewed as a
+
+“second order” attribution process.
+
+
+        To have long-lasting effects, choice situations and, hence, choice processes need to recur so that
+
+actors repeatedly experience the sense of control or lack of it, and so their episodic attributions about
+
+control crystallize. Social structures establish such conditions by reproducing the same sort of choice
+
+situation for actors over time. If choice situations repeatedly give actors a broad range of options or
+
+
+1
+  Actually, the uncertainties of the choice situation itself are likely to produce baseline emotions in the form of
+fear, anxiety, and interest (Izard 1977). Such emotions should focus people’s attention on the choice problem and
+produce cognitive appraisal, while subsequent choice processes add another layer of cognitive appraisal that
+fosters other emotions such as feeling good, happy, or relieved, which, in turn, generate more cognitive appraisal.
+My emphasis is how individuals’ cognition about the choice process (about the means-ends deliberation) impacts
+emotions felt by actors and how these emotions are then interpreted by the actors.
+substantial discretion to shape them, then choice processes should repeatedly generate a sense of
+
+control and related positive feelings. Choice processes, through such cognitions and emotions,
+
+essentially make people more aware of the constraints and opportunities embedded in social structures
+
+and also make them more likely to attribute these to relevant subgroups and groups.
+
+
+        Overall, people sense more control when social structures allow them to decide how to
+
+manipulate their world and thereby generate a product (see Kohn and Slomczynski 1990 for cross-
+
+national empirical support). To go further and say that a choice process arouses emotion is similar to
+
+saying that a production process (not just the product itself) engenders an emotional response because,
+
+regardless of how satisfying or dissatisfying the particular product, the process reflects actors’
+
+generalized capacity to produce better results in the future. This idea is compatible with Deci’s work on
+
+intrinsic motivation and with White’s analysis of “effectance motivation” (Deci 1975; White 1959). It is
+
+also compatible with Marx’s (1964) notions about when the labor process alienates people from the
+
+products of their labor, and with the role of efficacy in Giddens’s (1984) structuration theory. Choices
+
+that affirm a person’s self-determination or freedom make him or her feel good and are likely to have
+
+intrinsic value (Westcott 1988). The question, then, is whether and when these bear on person- to-
+
+group ties.
+
+
+Choice Process and Affective Attachments
+
+
+        Three basic ideas capture the main propositions of the theory. The first idea is that positive
+
+emotion generated by choice processes strengthens affective ties to groups credited with making choice
+
+opportunities available; negative emotion weakens ties to those blamed for constraining choice (Lawler
+
+1992). I argue that actors singly or jointly attempt to understand the source or causes of these feelings,
+
+because they want to be able to reproduce good feelings and avoid bad ones; this attribution process
+
+leads to a shared understanding of the responsibility (credit/blame) relevant groups and subgroups have
+for such emotions. For example, an ethnic community that creates more opportunities (choices) for
+
+housing or employment for new immigrants should generate stronger affective attachments, if the new
+
+immigrant attributes responsibility for these choices to the ethnic community more than to the larger
+
+nation (Lawler 1992).
+
+
+        The attributions of a set of individuals “aggregate” in part because the second-order
+
+attribution—understanding the social bases or causes for choice opportunities or constraints—produces
+
+a sense of shared experience and of membership in a larger collective entity. The group or subgroup
+
+becomes more salient and also a more distinct utility function, in Margolis’s (1982) terms, as people
+
+come to believe that something they experience individually (an emotion) is due in part to something
+
+they share with others—group membership. The mutual awareness of a shared emotion should be
+
+stronger where the task is a joint one involving several people, because they have an opportunity to
+
+communicate their feelings to one another, but even individual tasks can generate a sense of some
+
+larger collective under “minimal group” conditions (for example, Tajfel and Turner 1985). Sharing the
+
+emotion should further enhance the impact of a sense of control on affective attachments and, in turn,
+
+the degree that affective attachments promote behavior in the group’s welfare (see Collins 1981).
+
+
+        To summarize, the link between social structure, the choice process, and affective attachments
+
+to groups can be portrayed as follows. Social structures generate a balance of constraints and
+
+opportunities for actors engaged in means-ends deliberation; and the choice process fosters emotions
+
+that call for a commonsense explanation or understanding by actors. The commonsense understanding
+
+is likely to make group memberships more salient and lead actors to attribute to the group some degree
+
+of responsibility for the choice opportunity (or constraint) and therefore the generalized control (or lack
+
+thereof) sensed by individuals. The greater the perceived responsibility of the group for choice, the
+
+stronger the affective group attachments.
+        The second basic idea of the theory is that positive emotion produced from choice processes
+
+strengthens affective attachments to a subgroup more than to the larger group it is nested in; whereas
+
+negative emotion weakens attachments to the larger group more than to the subgroup (Lawler 1992).
+
+The theory distinguishes two rules by which actors can distribute responsibility for a generalized sense
+
+of control and related emotion—proximal and distal. The former allocates responsibility to the smaller,
+
+immediate group; the latter, to the larger, more encompassing group. The theory predicts a proximal
+
+rule for positive emotion and a distal rule for negative emotion. Thus, actors tend to give more credit to
+
+the local group or subgroup for choice and freedom (opportunity), and more blame to the larger group
+
+for little choice and freedom (constraints).
+
+
+        Subgroups are likely to receive more credit for choice and less blame for constraint because of
+
+an “interaction advantage.” Subgroups are closer and more immediate, especially if these promote face-
+
+to-face interaction with friends, co-workers, or others with similar social backgrounds. Proximate groups
+
+or subgroups are fertile contexts for mutual sharing of emotional responses to choice processes and also
+
+for the development of common understandings about the sources and degree of individual control
+
+that, all things being equal, favor the local group or subgroup.
+
+
+        One important implication is that more decentralized systems should produce a greater
+
+difference in affective attachment to the subgroup vis-a-vis the larger group. In fact, the more
+
+decoupled the subgroup from the larger group, the greater the difference in affective attachment
+
+(Lawler 1992). This helps to explain why immigrants often become more attached to ethnic communities
+
+than the host nation, why academics often are more committed to their departments than their
+
+universities, why workers often are more committed to their union local than to the national
+
+organization, and why gang members are more committed to their gang than to the local community. In
+
+each of these examples, a subgroup is perceived as a prime source of opportunities, and the larger
+
+group as a prime source of constraint. In fact, within a highly decentralized organization or society,
+policies of the larger organization that empower members should generally strengthen affective
+
+attachments to subgroups more than to the larger groups or organizations because of the “interaction
+
+advantage” afforded the local subgroups.
+
+
+        The third basic idea of the theory is that given recurrent choice situations, repeated affirmations
+
+of control or freedom increase the likelihood of actors adopting options that are in the group's welfare.
+
+The theory conceptualizes actors as choosing among three metapreferences (Sen 1973, 1977): the
+
+subgroup’s welfare, the larger group’s welfare, and the individual’s welfare. The choice process involves
+
+selecting a metapreference as well as an option within it, and the main prediction is that stronger
+
+affective attachments shift metapreferences from the individual to a group and, in particular, to that
+
+group providing actors the greatest sense of control—real or imagined.
+
+
+        I argue further that a choice process which repeatedly affirms actors’ sense of group-mediated
+
+control and freedom is likely to become symbolic or emblematic of the relevant group’s empowering
+
+force. The choice process then is a ritual expression of the group, and the process is used even when it is
+
+unnecessary, that is, when the outcome of the choice is obvious and is known in advance. Once a choice
+
+process becomes symbolic of the group itself, an orientation toward that group’s welfare should be a
+
+taken-for-granted reality whenever the choice process is enacted or activated. In this way, choosing the
+
+group-welfare metapreference becomes a ritual, and means-ends deliberation is confined to the options
+
+subsumed by this metapreference.
+
+
+        The idea of “ritual behavior” is a fruitful way to understand the result of affective attachments
+
+producing a change in metapreference. Rituals are repetitive behaviors or interaction patterns that are
+
+expressive, symbolic, or emblematic of common group memberships (Wuthnow 1987; Collins 1981,
+
+1989). People undertake ritual behavior singly or jointly simply because they are members of the group
+
+and because such behavior is part of the group’s taken-for-granted reality. My theory indicates that
+social structures produce repetitive choice processes that repeatedly produce positive emotion; and
+
+under such conditions, the choice process may become symbolic of the group by virtue of the fact that it
+
+is likely to produce a common focus for actors, mutual awareness of the common focus, and public
+
+displays of positive feeling (see Collins 1981, 1989 on the theory of interaction ritual chains). A
+
+“revealed” group-welfare metapreference, therefore, can be construed as ritual behavior. Such ritual
+
+frames choice without eliminating it, because considerable choice still can occur within a given
+
+metapreference.
+
+
+         To conclude, the choice process theory of affective attachments indicates one way that freedom
+
+and constraint exist side by side and, in combination, produce and reproduce stronger affective
+
+attachments than otherwise would occur. Perceptions of choice or freedom stem from the range of
+
+options within a given taken- for-granted metapreference; constraint, in the lack of choice over the
+
+metapreference (Lawler 1992). If the choice process becomes symbolic or expressive of the group as
+
+such, adopting the subgroup metapreference becomes an everyday ritual (Collins 1981). This means less
+
+free riding, less costly systems of monitoring, and more voluntary compliance with group norms, all of
+
+which remain contingent on the continued provision of choice within the ritualized metapreference 2.
+
+
+
+
+2
+  Departures from the theoretical predictions are likely when affective attachments become so strong that the
+choice of metapreference and the choice within are one and the same thing. This may be the case in highly
+collectivistic cultures and in some cults where the experience of control is socially defined in collective rather than
+individual terms, and the choice is about how the group can control the external environment impinging on
+individuals. However, a similar result is likely to be produced by institutionalized patterns of behavior that become
+so routine and ritualized that actors no longer have to deal with the problems (for example, uncertainty) that gave
+rise to them in the first place. My theory focuses on less extreme circumstances where affective attachments are
+not already so strong.
+                                       Illustrations and Implications
+
+
+        The theory has implications for many issues of relevance to rational choice theory, and I
+
+illustrate several here. First, rational choices that induce perceptions of control and self-determination
+
+should take on intrinsic value and impact person-to-group ties. As an illustration, I use recent articles by
+
+Frey (1992a, b) on how changes in intrinsic motivation toward certain choices alters the impact of
+
+pricing and regulation mechanisms on economic behavior. The second implication concerns the
+
+difference between primary and secondary sectors of an economy or labor market. The common notion
+
+that employees in primary compared to secondary labor markets develop greater organizational
+
+commitments could be due partly to the range of choices and resulting sense of control fostered in
+
+primary sectors. This also can illuminate the similarities and differences between Hechter’s (1987)
+
+theory of group solidarity and the choice process theory of affective attachments. The third implication
+
+is that instrumentally motivated exchanges by the same actors over time may yield a more expressive
+
+relation, maintained as an end in itself. Each illustration suggests a way that the theory of affective
+
+attachments complements and builds on rational choice ideas.
+
+
+Choice and Intrinsic Motivation
+
+
+        Sen’s (1973, 1977) view that the value of autonomy, self-determination, and freedom is an
+
+important omission in rational choice theory is echoed in recent work by Frey (1992a,b). Frey (1992a)
+
+criticizes “standard economics” for ignoring the fact that external instruments, such as pricing and
+
+regulation, can affect intrinsic motivation to engage in a line of economic behavior. Intrinsic motivation
+
+is motivation to do something for its own sake, meaning the act or choice has value in and of itself.
+
+Economic structures that strengthen intrinsic motivation for a given behavior will produce more of that
+
+behavior than otherwise, and economic structures that undermine intrinsic motivation will produce less
+
+of the behavior than economic models predict. Frey’s (1992a) focus is two basic dimensions of economic
+structure, pricing and regulation. Following Deci (1975, 1980), he argues that these economic
+
+dimensions affect the intrinsic motivation for resulting economic behavior to the extent that they bear
+
+on actors’ sense of self-determination. Autonomy or the sense of self-determination is a key
+
+determinant of intrinsic motivation. 3
+
+
+        One of Frey’s key predictions is that direct regulation of economic behavior using punishments
+
+reduces actors’ perceived self-determination more than price incentives and therefore does more
+
+damage to the intrinsic motivation for the “desired” behavior. A second major prediction is that price
+
+incentives damage intrinsic motivation if these make actors feel the choice is clear-cut, meaning that it is
+
+obvious and warrants little means-ends deliberation. That choices must seem “real” to actors is an
+
+important notion reflected in key propositions of the choice process theory (see Lawler 1992). If little
+
+means-ends deliberation is necessary, actors will infer less control, freedom, or self-determination from
+
+a choice.
+
+
+        My theory can take the ideas of Frey (1992a) a step further by suggesting that pricing and
+
+regulation also should modify affective attachments to the relevant group, organization, or society.
+
+Pricing and forms of regulation that create a greater sense of choice, control, and self-determination
+
+ostensibly should produce more affective attachments to those groups or subgroups perceived as
+
+responsible for the choice opportunities. In other words, the conditions that Frey views as producing
+
+more intrinsic motivation are also conditions that tend to foster stronger affective attachments to the
+
+subgroup or larger group that constitutes the context for economic choices. Affective attachments to a
+
+relevant subgroup (for example, city, state, province, nation) will be enhanced more than the
+
+
+
+
+3
+ Frey (1992a,b) also includes positive self-evaluations as a second determinant of intrinsic motivation. Economic
+behavior that enhances both the perception of self-determination and positive self-evaluations will have the
+greatest intrinsic value.
+attachments to the larger society as long as the proximal rule operates. 4 If pricing and regulation
+
+repeatedly create choice situations and processes that actors interpret as evidence of their self-
+
+determination, then these should not only come to have intrinsic value but also become symbolic of the
+
+relevant group.
+
+
+         Applied to Frey’s propositions, the choice process theory predicts that regulation will not harm
+
+intrinsic motivation if it is directed at the choice of the group’s metapreference rather than at the choice
+
+among options falling within or framed by this metapreference—assuming, of course, that there is a
+
+sufficient range of options within the metapreference. In addition, strong price incentives designed to
+
+induce the group’s metapreference (that is, behavior in the collective interest) should not have a
+
+negative impact on the intrinsic motivation for choices within that metapreference, so long as the
+
+options within give actors a sense of control and self-determination. This illustrates one way that, in
+
+combination, constraint directed at the choice of metapreference, and freedom directed at the choice
+
+among options within the desired metapreference, can generate, maintain, or strengthen affective
+
+attachments to groups.
+
+
+Primary and Secondary Labor Markets
+
+
+         Akerlof’s (1982, 1984) idea of gift exchange specifies that primary labor sectors provide workers
+
+more wages than necessary and, in the process, purchase more loyalty from them. This loyalty is based
+
+solely on instrumental conditions—the fact that wages are higher in the primary sector. There are no
+
+wage incentives for an actor to move to a firm in the secondary sector. Thus, firms in primary sectors are
+
+“compensatory groups,” in Hechters (1987) terms, because they attain solidarity by making workers
+
+
+
+
+4
+ While the theory predicts that, all things being equal, a proximal rule for positive emotion will occur, distal rules
+emerge when collective rituals, symbols, and the like make the larger collective more salient and more
+empowering than the local subgroup (see Lawler 1992 for more discussion).
+more highly dependent on the organization, that is, by providing payoffs that are greater than
+
+alternatives.
+
+
+        From the standpoint of my choice process theory of affective attachments, however, primary
+
+labor markets may produce greater employee commitment to a firm, partly because of the emotional
+
+effects of having a wider range of options in organizations within the primary sector. Beyond wage and
+
+salary differences, primary sectors tend to provide workers more opportunities for advancement
+
+(internal labor markets), more autonomy on the job, and more control over their career paths. Greater
+
+“generalized” control over work and career should repeatedly arouse positive feelings on the job that
+
+are attributed to the relevant organization or firm. This is a plausible interpretation of the fact that firms
+
+in a primary sector produce more worker commitment than firms in a secondary sector (see also Lincoln
+
+and Kalleberg 1985).
+
+
+        An important part of my argument is that the choice to stay in a firm or move elsewhere has
+
+different implications than the choice among options about how to accomplish tasks within a given firm.
+
+The choice to stay or not reflects the dependence of the actor on the organization, whereas the choice
+
+about how to do a job or shape one’s career reflects the degree of self-determination within a given
+
+organization. The choice process theory suggests that the emotional/ affective consequences of choice
+
+internal to the firm can counteract the effects of little choice about whether to stay in the firm. This,
+
+once again, shows how constraint and freedom operate side by side. The high levels of solidarity in
+
+Japanese organizations, for example, should be based not just on the lack of choice to leave—that is, the
+
+dependence on the work organization—but also on the way in which the organizations generate a sense
+
+of group-mediated control over work through institutional mechanisms like quality circles.
+Hechter's Theory of Group Solidarity
+
+
+        The contrast of choices to stay in the group with choices provided within the group bears on the
+
+relationship of my theory to Hechter’s (1987) theory of group solidarity. In Hechter’s theory, group
+
+solidarity is based on the dependence of actors on the organization or the lack of a viable choice to exit;
+
+whereas, in my theory, affective attachments are based on the degree of perceived choice and sense of
+
+control provided by the organization the actors are dependent on. These theories are complementary in
+
+most respects, particularly if one views the internal choice as an additional source of dependence on the
+
+organization. Combining the two theories, we find that group solidarity should be greatest and have a
+
+more emotional foundation when actors are both highly dependent on an organization for instrumental
+
+goods and the organization internally provides greater opportunity for choice.
+
+
+        Yet there are noteworthy differences. When high dependence is combined with high internal
+
+choice, my theory predicts more solidarity than Hechter’s theory and also suggests that less developed
+
+mechanisms of monitoring are necessary. Monitoring is analogous to regulation in Frey’s analysis; it
+
+reduces actors’ sense of control. In “obligatory groups”—where members confront “collective
+
+obligations” affirmed and monitored by the group (Hechter 1987)—my theory indicates that these
+
+obligations will be met without monitoring, if the relevant choices have intrinsic value. This is most likely
+
+where the “collective obligations” exercise minimal constraint over choices among the options that all
+
+meet collective obligations in some way.
+
+
+        Choice processes with intrinsic value could conceivably be treated as “immanent goods” by
+
+Hechter’s theory, that is, goods that are jointly produced for use rather than exchange. However, this
+
+seems to stretch the meaning of “immanent goods” in Hechter’s theory (see Hechter 1987: 42-43), and
+
+it would remove from my theory the expressive, symbolic aspect of action on behalf of the group
+
+welfare. If intrinsic value is a type of emergent or immanent good, emotional processes are again
+subject to an instrumental interpretation, and the emotional is subsumed under the instrumental.
+
+Whether to take this approach or not is a question of metatheoretical directive or theoretical strategy.
+
+The divergent assumptions of rational and emotional perspectives on behavior, noted earlier, suggest
+
+different answers, and my theory is aligned more with emotional than rational approaches in this
+
+respect.
+
+
+Commitment Formation in Exchange Networks
+
+
+        Emerson (1981) defined an “exchange relation” as a series of repeated exchanges among the
+
+same actors over time. Exchange relations are formed and maintained solely because of instrumental
+
+conditions—actors expect and receive more benefit from these relations than what is available
+
+elsewhere. However, exchange relations also tend to foster trust or interpersonal liking, and these
+
+perceptions or affective states form the basis for some sort of commitment among the actors (Cook and
+
+Emerson 1978; Emerson 1981; Cook and Emerson 1984; Tallman, Gray, and Leik 1991). The standard
+
+social exchange explanation ties commitment to the individual rewards from interacting with familiar
+
+and/or likable others.
+
+
+        Homans (1961), in his classic work, proposed that the mere frequency of exchange is sufficient
+
+to produce sentiment relations, that is, ones with a significant emotional component. He argued that
+
+the frequency of exchange should have this effect in particular where (1) actors have alternative others
+
+from whom they can receive individual rewards and (2) they expect lower benefits or rewards from
+
+these alternative others. Structural conditions such as these should produce repetitive exchange and
+
+“exchange relations/’ as defined by Emerson (1981), and establish the foundation for
+
+emotional/affective commitments.
+
+
+        Recent work by Lawler and associates (Lawler and Yoon 1993, 1994, 1996; Lawler, Yoon, Baker,
+
+and Large 1995) has taken up Homans’ theme and argued essentially that exchange relations, though
+initially instrumental, become emotional or expressive ends in themselves if structural conditions
+
+produce repetitive exchange by the same actors. They examined the impact of equal power on
+
+repetitive negotiations of a dyad within an exchange network. The results of their experiments indicate
+
+that more equal power and greater mutual dependence produced more frequent exchange between the
+
+same two actors and, in turn, more commitment behavior in the form of token gift giving and a greater
+
+tendency to stay in the relation despite a profitable alternative relation, and more willingness to
+
+contribute to a new joint venture. Instrumental conditions account for the frequent exchange; but
+
+emotional /affective processes account for the link between frequent exchange and commitment
+
+behavior. Equal power produced more commitment behavior than unequal power indirectly via the
+
+positive emotion produced by repetitive exchange. Thus, rational choices to exchange with another had
+
+emotional effects that altered actors’ exchange relation and made them willing to stay despite
+
+profitable alternatives and to do “extra things.” The fact that emotional processes mediate these effects
+
+lends credence to the notion that an expressive relation is being formed from an instrumental base.
+
+
+        The theorizing of Lawler and Yoon (1996) argues that when positive emotion is produced in the
+
+context of accomplishing a joint task with another, of which exchange is one example, actors attribute
+
+their positive feelings to their relation or group. The choice process theory of affective attachments
+
+fleshes this out. A dyadic relation in a larger network can be construed as a nested subgroup, and thus, if
+
+exchange enhances actors’ sense of control over uncertainty in the context, they will feel positive
+
+emotion and tend to view it as being caused by the relation (subgroup) rather than the larger group or
+
+network. Attributions for the emotion may be partly to the other person, forming the basis for
+
+interpersonal liking, or partly to self, but my point is that the relationship itself will be accorded some of
+
+the responsibility for the positive emotion; this generates “relational cohesion,” that is, “the perception
+
+of the relation as a distinct, unifying object” (Lawler and Yoon 1996: 94). The emotions then can be
+
+reproduced by reproducing the relationship. An important implication is that if structural power
+conditions produce different frequencies of exchange across dyads in a network, those dyads that
+
+exchange more frequently should endogenously generate greater cohesion and stronger affective
+
+commitments to their relation and, as a result, be less responsive to changes in the larger network
+
+(Lawler and Yoon 1993, 1996).
+
+
+
+
+                                                    Conclusions
+
+
+        To conclude, my argument is that instrumentally based choice in the context of ongoing groups
+
+produces expressive or emotional attachments to something larger—relations, groups, organizations^-
+
+or societies—that subsumes the individuals. This occurs to the extent that (1) choice processes give
+
+actors a sense of control, (2) the sense of control makes them feel good or elated, and (3) those feelings
+
+are attributed to particular relations or groups. The emotion essentially makes group members more
+
+aware of their collective experience and common membership, more inclined to treat relevant groups as
+
+distinct social objects of attachment, and more willing to affirm and symbolize these attachments
+
+through action on behalf of one or more group’s welfare.
+
+
+        The choice process theory of affective attachments shows when and how affective attachments
+
+to groups strengthen (or weaken) group attachments and produce preference shifts toward the group
+
+or collective interest. One implication for rational choice theory is that actors will make inferences about
+
+their own control from rational choice processes, aside from the results of their choices, and these will
+
+produce feelings about the groups that structure and frame their choice opportunities. These emotional
+
+processes can be construed as a by-product of rational choice, with inadvertent effects on how people
+
+perceive and evaluate their tie to multiple, nested groups in which their action takes place. The
+
+“consequentialism” of rational choice theory diverts attention from these potentially important
+emotional by-products of perceptions of autonomy, freedom, and self-determination (Sen and Williams
+
+1982).
+
+
+         There are several ways for the choice process theory of affective attachments to be developed
+
+further. One is to deal with the question of whether and when the theory applies to circumstances
+
+where affective attachments have become so strong that there is really no choice left—either between
+
+or within metapreferences. The sense of control may remain important even in this context, but
+
+individual control is no longer “group-mediated”; it is “group encapsulated” because actors don’t make
+
+any distinction between their individual control and that of the group or collectivity. Some principles of
+
+the theory should still apply—for example, “group-encapsulated” control should have the same
+
+consequences for individual emotion and for affective attachments to the empowering group. However,
+
+the duality of freedom and constraint at the heart of the theory is no longer relevant in these contexts.
+
+
+         A second direction for development is to take account of the fact that a sense of control is likely
+
+to be associated with positive self-evaluations. Frey (1992a, b) treats positive self-evaluations as a
+
+second condition for economic behavior to be intrinsically motivated. If groups that foster a sense of
+
+control are also a source of positive self-evaluations, only a modest theoretical step is necessary to
+
+propose that such groups also constitute and shape persons’ most salient and central identities (Stryker
+
+1980). The theory could incorporate symbolic interactionist ideas about the impact of self-efficacy on
+
+self-esteem (Gecas 1986) and the role of identity salience in forming and maintaining identity
+
+commitments (Stryker 1980). Groups that produce the greatest sense of control and the strongest
+
+affective attachments are also likely to be the source of highly valued identities for actors.
+                                                   References
+
+
+
+
+Akerlof, G. A. 1982. “Labor Contracts as Partial Gift Exchange.” Quarterly Journal of Economics 90:543—
+
+        49.
+
+
+---------. 1984. “Gift Exchange and Efficiency-Wage Theory: Four Views. ’’American Economic Review
+
+        74:79-83.
+
+
+Becker, G. S. 1976. The Economic Approach to Human Behavior. Chicago: University of Chicago Press.
+
+
+Berger, Peter L., and Thomas Luckmann. 1966. The Social Construction of Reality. Garden City, N.Y.:
+
+        Doubleday.
+
+
+Clark, C. 1990. “Emotions and Micropolitics in Everyday Life: Some Patterns and Paradoxes of‘Place.’” In
+
+        T. D. Kemper, ed., Research Agendas in the Sociology of Emotions, pp. 305-34. Albany: State
+
+        University of New York Press.
+
+
+Collins, Randall. 1981. “On the Microfoundations of Macrosociology.” American Journal of Sociology
+
+        86:984—1014.
+
+
+---------. 1989. “Toward a neo-Meadian Sociology of Mind.” Symbolic Interaction 12:1-32.
+
+
+Cook, Karen S., and R. Emerson. 1978. “Power, Equity and Commitment in Exchange Networks.”
+
+        American Sociological Review 43:721—39.
+
+
+---------. 1984. “Exchange Networks and the Analysis of Complex Organizations.” In S. B. Bacharach and E.
+
+        J. Lawler, eds., Research on the Sociology of Organizations, vol. 3, pp. 1—30. Greenwich,
+
+        Conn.:JAI Press.
+
+
+Deci, E. L. 1975. Intrinsic Motivation. New York: Plenum Press.
+---------. 1980. The Psychology of Self-Determination. Lexington, Mass.: Lexington Books.
+
+
+Elster. 1986. “Introduction.” In Jon Elster, ed., Rational Choice, pp. 1—33. New York: New York
+
+        University Press.
+
+
+Emerson. 1981. “Social exchange theory.” In M. Rosenberg and R. H. Turner, eds., Social
+
+
+        Psychology: Sociological Perspectives, pp. 30—65. New York: Basic Books.
+
+
+Festinger. 1957. A Theory of Cognitive Dissonance. Stanford, Calif.: Stanford University Press.
+
+
+Frank, R. H. 1988. Passions within Reason. New York: Norton.
+
+
+---------. 1990. “A Theory of Moral Sentiments.” InJ. J. Mansbridge, ed., Beyond Self-Interest, pp. 71—96.
+
+        Chicago: University of Chicago Press.
+
+
+Frey, B. 1992a. Economics as a Science of Human Behavior: Toward a New Social Science Paradigm.
+
+        Boston: Kluwer Academic.
+
+
+---------. 1992b. “Tertium Datur: Pricing, Regulating, and Intrinsic Motivation.” Kyklos 45:161-84.
+
+
+Gecas, V. 1986. “The Motivational Significance of Self-Concept for Socialization Theory.’ In E. J. Lawler,
+
+        ed., Advances in Group Processes, vol. 3, pp. 131-56. Greenwich, Conn.: JAI Press.
+
+
+Giddens. 1984. The Constitution of Society: Outline of the Theory of Structuration. Berkeley:
+
+        University of California Press.
+
+
+Gordon, S. L. 1981. “The Sociology of Sentiment and Emotions.” In M. Rosenberg and R. H. Turner, eds.,
+
+        Social Psychology: Sociological Perspectives, pp. 562—92. New York: Basic Books.
+
+
+Harsanyi, John C. 1982. “Morality and the Theory of Rational Behavior.” In A. Sen and B. Williams, eds.,
+
+        Utilitarianism and Beyond, pp. 39-63. Cambridge, Eng.: Cambridge University Press.
+Hechter, Michael. 1987. Principles of Group Solidarity. Berkeley: University of California Press.
+
+
+Hechter, M., K. Opp, and R. Whippier. 1990. Social Institutions: Their Emergence, Maintenance, and
+
+        Effects. New York: Aldine de Gruyter.
+
+
+Hochschild, A. R. 1983. The Managed Heart. Berkeley: University of California Press.
+
+
+Hogg, M. A., and D. Abrams. 1990. Social Identifications. London: Routledge.
+
+
+Homans. 1974 [1961]. Social Behavior: Its Elementary Forms. Rev. ed. New York: Harcourt
+
+        Brace Jovanovich.
+
+
+Izard, C. E. 1977. Human Emotions. New York: Plenum Press.
+
+
+Kanter, R. M. 1968. “Commitment and Social Organization: A Study of Commitment Mechanisms in
+
+        Utopian Communities.” American Sociological Review 33:499—517.
+
+
+---------. 1972. Commitment and Community: Communes and Utopias in Sociological Perspective.
+
+        Cambridge, Mass.: Harvard University Press.
+
+
+Kemper, T. D. 1978. A Social Interactionist Theory of Emotions. New York: Wiley.
+
+
+Kohn, M. L., and K. M. Slomczynski. 1990. Social Structure and Self-Direction: A Comparative Analysis of
+
+        the United States and Poland. Cambridge, Mass.: Basil Blackwell.
+
+
+Kramer, R. 1993. “Cooperation and Organizational Identification.” InJ. K. Murnighan, ed., Social
+
+        Psychology in Organizations, pp. 244—68. Englewood Cliffs, N.J.: Prentice-Hall.
+
+
+Lawler, E. J. 1992. “Affective Attachments to Nested Groups: A Choice-Process Theory.” American
+
+        Sociological Review 57:327-39.
+
+
+Lawler, E. J., and J. Yoon. 1993. “Power and the Emergence of Commitment Behavior in Negotiated
+
+        Exchange.” American Sociological Review 58:465—81.
+---------. 1995. “Power and Emotional Processes in Negotiations: A Social-Exchange Approach.” In R.
+
+        Kramer and D. Messick, eds., The Social Contexts of Negotiation, pp. 143—65. Newbury Park,
+
+        Calif.: Sage.
+
+
+---------. 1996. “Commitment in Exchange Relations: Test of a Theory of Relational Cohesion.” American
+
+        Sociological Review 61:89—108.
+
+
+Lawler, E. J., J. Yoon, M. Baker, and M. Large. 1995. “Mutual Dependence and Gift Giving in Exchange
+
+        Relations.” In B. Markovsky, J. O’Brien, and K. Heimer, eds., Advances in Group Processes, vol.
+
+        12, pp. 271-98. Greenwich, Conn.: JAI Press.
+
+
+Lincoln, James, and Arne Kalleberg. 1985. “Work Organization and Workforce Commitment: A Study of
+
+        Plants and Employees in the U.S. and Japan.” American Sociological Review 50:738-60.
+
+
+Margolis, H. 1982. Selfishness, Altruism, and Rationality. Chicago: University of Chicago Press.
+
+
+Markovsky, B., and Lawler, E. J. 1994. “A New Theory of Group Solidarity.” In E. Lawler, B. Markovsky, J.
+
+        O’Brien, and K. Heimer, eds., Advances in Group Processes, vol. 11, pp. 113—37. Greenwich,
+
+        Conn.: JAI Press.
+
+
+Marx, K. 1964. “Economic and Philosophical Manuscripts.” In T. B. Bottomore, ed. and trans., Karl Marx:
+
+        Early Writings. New York: McGraw-Hill.
+
+
+Parsons, Talcott. 1951. The Social System. Glencoe, Ill.: Free Press.
+
+
+Rabbie, J. M., and M. Horowitz. 1988. “Category Versus Group as Explanatory Concepts in Intergroup
+
+        Relations.” European Journal of Social Psychology 19:172-202.
+
+
+Scheff, T. J. 1990. Microsociology: Discourse, Emotion, and Social Structure. Chicago: University of
+
+        Chicago Press.
+Sen, A. K. 1973. “Behavior and the Concept of Preference.” Economica 40:241 —59.
+
+
+---------. 1977. “Rational Fools: A Critique of the Behavioral Foundations of Economic
+
+        Theory.” Philosophy and Public Affairs 6:317-44.
+
+
+Sen, A. K., and B. Williams. 1982. “Introduction.” In A. Sen and B. Williams, eds., Utilitarianism and
+
+        Beyond, pp. 1—22. Cambridge, Eng.: Cambridge University Press.
+
+
+Stryker, Sheldon R. 1980. Symbolic Interactionism: A Social Structural Version. Menlo Park, Calif.:
+
+        Benjamin Cummings.
+
+
+Tajfel, H., and J. C. Turner. 1985. “The Social Identity Theory of Intergroup Behavior.” In S. Worchel and
+
+        W. S. Austin, eds., Psychology of Intergroup Relations, pp. 7—24. Chicago: Nelson-Hall.
+
+
+Tallman, I., L. Gray, and R. Leik. 1991. “Decisions, Dependency, and Commitment: An Exchange Based
+
+        Theory of Group Development.” In E. J. Lawler, B. Markovsky, C. Ridgeway, and H. Walker, eds.,
+
+        Advances in Group Processes, vol. 9. pp. 227—57. Greenwich, Conn.: JAI Press.
+
+Weiner, B., D. Russell, and D. Lerman. 1979. “The Cognition-Emotion Process in Achievement-Related
+
+        Contexts ". Journal of Personality and Social Psychology 37:1211 — 20.
+
+Westcott, M. R. 1988. The Psychology of Human Freedom. New York: Springer-Verlag.
+
+White, R. W. 1959. “Motivation reconsidered: The concept of competence.” Psychological Review
+
+        66:297—333.
+
+
+Wuthnow, R. 1987. Meaning and Moral Order. Berkeley: University of California Press.
+

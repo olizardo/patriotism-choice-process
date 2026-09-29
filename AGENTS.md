@@ -13,18 +13,21 @@ Manuscript project: *Patriotism as a Choice Process: National Pride After 9/11* 
 - `scripts/generate_tables.R` — canonical data-cleaning and model-fitting pipeline; pulls live 1996 and 2004 GSS waves via the `gssr` package (`gss_get_yr()`), not from a static local file.
 - `data/patriotism.dta` — an older/different data snapshot. **Do not use this to verify current manuscript results** — its variable set and cleaning differ from `scripts/generate_tables.R` and produces different (non-matching) coefficients/significance patterns. For any data verification or robustness check, replicate the pipeline in `scripts/generate_tables.R` using `gssr::gss_get_yr(1996)` and `gss_get_yr(2004)` instead.
 - Git remotes: `origin` (GitHub) and `overleaf` (`https://git.overleaf.com/6a4e5a994d2c37330eafdfb5`) — the project is git-linked to Overleaf; `git fetch overleaf` / merge to sync with the web editor.
+- `lit/` — source PDFs for key theoretical citations, including three Edward Lawler pieces: `Lawler-AffectiveAttachmentsNested-1992.pdf` (the core choice-process/nested-attachment theory, cited as `lawler1992affective-8c8`), `Lawler64_Affective_attachments.pdf` (1997 restatement), and `lawler-et-al-2006-commitment-in-structurally-enabled-and-induced-exchange-relations.pdf` (structurally enabled vs. induced commitment, cited as `lawler2006commitment-b3a`, added to `references.bib` during the R1 revision). Useful for verifying any future claims attributed to Lawler.
+- `references.bib` — bibliography; `lawler2006commitment-b3a` was added here alongside the pre-existing `lawler1992affective-8c8` entry.
 
 ## Modeling Notes
 - Two continuous outcomes: U.S. Pride Scale (0–10 additive count of ten dichotomized "very proud" items) and Nationalism Scale (mean of four reverse-coded 5-point Likert items).
 - All substantive hypothesis tests use weighted OLS (`lm()` with `weights = wtssall`); logistic regression is used only for the preliminary item-level "very proud" descriptive analysis (Figure 1).
 - Two model designs: pooled 1996/2004 models with year × education interaction (Tables 1–2), and 2004-only cross-sectional models for voluntary-association membership effects (Table 3), since the membership battery was fielded only in 2004.
+- Theoretical framing in `manuscript_R1.tex` treats the September 11 attacks as the catalyzing event for a broader **post-9/11 period** (through the 2004 wave), encompassing the Afghanistan and Iraq wars, rather than as an isolated punctual stimulus — Section 2.3 is titled "The Theoretical Status of the Post-9/11 Period: A Shift in Attribution Rules" (renamed from "...of 9/11..."). New Section 3.2.1 ("Why Two Outcomes? Affective Attachment versus Blind Nationalism") explains the U.S. Pride vs. Nationalism scale distinction as a discriminant-validity test between the choice-process and needs-based accounts.
 
 ## Revision Status (R&R for SPQ-26-0082)
 
 ### Editors
 | # | Comment | Status |
 |---|---|---|
-| 1 | Theoretical mechanisms underdeveloped | Not yet addressed |
+| 1 | Theoretical mechanisms underdeveloped | **Addressed** — same underlying revision as Reviewer 1 Point 1: grounded the proximal→distal shift in Lawler's (1992) rituals/symbols salience mechanism, added Lawler, Thye, and Yoon (2006) for the structural-autonomy/nested-subgroup mechanism, and added Sec. 3.2.1 on the two-outcome distinction |
 | 2 | Presentation/flow needs polish | Not yet addressed |
 | 3 | Methods section needs more detail/justification | **Addressed** — added Analytic Strategy subsection (Sec. 3.5) + HC1 robust-SE robustness check |
 | 4 | Revision memo required | **Addressed** — `response_to_reviewers.tex` serves as the memo |
@@ -32,9 +35,9 @@ Manuscript project: *Patriotism as a Choice Process: National Pride After 9/11* 
 ### Reviewer 1
 | # | Comment | Status |
 |---|---|---|
-| 1 | Theoretical mechanisms lack substance; outcome-variable distinction unclear; unsupported claims (proximal/distal weakening, saliency of nested subgroups, p.5) | Not yet addressed |
+| 1 | Theoretical mechanisms lack substance; outcome-variable distinction unclear; unsupported claims (proximal/distal weakening, saliency of nested subgroups, p.5) | **Addressed** — grounded the proximal→distal shift in Lawler's (1992) rituals/symbols salience mechanism and added Lawler, Thye, and Yoon (2006) to explain nested-subgroup saliency; added new Sec. 3.2.1 explaining the U.S. Pride (affective attachment) vs. Nationalism (blind/ideological) scale distinction as a discriminant-validity test between the two theories |
 | 2 | No discussion of the 9/11 event itself or its context/literature | Not yet addressed |
-| 3a | Confounding events (e.g., Iraq War) between 1996–2004 | Not yet addressed |
+| 3a | Confounding events (e.g., Iraq War) between 1996–2004 | **Addressed** — reframed the paper's object of interest as the post-9/11 period (catalyzed by 9/11, encompassing the Afghanistan/Iraq wars) rather than 9/11 as an isolated event; added explicit limitation acknowledging 9/11 vs. wartime-mobilization effects cannot be fully decomposed |
 | 3b | Why logistic regression instead of linear? | **Addressed** — clarified logistic regression is used only for preliminary item-level analysis; all substantive models are OLS |
 | 3c | Methods section completely missing | **Addressed** — new Analytic Strategy subsection added |
 | 3d | No descriptive tables/plots (placeholder only) | **Addressed** — descriptive statistics table moved into Data and Variables section with real values |

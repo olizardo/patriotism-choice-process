@@ -1,0 +1,905 @@
+Affective Attachments to Nested Groups: A Choice-Process Theory
+Author(s): Edward J. Lawler
+Source: American Sociological Review , Jun., 1992, Vol. 57, No. 3 (Jun., 1992), pp. 327-
+339
+Published by: American Sociological Association
+
+Stable URL: https://www.jstor.org/stable/2096239
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+
+
+
+            American Sociological Association is collaborating with JSTOR to digitize, preserve and extend
+            access to American Sociological Review
+
+
+
+
+                                                     This content downloaded from
+                                  76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                             All use subject to https://about.jstor.org/terms
+                 AFFECTIVE ATTACHMENTS TO NESTED GROUPS:
+                                 A CHOICE-PROCESS THEORY*
+
+
+                                                EDWARD J. LAWLER
+                                                  University of Iowa
+
+
+           This paper offers a theory linking choice processes with the experience of transitory e
+          and the development of enduring affective attachments to nested collectivities, i.e., sub
+           within a larger group, organization, or society. According to the theory, persons be
+           emotionally attached to groups that strengthen their generalized sense of control. T
+          derlying propositions are that: (1) choice processes that foster a high sense of contr
+          duce positive emotion (happiness, pride, gratitude); (2) such positive emotion strengt
+          affective attachments to groups perceived as most responsible for the choice opport
+          and (3) such positive emotion strengthens attachments to proximal subgroups more th
+          larger, more encompassing collectivities. Complementary predictions obtainfor lack of c
+          negative emotion (sadness, shame, hostility), and the weakening of collective attachme
+          The theory explicates a subtle social process important to individuallgroup relations,
+          suggests conditions likely to produce behavior directed at the collective welfare.
+
+
+
+In this paper, I develop a connection between       dude a province within a nation, a clique within
+        two simple but far-reaching ideas. The firsta is
+                                                       political party, a division within a corporation,
+that people value self-determination, choice, and             a department within a college, a juvenile gang
+discretion. Diverse areas of inquiry - such as                within a neighborhood, or a nuclear family with-
+theories emphasizing human agency (Giddens                    in an extended family. Nested groups are com-
+1984), work autonomy (Kohn and Slomczynski                    posite, generalized others constituting distinct
+1990), intrinsic motivation (Deci 1975), and "hu-             referential comparisons and identities for indi-
+man freedom" (Westcott 1988) - contain such                   viduals. Given such nested groups, under what
+a conceptual thread. The second idea is that peo-             conditions do actors develop different degrees of
+ple form person-to-collectivity attachments that              attachment to subgroups and the larger group?
+are theoretically and empirically distinct from per-             Consider the experience of a recent immigrant
+son-to-person bonds (Parsons 1951; Kanter 1972;               in an ethnic community within a host country.
+Hall 1988). I analyze theoretically how and when              Upon arrival, the immigrant faces a set of oppor-
+groups, organizations, or societies that provide              tunities and constraints regarding housing, em-
+individuals the most freedom of choice also pro-              ployment, and education. To the extent that the
+duce the strongest actor-to-collectivity attach-              local ethnic community provides the immigrant
+ments.                                                        with relevant information, contacts, or resources
+   Social structures typically place actors in mul-           to shape a range of options, the ethnic communi-
+tiple, nested collectivities in which they are si-            ty is a primary source of the immigrant's sense
+multaneously members of at least two groups,                  of freedom and control over his or her own fate.
+one encompassed within the other. Examples in-                The theory predicts stronger attachments to that
+                                                              ethnic community. Attachments to the larger col-
+                                                              lectivity, the host nation, will be slow to develop
+   * Direct correspondence to Edward J. Lawler, De-
+partment of Sociology, University of Iowa, Iowa City,
+                                                              to the degree that it erects bureaucratic hurdles
+IA 52242. This is a revised version of a paper present- that constrain the immigrant's options.
+ed at the Public Choice Meetings, San Francisco, 1988.           Parsons (195 1) distinguished person-to-person
+I thank the following people for helpful comments on          from person-to-collectivity attachments. He ar-
+earlier drafts: John H. Harvey, Guillermina Jasso, Jae- gued that the latter are an important foundation
+On Kim, Barry Markovsky, Michael Hechter, Robin         for social order once the collective becomes a
+Stryker, Jeongkoo Yoon, Lawrence Williams, and par-           distinct cognitive object for members. In the
+ticipants in the Iowa Workshop on Theoretical Anal-           above example, immigrants are likely to have
+ysis.                                                         interpersonal bonds with persons in the host coun-
+
+
+                           American Sociological Review, 1992, Vol. 57 (June:327-339) 327
+
+
+
+                                           This content downloaded from
+                        76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                   All use subject to https://about.jstor.org/terms
+ 328        AMERICAN                          SOCIOLOGICAL                                REVIEW
+
+
+try before migrating and to develop more such              CONCEPTUAL FRAMEWORK
+ties after arriving. However, immigrants also be-
+                                                           The Choice Situation
+come part of an ethnic community and are likely
+to develop some degree of attachment to that               The theory assumes a choice situation that con-
+community as such. According to Parsons, ac-               fronts actors as group members with a "problem"
+tor-to-collectivity attachments take three prima-and with uncertainty about how to solve it. The
+ry forms - cognitive (utilitarian), cathectic (emo-case of an immigrant to a new country is an ex-
+tional), and evaluative (normative). Each form is  treme example. The uncertainty may concern: (1)
+important in the overall relationship between per- what goal or future state of affairs to pursue, e.g.,
+sonality systems and social systems (Parsons and   what type of housing to seek; (2) what means are
+Shils 1951; Parsons 1951; see also Kanter 1972).           available, e.g., how to find housing; or (3) what
+Strong bonds on any of these dimensions make               consequences are likely, e.g., how adequate will
+actors more responsive to the control and sanc-            the housing be? Viewed from a rational choice
+tion systems of a group, organization, or society. perspective (Elster 1986; Hechter 1987), actors
+Immigrants who develop strong attachments to       who face a choice situation specify one or more
+the local ethnic community should be more re-              goals, identify alternative means for reaching the
+sponsive to its norms about how to get along in goal(s), and assess the likely consequences of
+the host country. Thus, if individual choice is each. The chosen act produces a set of external
+one basis for collective attachments, paradoxi-            events, e.g., consequences. Thus, the choice situ-
+cally it also is a source of increasing collective         ation produces a choice process - means/ends
+control and subjugation of individuals (Lawler             deliberation - that is analytically and empirical-
+forthcoming).                                              ly distinct from the chosen act and from the events
+  My theory deals with the cathectic form of               or external consequences produced by the chosen
+actor-to-collectivity attachment in order to un-           act.
+derstand how transitory emotions generated by                 Most conceptions of decision-making process-
+choice situations produce enduring emotional at-           es portray such choice situations in purely cogni-
+tachments to nested subgroups. In the abstract             tive terms. Yet goals are motivational conditions
+choice situation, actors engage in instrumental            that arouse emotion as well as cognition and both
+tasks that can be accomplished in a variety of             emotion and cognition affect subsequent goal-
+ways. A social structure, encompassing at least            directed behavior (Izard 1977). Emotional and
+one subgroup and one larger group, shapes ac-              cognitive states are intertwined in a choice pro-
+tors' options for accomplishing their tasks, and           cess, and I hope to disentangle some of the con-
+these options have uncertain consequences, dif-            nections among these states.
+ficult to assess objectively. Such a choice situa-
+tion describes a social context that people en-
+                                              Concept of Emotion
+counter frequently and that produces a variety of
+normal, everyday emotions.                    An emotion can be defined as a relatively short
+  Within such a choice situation, I propose that           term positive or negative evaluative state that in-
+the meanslends choice process weakens or                   volves neurophysiological, neuromuscular, and
+strengthens affective attachments to groups by             often cognitive components (Kemper 1978; Izard
+producing normal, everyday positive or negative    1977). Normal emotions are assumed to be rela-
+emotional states. Examples of relevant positive    tively mild sensations of feeling good (happy) or
+emotions are happiness, pride, and gratitude; ex- feeling bad (sad) (Isen 1987). However, the psy-
+amples of relevant negative emotions are sad-      chological and sociological literatures on emo-
+ness, shame, and hostility. I exclude from con-    tion reveal little consensus about the meaning and
+sideration "patholological" or debilitating levels foundation of "emotion" and related terms, such
+of fear, anger, or depression (see Izard 1977 and  as affect, mood, feelings, and sentiments (Kem-
+Kemper 1987 for relevant discussions) and focus    per 1987; Gordon 1981; Izard 1977. I adopt a
+on the choice process rather than its consequenc-  position similar to Kemper's (1978) and Gordon's
+es (Kemper 1978) or performance outcomes           (1981) - that emotion is a transitory feeling; af-
+                                            fect is an enduring feeling or sentiment. Further-
+(Weiner, Russell, and Lerman 1979). The choice-
+to-emotion emphasis differs from recent effortsmore, I treat emotion and mood as synonymous.
+to understand emotion-to-rational choice links  The normal emotions important to choice situ-
+(Isen 1987; Frank 1988; Etzioni 1988).                     ations entail distinctive bodily changes or sensa-
+
+
+
+                                        This content downloaded from
+                     76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                All use subject to https://about.jstor.org/terms
+AFFECTIVE ATTACHMENTS TO NESTED GROUPS 329
+
+
+tions (Kemper 1978) as well as cognitive ap-                my theory is whether a choice process produces
+praisal - comprehension and interpretation                  positive versus negative emotion rather than any
+of the bodily sensations (Lazarus 1984; Schacter            specific type of emotion. Thus, assuming a choice
+and Singer 1962). Extrapolating from the psy-               situation that produces some combination of in-
+chological literature, an actor in a choice situa-          terest and fear leading to a choice process, my
+tion is likely to experience both heightened arous- theory examines how resulting cognitive respons-
+al in the form of "interest-excitement" based on            es (1) yield general positive or negative feelings
+an "awareness of potential satisfaction" (Deci              (happiness or sadness) that in turn (2) foster en-
+1975, 1980; Izard 1977) and also fear based on              during affective attachments toward nested
+the prospect of being unable to deal with the               groups.3
+problem. However, cognition mediates the emo-
+tional effects of a choice situation because actors
+must recognize or comprehend that a problem                 BASIC PROPOSITIONS
+affecting their well-being exists (see Lazarus 1984
+                                                            Social Structure and the Choice Process
+for a related argument). My focus aligns more
+with arguments for the primacy of cognition and Choice situations occur in a social structure that
+social construction (Schacter and Singer 1962;  creates a set of options (means) and legitimized
+Shott 1979; Gordon 1981; Lazarus 1984) than                 goals (ends). Rational choice theory views social
+with arguments for the primacy of emotion and               structure primarily as a constraint that establish-
+specific underlying physiological conditions         es a "set of feasible options" ranked in terms of
+(Kemper 1978; Zajonc 1984).1                         an actor's preference (Hechter 1987; Elster 1986).
+   The interest and fear produced by choice situ-    Elster's synopsis of a rational choice process,
+ations are baseline emotions that direct actors      however, implies that social structure not only
+attention toward a choice problem that results in constrains choice, but also "frees" action by pro-
+a choice process and further cognitive appraisal,    viding more than one option. Adopting a similar
+i.e., means/ends deliberation. For example, new      theme, Giddens (1984) developed the idea that
+immigrants are likely to experience interest and     any social structure has both "constraining" and
+fear that focuses their attention on issues of hous- "enabling" effects on social action or choice.
+ing, employment, and so on. I argue that subse-         "Enabling" echoes Kanter's (1977) "empow-
+quent choice processes add layers of cognitive       erment." For example, she stressed that job en-
+appraisal that, in turn, produce other emotions. Arichment programs that increase task variety are
+choice process can make people feel good, hap-       not likely to increase a worker's commitment to
+py, thankful, or relieved, or it can make them feel  a company unless such programs include struc-
+bad, sad, angry, hostile, or tense. In a choice      tural changes giving the worker more options
+situation, cognitions mediate all of these emo-      and autonomy; otherwise, job enrichment increas-
+tions. The emotions in turn tend to produce an       es the "burdens" or constraints, counteracting
+attribution process as actors singly or jointly at-
+                                                   self (Kemper 1978), gratitude and hostility to others
+tempt to understand the source of the emotion.
+                                                    (individuals or collectivities). While Kemper treats
+For actors, developing a common sense under-
+                                                   happiness, depression, fear, and anger as primary
+standing of why they feel the way they do is
+                                                   emotions and pride, shame, gratitude as secondary,
+important so they can reproduce good feelings      my theory treats sadness as normal, everyday depres-
+and avoid bad feelings in the future.               sion and integrates fear and interest/excitement into
+   The theory I propose takes happiness, pride,     the choice situation (Izard 1977). Anger is incorpo-
+and gratitude as the most relevant positive emo-   rated as hostility toward external sources of sadness,
+tions, and sadness, shame, and hostility as corre- i.e., as a secondary rather than a primary emotion in
+sponding negative emotions.2 Most important for Kemper's terms.
+                                                            I Empirical efforts to dimensionalize emotion vo-
+  I I make no general claim about the primacy of         cabularies and moods invariably generate positive!
+emotion versus cognition (see debate between Zajonc      negative factors, such as happy/sad or pleasant/un-
+1984 and Lazarus 1984), but assume that emotions         pleasant (Watson and Tellegen 1985; Clore, Ortong,
+created by a choice situation involve some degree of     and Foss 1987; MacKinnon and Keating 1989). Arous-
+cognitive mediation.                                     al or activation is a second dimension that typically
+   2 Happiness and sadness are diffuse positive and      emerges and potency is a third, somewhat less impor-
+negative feelings elicited by the choice process, where- tant dimension, suggested by research using Osgood's
+as the other emotions are, by definition, more specificsemantic differential approach to meaning (Heise
+and attach to social objects - pride and shame to the    1988; MacKinnon and Keating 1989).
+
+
+
+
+                                         This content downloaded from
+                      76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                 All use subject to https://about.jstor.org/terms
+ 330        AMERICAN                          SOCIOLOGICAL                               REVIEW
+
+
+ potential                benefits                   of       increased                task
+                                                              Proposition 1: If the choice processesvariety
+                                                                                                    provided      (
+1978, pp. 256-57). Related research on organi-                 by a social structure increase an actor's range
+zations suggests the importance of work autono-                of options or discretion to revise options, then
+my and discretion for satisfaction, commitment,
+                                                               the actor's generalized sense of control will
+and turnover (e.g., Mathieu and Zajac 1990).
+                                                               increase.
+  The constraining and enabling effects of social
+structure are two sides of the same coin. Actors               Several properties of the option set can pro-
+interpret a social structure primarily in terms of duce variation in the sense of control. Proshan-
+either the constraints it imposes or what it en-            sky, Ittelson, and Rivlin (1970) stress the num-
+ables them to do. This interpretation can be char- ber of options, arguing that more options in a
+acterized as the actor's "sense of control," the            task-oriented setting provide actors greater flexi-
+perception that she or he can cause external events,
+                                                  bility to adapt to intricacies of the social context.
+that is, manipulate the environment (Westcott               One series of experiments by Harvey, Harris,
+1988). I argue that means/ends deliberation in theand Lightner indicated that actors who face two
+choice process is an important foundation for such
+                                                 options with uncertain consequences perceived
+perceptions and, thus, for the generalized sense ofthemselves as having more control if both op-
+control fostered by a social structure. Means/ends tions had a positive expected value and if the
+deliberation occurs in the context of a given so-           difference between the options was neither very
+cial structure and, therefore, choice processes are         small nor very large (Harvey, Harris, and Light-
+one of several mediators between structural con-            ner 1979; Westcott 1988). By implication, a
+ditions and an actor's sense of control.                    choice process fosters a low sense of control when
+  The socially defined "option set" that constrains        the differences among options imply little need
+or enables the choice process forges a link be-            for means/ends deliberation and when the choice
+tween the social structure and the actors' choice           is among negatively valued options. If new im-
+of a specific act. I conceptualize the option set as       migrants have only bad housing to choose from
+partly exogenous (dictated by the structure) and            or if the choice is between obviously bad and
+partly endogenous (shaped by means/end delib-              obviously good housing, they will sense less con-
+eration). To the degree that actors construct so-          trol over where they live than if the choice were
+cially defined options, they sense high control            among several good housing possibilities. Thus,
+over the choice. From this perspective, complex            the socially-defined option set serves as a phe-
+tasks undertaken without much supervision cre-             nomenological indicator of control for actors in a
+ate a high sense of control (Kohn and Slomczyn-            choice situation.
+ski 1990) because actors' "occupational self di-
+rection" permits them to develop and reshape
+                                                    The Sense of Control and Emotion
+options, that is, engage in more means/ends de-
+liberation. Examples include a faculty member       A key idea in the psychological literature is that
+determining how to teach a course, a computer people seek and respond with positive emotion
+engineer deciding how to develop a particular       to conditions that give them a "sense of control."
+computer program, and a middle manager decid- Research has shown that actions demonstrating
+ing how best to implement a change in organiza-     an actor's control, efficacy, self-determination,
+tional policy mandated by upper management.         or mastery over the environment produce posi-
+Position in the stratification system determines    tive emotions like pleasure, happiness, and en-
+the degree to which work conditions, like close- joyment (Deci 1975; Izard 1977; Kemper 1978).
+ness of supervision, allow self-direction that, in  White (1959) tied this propensity to an "effec-
+turn, produces a general orientation (personality)  tance motivation," i.e., exploration and manipu-
+toward self-direction and intellectual flexibility lation of the environment, that is neurological in
+(Kohn and Slomczynski 1990). When the social        origin. Deci (1975, 1980) viewed the need for
+structure, e.g., a position or role, fixes the op-  competence, self-determination, or efficacy as a
+tions, actors may still "freely" evaluate the op-   generalized motivational force that underlies
+tion set and perceive themselves as controlling     goal-directed behavior and, especially related to
+the choice within the set. In this case, the range  my theory, makes goal-directed behavior intrin-
+of options may be the most important determi- sically valuable. A variety of other psychologi-
+nant of an actor's sense of control rather than the cal work suggests that a sense of control gener-
+actor's capacity to shape them. This reasoning      ates emotional reactions: the theory of psycho-
+implies:                                            logical reactance (Brehm 1966), attribution the-
+
+
+
+                                         This content downloaded from
+                      76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                 All use subject to https://about.jstor.org/terms
+AFFECTIVE ATTACHMENTS TO NESTED GROUPS 331
+
+
+ory (Jones and Nisbett 1972), and Rotter's (1966)            self-determination and control to oneself and to
+analysis of internal versus external control. The            others, even if consequences are negative (Mar-
+implication is that the need for self-determina-             well 1966; Westcott 1988).4
+tion and efficacy produces positive emotions                    The choice process is important independent
+when the choice process realizes this need and               of the consequences of choice because it reflects
+produces negative emotions when the choice pro- an actor's capacity to adapt, initiate, and explore
+cess blocks it.                                              in future choice situations. Although actors may
+  Some sociological work also supports the im-               prefer to avoid a choice situation in the first place,
+portance of self-determination or efficacy, e.g.,            once confronted, they prefer more choice to less
+Giddens' (1984) structuration theory, Marx's                 choice. Avoiding choices means avoiding the
+([1932] 1964) analysis of worker alienation from             uncertainty associated with choice situations; it
+the products of their labor, and Kohn's research             does not mean seeking less freedom or control
+on class and work autonomy (Kohn and Slomc-                  when facing uncertainty. Also, inferences from
+zynski 1990). In an interesting application, Mar-            the choice process shape emotional responses to
+well (1966) conceptualized the illegal acts of ju-           the consequences of choice. If the choice process
+venile delinquents as efforts to demonstrate their creates an impression of free choice, then actors
+ability to control or to manipulate situations de-           infer that they can maintain "good" consequenc-
+spite their lack of resources (skills, wealth, etc.).        es or stem "bad" consequences in future choices.
+Properties of delinquent acts, such as "negativ-             Therefore, the emotional effects of the sense of
+ism" and "maliciousness," reflect the intrinsic              control do not depend solely on the consequenc-
+value of claiming or asserting control even if               es of a choice as Kemper's (1978) theory sug-
+punishments are inevitable. Eliciting punishment             gests.5
+is evidence of an impact on the world and is                    Kemper's (1978) sociological theory of emo-
+valued and approved by peers because it affirms              tion suggested that the control actors derive from
+the potential for control or power. A similar point social structure engenders emotion. However, he
+is implied by Goffman's (1961) analysis of how      ignored the role of the choice process and stressed
+persons in total institutions carve out areas of             the emotional effects of whether an actor's pow-
+freedom and subtle resistance that give them a               er or status in a relationship is excessive, ade-
+sense of control over some part of their lives.              quate, or insufficient (Kemper 1978, 1990). Ex-
+  Thus, from a diverse literature, I assume that:            cessive or insufficient power/status levels pro-
+(1) as "agents" in their social world, humans val-           duce negative emotions (e.g., guilt, shame) while
+ue a sense of control; (2) they experience a sense           adequate levels produce positive emotions (e.g.,
+of control when social structures enable them to
+manipulate the external world, i.e., to generate a                The theoretical and empirical foundations for
+"product" individually or jointly; (3) the "pro-             equating "sense of control" and "perceived freedom
+duction" process, as well as its result, is a basis          of choice" are primarily studies of Western cultures.
+for actors' inferences of generalized freedom or             Although the cultural definitions and content of choice
+
+control (or lack of it); and (4) actors react emo-           and freedom probably differ across cultures, the ab-
+                                                             stract principles of my theory should be broadly, if
+tionally as well as cognitively to their sense of
+                                                             not universally, applicable. The question of cross-
+freedom and control. This implies:
+                                                             cultural validity is, of course, an important empirical
+  Proposition 2: If a choice process (means/ends             issue.
+                                                                I Evidence of control arisingfrom the choice pro-
+  deliberation) within a social structure reaffnns
+                                                 cess should enhance the positive emotions generated
+  or increases an actor's sense of control, then
+                                                 by good consequences, but dampen the negative emo-
+  an actor experiences positive emotions (e.g.,  tions associated with bad consequences because ac-
+  happiness, pride, or gratitude); if a choice   tors still perceive the potential for control (see Mar-
+                                                 well 1966 for an application regarding juvenile delin-
+  process reaffirms or increases a lack of control,
+                                                             quency, and Pyszczynski and Greenberg 1987 on post-
+  then an actor experiences negative emotions
+                                                             decision biases). The dampening of negative emo-
+  (e.g., sadness, shame, or hostility).                      tions can be accentuated by dissonance effects, but
+                                                             this requires a perception that the negative consequenc-
+"Perceived freedom of choice" is substitutable for
+                                                             es were foreseeable. Research reveals that dissonance
+"sense of control" in the above proposition (see  effects occur only if a freely-made choice is counter-
+Deci 1975, 1980 on "intrinsic motivation," and    attitudinal and has negative consequences that should
+White 1959 on "effectance motivation"). Choic-    have been foreseen by the actor (Pyszczynski and
+es perceived as "free" demonstrate qualities like Greenberg 1987).
+
+
+
+                                          This content downloaded from
+                       76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                  All use subject to https://about.jstor.org/terms
+ 332         AMERICAN                           SOCIOLOGICAL                                REVIEW
+
+
+happiness and security). If social structure is in-              Combining Propositions 1 and 2, then, social
+terpreted in terms of status, Kemper's (1978,                 structures are important because they produce
+1987, 1990) theory makes predictions similar to               repeated choice situations in which actors increase
+mine on the happiness and sadness dimensions                  or decrease their senses of control. When formal
+(Kemper 1990, p. 222).6                                       or informal positions, standard operating proce-
+   My theory diverges from Kemper's (1978) pri-
+                                              dures, or interpersonal pressures highly constrain
+marily in that I treat the sense of control as a              choice processes, actors experience frequent re-
+generalized potential that is independent of par-             minders of minimal control and negative emo-
+ticular control-related outcomes (see also Mar-               tions result. Such constraining social structures
+well 1966). Thus, "power" in Kemper's theory is               weaken affective attachments to relevant groups.
+realized or actual power, whereas in my theory                In contrast, social structures that create repeated
+"power" is a potential (Bacharach and Lawler                  instances of perceived choice and control (real or
+1981). With the latter position, presumably there             not) generate positive emotions that strengthen
+is no upper threshold beyond which control and                affective attachments to relevant groups. The re-
+mastery foster guilt or shame. People may feel                peated experience of positive or negative emo-
+guilt or shame for exercising excessive control               tions that social structures create is the basis for
+over others in a particular situation, as Kemper              cognitive (attributional) appraisals that underlie
+(1987) suggested, but also feel good about their              enduring affective attachments to nested sub-
+potential to control future uncertainties. My the- groups and/or collectivities.7
+ory stipulates that, ceteris paribus, any increase
+in perceptions of potential control produces pos-
+                                                              CHOICE AND COLLECTIVE
+itive emotion.
+                                                              ATTACHMENTS
+  From Propositions 1 and 2, I can refine Col-
+lins' (1975, 1981) insightful analysis of stratifi-           I propose that actors understand and explain th
+cation and emotional energy. He argued that ac-               levels of control with reference to the nested c
+tors ranked high in a hierarchy build up reserves             lectivities occasioning choices. Not all collectiv-
+of emotional energy because they often "give                  ities or groups are salient in choice situations, but
+orders" and thus develop strong feelings of self              among those that are salient my theoretical argu-
+assurance and confidence. Those low in the hier-              ment deals with (1) how actors perceive each
+archy tend to "take orders," which dampens con- group's responsibility for choice opportunities,
+fidence and fosters fatalism (Collins 1975, Chap.             (2) what socially constructed rules shape their
+2). In contrast, my theory indicates that the posi-           allocation of affective attachments across larger
+tive emotion produced by "giving orders" de-                 groups and nested subgroups, and (3) how choice
+pends on the degree of perceived choice about                processes generate affective attachments and in
+what orders to give; similarly, the negative feel-            turn promote behavior directed toward the col-
+ing produced by "taking orders" depends on the               lective welfare of nested groups.
+degree of choice about taking orders or options
+for refusing them (e.g., appeals, grievances). For-
+                                                             The Responsibility Principle
+malized rules, for example, can constrain the "giv-
+ing" of orders as much as the "taking" of orders.            Interacting actors are likely to develop common
+If the process of giving or taking orders does not sense rules that indicate implicitly which collec-
+foster perceptions of freedom to shape and de-               tivities are the primary fountainheads of human
+cide among options, Collins' proposition, that               agency, freedom, and choice. These collectivi-
+confidence and emotional energy would be en-                 ties may range from entire societies to large or-
+hanced, should not obtain.
+                                                                7 Isen's (1987) review of social psychological evi-
+                                                             dence on everyday feelings suggested that affective
+  6 In Kemper's (1978, 1990) theory, the particular attachments to groups, organizations, or societies can
+negative emotion produced by insufficient or exces-          develop from everyday emotional experiences. She
+sive power/status depends on whether the self or oth-        indicated that positive emotion makes people more
+er is deemed responsible for the power/status situa-         sociable, cooperative, and helpful and suggested that
+tion. My theory adds positive emotion to Kemper's            positive feeling leads actors to "see less distinction
+(1978) "own agency" condition and negative emo-              between themselves and others or see themselves and
+tion to the "other agency" condition, given the intrin-      others . . . as parts of a larger whole." (p. 242). My
+sic value of potential mastery, self-determination, and      theory posits that the development of such group at-
+control (Deci 1975).                                         tachments is mediated by a cognitive process.
+
+
+
+
+                                           This content downloaded from
+                        76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                   All use subject to https://about.jstor.org/terms
+ AFFECTIVE ATTACHMENTS TO NESTED GROUPS 333
+
+ganizations to small local groups or subgroups.                 The cognitive underpinnings of the responsi-
+Common sense rules may be embedded in so-                    bility principle involve an attribution "once re-
+cially validated myths about the primary extra-              moved," i.e., a "second-order" attribution. Attri-
+individual powers in the social world, the em-               bution theory examines inferences from the suc-
+powering effects of local and more distant col-              cess or failure of a chosen act (Pyszczynki and
+lectivities, or the conditions of human agency (i.e.,        Greenberg 1987), whereas I focus on inferences
+concepts of individualism). In fact, collective              elicited by the choice process. In contrast to attri-
+myths may transform objective constraint into                bution theory, at issue is not whether actors view
+subjective feelings of empowerment, as illustrat-            choice consequences as internally or externally
+ed by cults that produce both complete submis-               caused (Jones and Nisbett 1972; Weiner et al.
+sion and high (voluntary) commitment.                        1979), but which social groups they hold respon-
+  The responsibility principle extends my Prop-              sible for their choice opportunities.
+ositions 1 and 2; it stipulates that those subgroups            Whether choice consequences are perceived
+or groups perceived to be the most empowering                as internally or externally caused, actors have a
+enjoy the strongest affective attachments. For               common sense, socially-validated explanation for
+example, if an ethnic community has well-devel-              the presence or absence of choice opportunities.
+oped institutions for aiding new immigrants, en-             For example, a worker with high autonomy may
+hancing their choices of housing, jobs, and so               use the autonomy effectively and credit himself
+                                               or herself, in accord with attribution theory, but
+forth, those institutions will strengthen affective
+                                            that worker also has a common sense understand-
+attachments to the ethnic community. The ethnic
+community is likely to be more salient to immi-              ing of what groups are responsible for the auton-
+grants, and interaction within the community                 omy. Crediting groups that provide choice op-
+would tend to generate beliefs about its empow-              portunities does not necessarily undermine caus-
+ering effects. To the degree that the larger nation al attributions for the consequences of a chosen
+or society imposes bureaucratic or political con-            act, but it does provide a basis for stronger at-
+straints on immigrants' options, their affective             tachments to the responsible collectivity.8
+ties to the larger society or nation will be weak-              To summarize, actors share a common sense
+ened. Thus:                                                  understanding of the sources of choice opportu-
+                                                             nity; they trace such opportunities through a sec-
+  Proposition 3: Among salient collectivities,
+                                                             ond-order attribution process to salient (nested)
+  positive emotion generated by choice processes
+                                                             collectivities or groups; groups or collectivities
+  strengthens affective ties to collectivities               perceived as most responsible for enabling choice
+  credited with making the choice opportunities              receive credit, while those responsible for con-
+  available; negative emotion weakens ties to                training choice receive blame; and affective at-
+  collectivities blamed for limiting choice.                 tachments to a nested or larger collectivity are
+                                                             strengthened or weakened in proportion to the
+  The explanatory scope of Proposition 3 is il-             credit or blame.
+lustrated by Watkins' (1991) demographic anal-
+ysis of Western Europe between 1870 to 1960.
+                                                             The Distribution Principle
+She showed that marital and fertility rates across
+local (i.e., "provincial") communities within the            How do actors distribute affective attachments
+same nation converged over time. Her explana-                to local subgroups versus more distant collectiv-
+tion for the growing impact of national bound-
+aries emphasized that states became more im-       8 Causal attributions can affect the prominence of
+portant sources of economic and political oppor-specific emotions like pride versus shame or gratitude
+                                               versus hostility. Some research on internal versus ex-
+tunity than smaller, local communities. In terms
+of my theory, if citizens view the state as the             ternal attributions of success/failure suggests that a
+                                                            result perceived as internally-caused creates self-di-
+primary source of empowerment in the form of
+                                                            rected pride or shame (See Weiner et al. 1979), where-
+new social, economic, and political options and
+                                                            as an external attribution fosters other-directed grati-
+rights, then states become more important sourc-
+                                                            tude or hostility. The "second-order" attribution pro-
+es of positive emotion and are subject to stronger
+                                                            cess assumed by my theory remains, but Proposition
+affective attachments. Thus, my theory may help
+                                              3 warrants some qualification if choice processes that
+explain the influence of the state on marital/fer-
+                                                produce pride or shame affect attachments to collec-
+tility behavior across provincial communities   tivities differently than choice processes that foster
+(Watkins 1991).                                 gratitude or hostility. This is an empirical question.
+
+
+
+
+                                          This content downloaded from
+                       76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                  All use subject to https://about.jstor.org/terms
+ 334       AMERICAN                           SOCIOLOGICAL                               REVIEW
+
+
+ities? According to the responsibility principle,           friends with a common endeavor, will be more
+the distribution of affective attachments stems             salient than other collectivities of which the group
+from actors' attributions of responsibility for             is a part. Furthermore, because highly proximate
+emotions produced repeatedly in choice process-             groups are also those with whom the actor inter-
+es. However, actors are likely to be biased in fa-          acts face-to-face, they should heavily influence
+vor of one group or another in part because emo-            the development and maintenance of shared def-
+tional resources are scarce enough to require al-           initions of choice opportunities, referential stan-
+location (Collins 1981). Actors' emotions tend              dards, and the like. Collins's (1981) theory of
+to be finite, whereas the social objects to which  interaction ritual chains suggested a proximity
+they can be directed are virtually unlimited (Ham- principle because "conversations" are the ulti-
+mond 1983; Collins 1975, 1981). Furthermore,       mate locus for emotional energy.
+both a subgroup nested within a larger group and In some important cases, a proximal rule ex-
+                                                   erts pressure toward fragmentation of the larger
+the larger group itself constitute distinct referents
+                                                   organization, community, or society. The reas-
+and sources of identity, e.g., the local ethnic com-
+munity and larger society for an immigrant. De-sertion of strong ethnic identification in contem-
+veloping differential attachments to each collec-           porary European societies is one example, Mar-
+tivity forestalls confusion, ambivalence, and in-           well's (1966) interpretation ofjuvenile delinquen-
+decision when options have a differential impact cy is another. Individual action as ajuvenile gang
+on the subgroup versus the larger group. Thus,     member is a mechanism for youths with few re-
+actors form different degrees of attachment to the sources to claim autonomy and demonstrate, ac-
+multiple, nested collectivities of which they are  cording to their own normative standards, an im-
+members.                                           pact on an unresponsive adult world. A stronger
+   The process of allocating affective ties is so- affective attachment to the subgroup in this case
+cially "managed" by actors in the same general     relates to a negative attachment to the larger
+sense that feelings are managed to fit the social  group. Antagonism between a nested group and
+structure (Hochschild 1983). That is, just as               a larger group may occur in part because a prox-
+"rules" specify what emotions to feel and when              imal rule for interpreting sources of empower-
+to express them (Hochschild 1983), socially con-    ment is intertwined with a distal rule for inter-
+structed rules for crediting or blaming collectivi- preting sources of constraint.
+ties likewise inhere in a choice situation. One       A distal rule simply inverts the proximal rule:
+plausible rule allocates credit to local, more im-          The more distant, remote, and all-encompassing
+mediate collectivities, and another credits larger,collectivity is the primary source of individual
+more encompassing collectivities. Each rule prob-  empowerment or constraint. Choice processes that
+ably reflects the salience of larger cultural mythsgenerate positive emotion will strengthen emo-
+or locally-created myths about the sources of hu- tional ties to the larger collectivity more than to
+man agency. These basic rules, termed proximal the smaller subgroups nested within it. This rule
+and distal, embody actors' implicit understand- assumes that the salience of the larger group is
+ings of their agency and exemplify the role at-    greater than the salience of the subgroup, in part
+tributed to collectivities.                        because actors perceive the larger group's in-
+   Based on the proximal rule, actors develop      volvement and interest in subgroup activities. A
+stronger affective ties to subgroups within a so-  distal rule is especially likely when the larger
+cial system rather than to the social system, togroup closely monitors or regulates subgroups
+local communities rather than to states, to work(Hechter 1987), when collective rituals and sym-
+groups rather than to the work organization, and   bols are frequent enough to make the larger col-
+so forth. Larger collectivities that foster choice lectivity highly salient (Collins 1975), and when
+and freedom among members still enhance posi-      social transformations create larger social units
+                                                   from smaller ones (Watkins 1991). When it comes
+tive actor-to-collectivity affective bonds, but less
+so than those to the nested subgroups. This means, to salience, however, local, more immediate sub-
+for example, that the empowering effects of cor-   groups have a decided advantage.
+porate decentralization will strengthen affectiveUse of the proximal rule for positive emotion
+ties to local work units more than to the corpora- and the distal rule for negative emotion is contin-
+tion (Kanter 1977, pp. 276-77).                  gent on whether the subgroup or larger group is
+   There are good reasons for believing that a   more salient to actors. Proximal subgroups are
+proximal rule is common. A collectivity that is typically most salient because frequent face-to-
+close or immediately present, such as a group of face interaction enables subgroups to mediate the
+
+
+
+                                         This content downloaded from
+                      76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                 All use subject to https://about.jstor.org/terms
+AFFECTIVE ATTACHMENTS TO NESTED GROUPS 335
+
+                            ger magnet
+control messages of the larger         for collective attachments,
+                                 collectivity          and to it also sug-
+shift responsibility for perceived low choice to            gests how larger groups sometimes counteract
+the larger collective and of perceived high choice          this tendency. Consider Tilly's (1990) argument
+to the nested subgroup. Thus:                               that European states, unlike cities, developed
+                                                            more from the use of coercion (e.g., armed force,
+  Proposition 4: Given that nested subgroups are
+                                                            incarceration, expropriation) than from the use
+  more salient to an actor than are larger groups,
+                                                            of capital (i.e., the accumulation, sale, and pur-
+  positive emotion produced by choice processes             chase of tangible resources). Taking coercion as
+  strengthens affective attachments to a nested    constraint and capital as empowering, Proposi-
+  subgroup more than to its larger group; negative tion 4 indicates that cities will elicit stronger af-
+  emotion weakens affective attachments to the              fective attachments than states and will remain
+  larger group more than to the nested subgroup.            an important source of fragmentation following
+                                                            state formation. Affective ties to states, however,
+  The structural connections between the sub-               can strengthen over time as states become the
+group and larger group should affect the strengthprimary sources of the growing social, econom-
+of the distribution rule. The proximal rule for  ic, and political options and opportunities (Wat-
+positive emotion and the distal rule for negative kins 1991). Thus, my theory shows how the dif-
+emotion will be stronger in more decentralized    ferences in affective attachments to cities versus
+structures. Decentralized or flat structures are  states may decline over time and may even be-
+composed of subgroups "loosely coupled" to each   come stronger objects of attachment than cities.
+other and to the larger whole, a university being    In fact, highly centralized systems should pro-
+the prototype (Weick 1976; Meyer and Rowan        duce distal rules for positive emotion if collec-
+1977). Nested subgroups in such structures have   tive myths associate individual empowerment
+substantial autonomy and are subject to minimal with high levels of group control. In this case, an
+monitoring. Kanter's (1977) case study of a cor-  actor's sense of control is mediated by and vicar-
+poration suggested that the empowering of mid- iously experienced through membership in a
+dle managers by involving them more in plan-      strong, all-encompassing collective. Nazism's
+ning and policy also empowers their subordi-      characterization of the German Reich, for exam-
+nates if the manager's greater involvement in     ple, involved collective myths that connected in-
+planning leaves subordinates more discretion overdividual submission to the state with state-medi-
+day-to-day matters. Given such mutual empow-      ated individual empowerment. Cults often foster
+erment, superordinates and subordinates have the myths that provide vicarious agency via submis-
+"common cause" of protecting their local auton-   sion to the collective. Under more typical condi-
+omy, which from my theory will accentuate the tions, however, decentralized and centralized
+tendency to credit subgroups for their choice op- structures will lead to subtly different myths about
+portunities or autonomy and blame the larger      empowerment that simply attenuate or accentu-
+collectivity for constraints.                     ate the differences in attachment specified by
+  From my theory, "loosely-coupled" (decen-                 Proposition 4 without reversing the pattern.
+tralized) structures foster choice processes that
+reaffirm actors' sense of control (Proposition 1)
+                                                  COLLECTIVE ATTACHMENTS AND
+and thereby produce more positive emotion (Prop-
+                                                  RITUAL BEHAVIOR
+osition 2). Subgroups in decentralized structures
+are more salient than the larger group, are ac-   Collective attachments should affect action in
+corded more credit for high choice (Proposition pendent of other well-known social psycholo
+3), and are the objects of stronger affective tiescal or sociological processes, such as conformi
+than is the larger group (Proposition 4). The more  ty, interpersonal attraction, monitoring, sanc
+decoupled the nested subgroup is from the larger    systems, and so forth (Drescher, Burlingame,
+group, the greater the difference between mem-Fuhriman 1985; Hechter 1987; Kaplan 1989).
+bers' affective attachments to the subgroup ver-    Isolating the effects of the collective as an object
+sus the larger group. Overall, the theory points to of perception unto itself (Durkheim 1954; Par-
+some fundamental problems that decentralized        sons 1951; Tajfel and Turner 1986; Markovsky
+organizations face in creating among members a and Lawler 1989) is important to explanations of
+commitment to the organization as a whole.          social order because collective attachments may
+  While the theory indicates how individual     buttress the impact of "corporate obligations" on
+choice processes make nested subgroups a stron- individual members (Hechter 1987), enhance the
+
+
+
+                                         This content downloaded from
+                      76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                 All use subject to https://about.jstor.org/terms
+ 336        AMERICAN                          SOCIOLOGICAL                               REVIEW
+
+zealotry produced by interpersonal rewards in               erence sets are routinely selected over others,
+nested subgroups (Coleman 1987), or make pub-               which implies that ritual behavior frames but does
+lic goods symbols of the group or collectivity. I           not eliminate choice (see Wuthnow 1987 for a
+posit a simple process that creates such effects,           similar point).9
+drawing on Sen's (1973, 1977) critique of the sin-             Given the role of repetitive choice, the central
+gle preference-order assumption of rational choice features of Collins's (1981, 1989) theory of "in-
+theory and Collin's (1975, 1981) behavioral con-            teraction ritual chains" suggest that the priority
+ception of ordinary, everyday "ritual" (also see            of collective welfare metapreferences grows
+Wuthnow 1987).                                              based on the links between the choice process,
+  Sen (1973, 1977) argued that actors in choice             transitory emotion, and affective attachment to
+situations have multiple preference orderings thatcollectivities. First, choice processes repeatedly
+reflect different goals, values, or priorities. There-
+                                                     focus group members' attention on a common
+fore, choice process involves choosing among                problem, i.e., uncertainty. Second, the choice pro-
+alternative preference sets (i.e., metapreferenc-           cesses make actors aware of their common focus
+es) in addition to making a choice within a given           and make salient their common membership in a
+preference set. An actor in nested groups may               nested subgroup and a larger group. Third, the
+choose between a preference set stressing the               choice processes generate positive emotion that
+collective welfare or one stressing individual              members publicly display and attribute to salient
+welfare, and simultaneously between the prefer-subgroups or larger groups. Fourth, actors strive
+ence set of a subgroup or a larger group. In myto maintain the positive emotion that the choice
+theory, the choice between the preferences of the   processes generate, which leads them to take more
+subgroup and larger group becomes a variable to     account of the group perceived as most responsi-
+be explained. From Propositions 1 through 4, as     ble for the positive emotion. The adoption of the
+collective attachments become stronger, actors      group welfare metapreference becomes an ev-
+individual welfare metapreferences shift toward     eryday ritual or routine and an actor's sense of
+the collective welfare, and the welfare of nested   control derives primarily from the choice options
+subgroups is given priority over that of the larger within this metapreference.
+group for the same reasons that proximal distri-       To summarize, my theory suggests (1) how
+bition rules are more likely. Thus:                 the impact of choice processes on collective at-
+                                                    tachments can lead to ritual adoption of collec-
+  Proposition 5: Given that nested subgroups are
+                                                    tive metapreferences, (2) why the metaprefer-
+  more salient to an actor than larger groups,
+                                                    ences of nested subgroups are likely to be chosen
+  repeated affirmations of control or "freedom" over those of the larger group, and (3) how choice
+  within the choice process increase the                   processes within a given metapreference can re-
+  probability of an actor adopting preference               affirm actors' sense of control, create related
+  orders based on the proximal group's welfare. emotions, and strenghten further collective at-
+                                                tachments. Means/ends deliberation in a choice
+  The role of repetitive choice process (means/ process can both reaffirm actors' sense of con-
+ends deliberation) in a social structure suggests          trol (by providing good options within a given
+that as choice processes make collective attach-   metapreference) and express or symbolize the
+ments stronger, the collective attachments in turn collective (by taking for granted the group-wel-
+transform choice processes into ritual affirma- fare metapreference). In this manner, freedom
+tions of the collective. This idea is extracted from and constraint work hand-in-hand to foster stron-
+recent treatments of ritual as normal, everyday ger collective attachments.
+repetitive behaviors that express or symbolize
+common group memberships (Wuthnow 1987;              9 Wuthnow (1987) hypothesized that ritual behav-
+Collins 1975, 1981, 1989). Forms of everyday      ior is particularly frequent and strong when members
+
+ritual can range, for example, from the use of theof a collectivity face uncertainty. Ritual behavior re-
+                                                  duces uncertainty by invoking shared realities (see
+pronoun "we" or other subtle ackowledgments
+                                                  also Collins 1981) and fostering collective myths that
+of groupness (Goffman 1967) to self-sacrificing
+                                                  dramatize actors' moral obligations. Interestingly,
+action that publicly promotes the collective wel-conditions that generate ritual behavior, i.e., environ-
+fare. Ritual behavior is based partly on "taken-  mental uncertainties, are strikingly similar to those
+for-granted" realities associated with a collective
+                                                  that initiate choice processes. The "choice" of metap-
+and its members. Metapreferences exemplify a reference may be a particularly important form of
+taken-for-granted reality on which certain pref-  ritual in choice situations.
+
+
+
+
+                                         This content downloaded from
+                      76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                 All use subject to https://about.jstor.org/terms
+AFFECTIVE ATTACHMENTS TO NESTED GROUPS 337
+
+CONCLUSION                                                  to incorporate the emotional effects of autono-
+                                                            my, self-determination, and control into a ratio-
+In this paper, I specify links between individual           nal choice framework. "Sets of feasible options"
+choice and collective attachment that capture a             (Elster 1986) are one basis for actors' inferences
+common thread underlying issues of control and              of control over uncertainty, and the sense of con-
+autonomy in groups, organizations, and societ-              trol has important emotional results that, under
+ies. To give discretion, to empower, and to dele-           certain conditions, enhance the tendency of ac-
+gate is to alter actors' option sets in ways that tors to define their choices in terms of the collec-
+arouse transitory positive feelings when a choice tive interest. My theory complements recent ef-
+opportunity occurs. The central point is that emo-forts of rational choice theorists (Coleman 1986;
+tions produced in choice processes help account   Hechter, Opp, and Wippler 1990) by showing
+for actors' affective attachments to multiple, nest- how the process of rational choice may strength-
+ed collectivities of which they are members. In-     en affective attachments that buttress normative
+sofar as choice processes give actors the impres-           control.
+sion (real or not) of "free choice" and they at-
+tribute this to a given collectivity, their affectiveEDWARD J. LAWLER is the Duane C. Spriestersbach
+attachments to that collectivity strengthen; inso- Professor in the Liberal Arts at the University of Iowa.
+far as choice processes give actors the impres-    His current research deals with the impact of power
+sion of little freedom of choice and they attributerelations on (1) commitment and ritual behavior in
+this to a given collectivity, affective attachments social exchange, and (2) unilateral initiatives in bar-
+                                                            gaining. He is Editor-Elect of Social Psychology Quar-
+to that collectivity weaken.
+                                                           terly.
+   My theory suggests that groups, organizations,
+or societies that generate and maintain "free
+choice" induce more ritual compliance on behalf     REFERENCES
+of the collective welfare than is indicated by un-
+                                                    Bacharach, Samuel B. and Edward J. Lawler. 1981.
+derlying conditions of "individualism." Positive
+                                                      Bargaining: Power, Tactics, and Outcomes. San
+feelings repeatedly produced by a sense of free-
+                                                       Francisco: Jossey-Bass.
+dom and control shift metapreferences toward        Brehm, Jack W. 1966. A Theory of Psychological
+the collective welfare; negative feelings stimu-      Reactance. New York: Academic Press.
+lated repeatedly by little freedom and control shiftClore, Gerald L., Andrew Ortong, and Mark A. Foss.
+metapreferences toward actors' own welfare or          1987. "The Psychological Foundations of the Af-
+toward the welfare of another group. To the de-        fective Lexicon." Journal of Personality and So-
+gree that the adoption of subgroup metaprefer-         cial Psychology 53:7451-66.
+ence becomes an everyday routine or ritual, the     Coleman, James S. 1987. "Free Riders and Zealots."
+choice process comes to symbolize that group.                  Pp. 59-82 in Social Exchange Theory, edited by K.
+                                                              S. Cook. Beverly Hills: Sage Publications.
+This gives social legitimacy to both the adoption
+                                                            Collins, Randall. 1975. Conflict Sociology. New York:
+of the group metapreference and the freedom to
+                                                               Academic Press.
+choose among options within it. Thus, I concep-
+                                                             . 1981. "On the Microfoundations of Mac-
+tualize actor-to-collectivity relations as a tacit    rosociology." American Journal of Sociology
+bargain in which collectivities provide some free- 86:984-1014.
+dom of choice to actors who, in return, shift                . 1989. "Toward a Neo-Meadian Sociology
+metapreferences toward the collective welfare and of Mind." Symbolic Interaction 12:1-32.
+redefine their individual interests in these terms. Deci, Edward L. 1975. Intrinsic Motivation. New
+To the extent that collective attachments mediate     York: Plenum Press.
+this tacit exchange, freedom of choice becomes a           . 1980. The Psychology of Self Determina-
+basis for voluntary submission to the norms of     tion. Lexington, MA: Lexington Books.
+                                                 Drescher, Seymour, Gary Burlingame, and Addie
+one or more collectivities.
+                                                               Fuhriman. 1985. "Cohesion: An Odyssey in Em-
+  By highlighting the intrinsic value of perceived
+                                                               pirical Understanding." Small Group Behavior
+freedom within a means/ends choice process, my
+                                                               16:3-30.
+theory bridges rational and emotional features ofDurkheim, Emile. 1954. Elementary Forms of Reli-
+social action. Rational choice theory neglects the  gious Life. New York: Free Press.
+intrinsic value to actors of autonomy or control Elster, Jon. 1986. "Introduction." Pp. 1-33 in Ratio-
+(Sen and Williams 1982), primarily because of                  nal Choice, edited by J. Elster. New York: New
+its emphasis on consequences and the cognitive                 York University Press.
+underpinning of choice. My theory shows a way               Etzioni, Amatai. 1988. The Moral Dimension. New
+
+
+
+
+                                         This content downloaded from
+                      76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                 All use subject to https://about.jstor.org/terms
+ 338          AMERICAN                          SOCIOLOGICAL                                 REVIEW
+
+  York: The Free Press.                                       Kemper, Theodore D. 1978. A Social Interactional
+Frank, Robert H. 1988. Passions Within Reason. New               Theory of Emotions. New York: Wiley.
+  York: W. W. Norton.                                                     . 1987. "How Many Emotions are There?
+Giddens, Anthony. 1984. The Constitution of Society.             Wedding the Social and Autonomic Structure."
+  Berkeley: University of California Press.                      American Journal of Sociology 93:263-89.
+Goffman, Irving. 1961. Asylums. New York: Double-                         . 1990. Research Agendas in the Sociology
+  day.                                                           of Emotions. Albany: State University of New York.
+            .1967. Interaction Ritual. New York: Dou-         Kohn, Melvin L. and Kazimierz M. Slomczynski.
+  bleday.                                                        1990. Social Structure and Self Direction. Cam-
+Gordon, Steven L. 1981. "The Sociology of Senti-                 bridge, MA: Basil Blackwell.
+  ments and Emotion." Pp. 562-92 in Social Psy-               Lawler, Edward J. Forthcoming. "Emotion and Ra-
+  chology: Sociological Perspectives, edited by M.               tional Choice: A Social Action Approach." In The
+  Rosenberg and R. H. Turner. New York: Basic                    Sociophysiology of Social Relationships, edited by
+  Books.                                                         P. Barchas. Oxford, England: Oxford University
+Hall, John R. 1988. "Social Organization and Path-               Press.
+  ways of Commitment: Types of Communal Groups,               Lazarus, Richard S. 1984. "On the Primacy of Cogni-
+  Rational Choice Theory, and the Kanter Thesis."                tion." American Psychologist 39:124-29.
+  American Sociological Review 53:679-92.                     MacKinnon, Neil J. and Leo J. Keating. 1989. "The
+Hammond, Michael 1983. "The Sociology of Emo-                    Structure of Emotions: Canada-United States Com-
+  tions and the History of Social Differentiation."              parison." Social Psychology Quarterly 52:70-83.
+  Pp. 90-119 in Sociological Theory, edited by R.             Marwell, Gerald. 1966. "Adolescent Powerlessness and
+  Collins. San Francisco: Jossey Bass.                           Delinquent Behavior." Social Problems 14:35-47.
+Harvey, John H., Ben Harris, and Jean M. Lightner.            Marx, Karl. [1932] 1964. The Economic and Philo-
+  1979. "Perceived Freedom as a Central Concept in               sophical Manuscripts of 1844. Translated by M.
+  Psychological Theory and Research." Pp. 275-300                Milligan. New York: International Publishers.
+  in Choice and Perceived Control, edited by L. C.            Mathieu, John E. and Dennis M. Zajac. 1990. "A
+  Perimuter and R. A. Monty. New York: Erlbaum.                  Review and Meta-Analysis of the Antecedents,
+Hechter, Michael. 1987. Principles of Group Soli-                Correlates, and Consequences of Organizational
+  darity. Berkeley: University of California Press.              Commitment." Psychological Bulletin 108:171-94.
+Hechter, Michael, Karl-Dieter Opp, and Reinhard               Meyer, John W. and Brian Rowan. 1977. "Institu-
+  Wippler, eds. 1990. Social Institutions: TheirEmer-            tionalized Organizations: Formal Structure as Myth
+  gence, Maintenance, and Effects. New York: Aldi-               and Ceremony." American Journal of Sociology
+  ne de Gruyter.                                                 83:440-63.
+Heise, David R. 1988. "Affect Control Theory: Con-            Parsons, Talcott. 1951. The Social System. New York:
+  cepts and Model." Pp. 1-34 in Analyzing Social                 Free Press.
+  Interaction: Advances in Affect Control Theory,             Parsons, Takcoll md Edwsd Shils, ed&. 195t. To-
+  edited by L. Smith-Lovin and D. R. Heise. New                  ward General Theory of Action. Cambridge: Har-
+  York: Gordon and Breach Science Publishers.                    vard University Press.
+Hochschild, Arlie R. 1983. The Managed Heart. Ber-            Proshansky, Harold M., William H. Ittelson, and
+   keley: University of California Press.                       Leanne G. Rivlin. 1970. "Freedom of Choice and
+Isen, Alice M. 1987. "Positive Affect, Cognitive Pro-           Behavior in a Physical Setting." Pp. 173-183 in
+   cesses, and Social Behavior." Pp. 203-53 in                  Environmental Psychology: Man and His Physical
+  Advances in Experimental Social Psychology, vol.              Setting, edited by H. M. Proshansky. New York:
+  20, edited by L. Berkowitz. New York: Academic                Holt, Rinehart, and Winston.
+  Press.                                                      Pyszczynki, Thomas and J. Greenberg. 1987. "To-
+Izard, Carroll E. 1977. Human Emotions. New York:               ward an Integration of Cognitive and Motivational
+  Plenum Press.                                                 Perspectives on Social Inference: A Biased Hy-
+Jones, Edward E. and Robert Nisbett. 1972. Attribu-    pothesis Testing Model." Pp. 297-335 in Advanc-
+  tion: Perceiving the Causes of Behavior. Morris-     es in Experimental Social Psychology, vol. 20, ed-
+  town, NJ: General Learning Press.                    ited by L. Berkowitz. New York: Academic Press.
+Kanter, Rosabeth M. 1972. Commitment and Com-        Rotter, James B. 1966. "Generalized Expectancies
+  munity: Communes and Utopias in Sociological         for Internal Versus External Control of Reinforce-
+  Perspective. Cambridge: Harvard University Press. ment." Psychological Monographs 80:No. 609.
+         . 1977. Men and Women of the Corpora-       Schachter, Stanley and J. Singer. 1962. "Cognitive,
+  tion. New York: Basic Books.                         Social, and Physiological Determinants of Emo-
+Kaplan, Martin F. 1989. "Task, Situational, and Per-   tional State." Psychological Review 69:379-99.
+  sonal Determinants of Influence Processes in Group Sen, Amartya. 1973. "Behavior and the Concept of
+  Decision Making." Pp. 87-106 in Advances in          Preference." Economica 40:241-59.
+  Group Processes, vol.6, edited by E. J. Lawler and           . 1977. "Rational Fools: A Critique of the
+  B. Markovsky. Greenwich, CT: JAI Press.              Behavioral Foundations of Economic Theory."
+
+
+
+                                           This content downloaded from
+                        76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                   All use subject to https://about.jstor.org/terms
+AFFECTIVE ATTACHMENTS TO NESTED GROUPS 339
+
+  Philosophy and Public Affairs 6:317-44.                   Watson, Davis and Auke Tellegen. 1985. "Toward a
+Sen, Amartya K. and Ben Williams. 1982. "Introduc-             Consensual Structure of Mood." Psychological
+  tion." Pp. 1-22 in Utilitarianism and Beyond, edit-          Bulletin 98:219-35.
+  ed by A. K. Sen and B. Williams. Cambridge, En-           Weick, Karl E. 1976. "Educational Organizations as
+  gland: Cambridge University Press.                         Loosely Coupled Systems." Administrative Science
+Shott, Susan. 1979. "Emotion and Social Life: A Sym-           Quarterly 21:211-19.
+  bolic Interactionist Analysis." American Journal          Weiner, Bernard, Dan Russell, and Davis Lerman.
+  of Sociology 84:1317-34.                                    1979. "The Cognition-Emotion Process in Achieve-
+Tajfel, Henri and John C. Turner. 1986. "The Social          ment-Related Contexts."Journal of Personality and
+  Identity Theory of Intergroup Behavior." Pp. 7-24            Social Psychology 37:1211-20.
+  in The Psychology of Intergroup Relations, edited         Westcott, Malcolm R. 1988. The Psychology of Hu-
+  by S. Worchel and W. G. Austin. Monterey, CA:              man Freedom. New York: Springer-Verlag.
+  Brooks-Cole.                                              White, Robert W. 1959. "Motivation Reconsidered:
+Tilly, Charles. 1990. Coercion, Capital, and Europe-         The Concept of Competence." Psychological Re-
+  an States. Cambridge, MA: Basil Blackwell.                 view 66:297-333.
+Watkins, Susan C. 1991. From Provinces into Na-             Wuthnow, Robert 1987. Meaning and Moral Order.
+  tions: Demographic Integration in Western Europe,            Berkeley: University of California Press.
+  1870-1960. Princeton, NJ: Princeton University            Zajonc, Robert B. 1984. "On the Primacy of Affect."
+  Press.                                                       American Psychologist 39:117-23.
+
+
+
+
+                                         This content downloaded from
+                      76.91.34.9 on Tue, 29 Sep 2026 22:24:15 UTC
+                                 All use subject to https://about.jstor.org/terms
+
