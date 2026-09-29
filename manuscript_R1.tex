@@ -1,5 +1,5 @@
 \documentclass[12pt,letterpaper]{article}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=1.25in]{geometry}
 \usepackage{authblk}
 \usepackage{graphicx}
 \usepackage{booktabs}
@@ -8,6 +8,9 @@
 \usepackage[normalem]{ulem}
 \UseTblrLibrary{booktabs}
 \UseTblrLibrary{siunitx}
+% ASA style omits leading zeros (e.g., .06 instead of 0.06); siunitx
+% otherwise reinserts them by default.
+\sisetup{print-zero-integer=false}
 \newcommand{\tinytableTabularrayUnderline}[1]{\underline{#1}}
 \newcommand{\tinytableTabularrayStrikeout}[1]{\sout{#1}}
 \NewTableCommand{\tinytableDefineColor}[3]{\definecolor{#1}{#2}{#3}}
@@ -25,7 +28,7 @@
 
 \doublespacing
 
-\title{Patriotism as a Choice Process: National Pride After 9/11}
+\title{Patriotism as a Choice Process: National Pride After 9/11\thanks{Direct correspondence to Omar Lizardo, [INSERT DEPARTMENT], University of California, Los Angeles, [INSERT MAILING ADDRESS] (\href{mailto:REPLACE@ADDRESS.EDU}{REPLACE@ADDRESS.EDU}). [INSERT ACKNOWLEDGMENTS, e.g., prior presentations of this work or colleagues thanked for comments.] [INSERT GRANT/FUNDING INFORMATION, or state: ``This research received no specific grant from any funding agency.'']}}
 \author{Omar Lizardo}
 \affil{UCLA}
 \date{\today}
@@ -33,10 +36,22 @@
 \begin{document}
 \maketitle
 
+\begin{center}
+\textit{Running Head: [INSERT RUNNING HEAD, 60 CHARACTERS OR FEWER]}\\
+\textit{Word Count: Approximately 6,300 words (main text, abstract, and notes; excludes tables, figures, and reference list)}
+\end{center}
+
+\newpage
+\section*{Biography}
+[INSERT AUTHOR BIOGRAPHY, 100 WORDS OR FEWER -- name, title, department, institution, and a brief description of current research interests, publications, or awards. E.g.: Omar Lizardo is [TITLE, e.g., Professor of Sociology] in the Department of Sociology at the University of California, Los Angeles. His research interests include [RESEARCH INTERESTS]. His recent work has appeared in [PUBLICATIONS/AWARDS].]
+
 \newpage
 \begin{abstract}
 Which groups are more likely to experience increased feelings of national pride after experiencing a threat to the nation? Using survey data on a representative sample of Americans collected before and during the post-9/11 period in the United States---with the September 11 attacks serving as the catalyzing event for a broader climate of national mobilization that included the onset of the wars in Afghanistan and Iraq---this paper adjudicates between competing hypotheses regarding the socio-demographic distribution of national pride. Theories of ``irrational patriotism'' and needs-based attachments predict that lower-status individuals will experience the largest increase in national pride. In contrast, the choice-process approach suggests that higher-status individuals---who experience greater autonomy and are more likely to be embedded in nested voluntary associations---will be more likely to increase their affective attachment to the national collectivity under a ``distal'' attribution rule. Results from the General Social Survey (1996 and 2004) support the choice-process theory, demonstrating that educated individuals and members of specific nested subgroups experienced the most significant increases in national pride post-9/11.
 \end{abstract}
+
+\vspace{1em}
+\noindent\textbf{Keywords:} [KEYWORD 1], [KEYWORD 2], [KEYWORD 3], [KEYWORD 4], [KEYWORD 5]
 
 \newpage
 \section{Introduction}
@@ -76,9 +91,9 @@ This sense of saliency should be stronger for individuals embedded in nested sub
 To adjudicate between these empirical implications, I rely on data from the 1996 and 2004 waves of the General Social Survey (GSS). These two waves, collected before and after the events of September 11, 2001, include a special module on attitudes toward the United States, providing an ideal natural experiment to assess shifts in national attachment. 
 
 \subsection{Dependent Variables}
-Two primary dependent variables are analyzed: a U.S. Pride scale and a Nationalism scale. The U.S. Pride scale is an additive index constructed from ten questions asking respondents how proud they are of America across various domains. The prompt asks, ``How proud are you of America in each of the following...'' followed by domains such as the way democracy works, its political influence, economic achievements, social security system, scientific and technological achievements, sports, arts and literature, armed forces, history, and fair treatment of groups. Response categories are ``Very proud,'' ``Somewhat proud,'' ``Not very proud,'' and ``Not proud at all.'' Following standard practice in the cross-national literature on national pride, each item is dichotomized so that ``Very proud'' equals 1 and all other responses equal 0, yielding an additive scale from 0 to 10 (Cronbach's $\alpha = 0.80$) that counts the number of domains in which a respondent expresses maximal, unambiguous pride, rather than treating gradations of ambivalence or indifference as substantively equivalent to full pride.\footnote{As a robustness check, we also constructed a non-dichotomized version of this scale as the mean of the ten items (reverse-coded so that higher values indicate greater pride). This continuous alternative correlates at $r = 0.87$ with the dichotomized additive scale used in the main text, and re-estimating our pooled education $\times$ year interaction model (Table~\ref{tab:educ}) on this alternative measure yields a substantively identical conclusion: the interaction remains positive and statistically significant under classical weighted-OLS standard errors ($p = 0.037$) and marginally significant under heteroskedasticity-robust standard errors ($p = 0.073$, one-tailed $p = 0.037$).}
+Two primary dependent variables are analyzed: a U.S. Pride scale and a Nationalism scale. The U.S. Pride scale is an additive index constructed from ten questions asking respondents how proud they are of America across various domains. The prompt asks, ``How proud are you of America in each of the following...'' followed by domains such as the way democracy works, its political influence, economic achievements, social security system, scientific and technological achievements, sports, arts and literature, armed forces, history, and fair treatment of groups. Response categories are ``Very proud,'' ``Somewhat proud,'' ``Not very proud,'' and ``Not proud at all.'' Following standard practice in the cross-national literature on national pride, each item is dichotomized so that ``Very proud'' equals 1 and all other responses equal 0, yielding an additive scale from 0 to 10 (Cronbach's $\alpha = .80$) that counts the number of domains in which a respondent expresses maximal, unambiguous pride, rather than treating gradations of ambivalence or indifference as substantively equivalent to full pride.\footnote{As a robustness check, we also constructed a non-dichotomized version of this scale as the mean of the ten items (reverse-coded so that higher values indicate greater pride). This continuous alternative correlates at $r = .87$ with the dichotomized additive scale used in the main text, and re-estimating our pooled education $\times$ year interaction model (Table~\ref{tab:educ}) on this alternative measure yields a substantively identical conclusion: the interaction remains positive and statistically significant under classical weighted-OLS standard errors ($p = .037$) and marginally significant under heteroskedasticity-robust standard errors ($p = .073$, one-tailed $p = .037$).}
 
-The Nationalism scale captures agreement with statements asserting American superiority and blind loyalty \citep{schatz1999varieties}. It is computed as the mean of four items: (1) ``I would rather be a citizen of America than of any other country in the world,'' (2) ``The world would be a better place if people from other countries were more like the Americans,'' (3) ``Generally speaking, America is a better country than most other countries,'' and (4) ``People should support their country even if the country is in the wrong.'' Responses were recorded on a 5-point Likert scale ranging from ``Strongly agree'' (1) to ``Strongly disagree'' (5). The items were reverse-coded prior to averaging so that higher values indicate stronger nationalism (Cronbach's $\alpha = 0.64$). Unlike the U.S. Pride items, these are graded agree/disagree statements for which the \textit{degree} of agreement, not merely its presence or absence, is the theoretically meaningful quantity; we therefore follow standard psychometric practice for attitude scales and average the (reverse-coded) items rather than dichotomizing them.
+The Nationalism scale captures agreement with statements asserting American superiority and blind loyalty \citep{schatz1999varieties}. It is computed as the mean of four items: (1) ``I would rather be a citizen of America than of any other country in the world,'' (2) ``The world would be a better place if people from other countries were more like the Americans,'' (3) ``Generally speaking, America is a better country than most other countries,'' and (4) ``People should support their country even if the country is in the wrong.'' Responses were recorded on a 5-point Likert scale ranging from ``Strongly agree'' (1) to ``Strongly disagree'' (5). The items were reverse-coded prior to averaging so that higher values indicate stronger nationalism (Cronbach's $\alpha = .64$). Unlike the U.S. Pride items, these are graded agree/disagree statements for which the \textit{degree} of agreement, not merely its presence or absence, is the theoretically meaningful quantity; we therefore follow standard psychometric practice for attitude scales and average the (reverse-coded) items rather than dichotomizing them.
 
 \subsubsection{Why Two Outcomes? Affective Attachment versus Blind Nationalism}
 These two scales are not two operationalizations of a single underlying construct; they are designed to capture conceptually distinct orientations toward the nation, and studying both is central to adjudicating between the theoretical accounts under consideration rather than a redundant robustness exercise. The U.S. Pride scale captures \textit{affective attachment} in Lawler's specific sense: a positive, emotionally invested identification with the country across a range of substantive achievement domains (democracy, science, the arts, history, and so on), of the kind that the choice-process theory explicitly models as arising from choice and control experienced in everyday, structured social contexts and reattributed to a social unit. The Nationalism scale, by contrast, taps a more explicitly comparative and ideological orientation---uncritical, ``blind'' loyalty and a belief in American superiority relative to other nations \citep{schatz1999varieties}---closer to the construct that needs-based and authoritarian-personality accounts are theories of: a defensive, comparative worldview that satisfies psychological needs for certainty, belonging, and system justification, rather than an emotion generated by everyday experiences of autonomy and choice.
@@ -100,54 +115,10 @@ We rely on two complementary model specifications. First, to assess how the effe
 
 All models are estimated on complete cases: because the U.S. Pride scale is an additive index over ten items, respondents missing a response to any of the ten component items are excluded from analyses using that scale; the Nationalism scale, by contrast, is computed as the mean of the (at most) four available items, so respondents are excluded only if all four items are missing. Analytic sample sizes for each model are reported in the corresponding table. All analyses were conducted in R.
 
-As a robustness check on inference, we re-estimated our three focal hypothesis-testing models---the education $\times$ year interaction on the U.S. Pride scale (Table~\ref{tab:educ}), the corresponding interaction on the Nationalism scale (Table~\ref{tab:nationalism}), and the effect of total voluntary association memberships in the full 2004 model (Table~\ref{tab:full2004})---using heteroskedasticity-consistent (HC1) standard errors in place of the classical weighted-OLS standard errors reported in the main tables. Robust standard errors are modestly larger (approximately 8--15\%) than their classical counterparts, but none of our substantive conclusions change: the education $\times$ year interaction on the U.S. Pride scale remains statistically significant ($p = 0.021$), the corresponding Nationalism scale interaction remains clearly non-significant under both specifications, and the effect of total memberships remains statistically significant ($p = 0.027$). The one exception is the 1996-only education coefficient (Table~\ref{tab:educ}, Column~1), which is significant under classical standard errors ($p = 0.030$) but only marginally so under robust standard errors ($p = 0.055$; one-tailed $p = 0.028$).
+As a robustness check on inference, we re-estimated our three focal hypothesis-testing models---the education $\times$ year interaction on the U.S. Pride scale (Table~\ref{tab:educ}), the corresponding interaction on the Nationalism scale (Table~\ref{tab:nationalism}), and the effect of total voluntary association memberships in the full 2004 model (Table~\ref{tab:full2004})---using heteroskedasticity-consistent (HC1) standard errors in place of the classical weighted-OLS standard errors reported in the main tables. Robust standard errors are modestly larger (approximately 8--15\%) than their classical counterparts, but none of our substantive conclusions change: the education $\times$ year interaction on the U.S. Pride scale remains statistically significant ($p = .021$), the corresponding Nationalism scale interaction remains clearly non-significant under both specifications, and the effect of total memberships remains statistically significant ($p = .027$). The one exception is the 1996-only education coefficient (Table~\ref{tab:educ}, Column~1), which is significant under classical standard errors ($p = .030$) but only marginally so under robust standard errors ($p = .055$; one-tailed $p = .028$).
 
 \subsection{Descriptive Statistics}
 Table \ref{tab:descriptives} presents descriptive statistics for all variables used in the analysis.
-
-\begin{table}[htbp]
-\centering
-\caption{Descriptive Statistics for Variables Used in Analysis}
-\label{tab:descriptives}
-\begin{tabular}{lcccc}
-\toprule
-\textbf{Continuous Variables} & \textbf{Mean} & \textbf{Std. Dev.} & \textbf{Min} & \textbf{Max} \\
-\midrule
-U.S. Pride Scale & 3.88 & 2.79 & 0.0 & 10.0 \\
-Nationalism Scale & 3.72 & 0.71 & 1.0 & 5.0 \\
-Education (Years) & 13.53 & 2.91 & 0.0 & 20.0 \\
-Birth Cohort & 1954.57 & 17.18 & 1907 & 1986 \\
-Total Memberships & 1.61 & 1.88 & 0.0 & 13.0 \\
-\midrule
-\textbf{Categorical Variables} & \textbf{\% Yes} & & & \\
-\midrule
-Female & 55.1\% & & & \\
-Race: White & 80.2\% & & & \\
-Race: Black & 13.6\% & & & \\
-Race: Other & 6.2\% & & & \\
-Region: South & 36.7\% & & & \\
-Political Ideology: Conservative & 20.5\% & & & \\
-\midrule
-\textbf{Voluntary Association Memberships} & \textbf{\% Yes} & & & \\
-\midrule
-Church-affiliated & 31.0\% & & & \\
-Sports & 16.8\% & & & \\
-Professional & 15.1\% & & & \\
-School & 14.1\% & & & \\
-Hobby & 10.8\% & & & \\
-Literary or Art & 10.5\% & & & \\
-Youth & 10.3\% & & & \\
-Labor Union & 9.6\% & & & \\
-Service & 9.6\% & & & \\
-Fraternal & 6.8\% & & & \\
-Veterans & 5.3\% & & & \\
-Political & 4.3\% & & & \\
-School Fraternity/Sorority & 4.2\% & & & \\
-Farm & 3.0\% & & & \\
-Nationality & 2.7\% & & & \\
-\bottomrule
-\end{tabular}
-\end{table}
 
 \section{Results}
 
@@ -173,15 +144,11 @@ Before turning to our substantive hypothesis tests, we first document the period
 
 The irrational patriotism perspective predicts that 9/11 should have driven an increase in nationalism, particularly among lower-status and less-educated groups. However, our baseline and interaction models assessing the Nationalism scale yield a different picture. While baseline nationalism was indeed higher among older individuals with lower levels of educational attainment in 1996 \citep{jost2003social-206}, the interaction between education and the survey year on the Nationalism scale is neither statistically nor substantively significant. The need-based and irrational patriotism hypotheses fail to fully capture the changing dynamics of national attachment after 9/11, as the anticipated surge in blindly patriotic nationalism among the dispossessed did not neatly materialize as the primary driver of the 9/11 effect (Table \ref{tab:nationalism}).
 
-\input{Tabs/tbl-nationalism.tex}
-
 \subsection{Education and the Post-9/11 Period Effect}
 
 Turning to the U.S. Pride scale under the Choice-Process framework, we compare the effects of education across the two periods. OLS models reveal a striking reversal. As shown in the first model of Table \ref{tab:educ}, in 1996, education was negatively associated with national pride, supporting the hypothesis that low-status individuals are more likely to feel such pride. However, as we can see in the second model in the same table, the coefficient estimate in 2004 is positive (though not significant at conventional levels). A pooled model that formally tests the interaction between education and the survey year shows a significant positive interaction term, suggesting that national pride increased at a faster rate among higher-educated individuals \textit{after} 9/11. 
 
 This shift directly supports the choice-process prediction: individuals with greater structural autonomy experienced the most dramatic increase in their national attachment patterns under the new distal attribution regime. Figure \ref{fig:marginal_educ} plots the predicted marginal effects of education on the U.S. Pride Scale score, clearly demonstrating the positive slope of education in 2004 in clear contrast to the corresponding negative slope in 1996, opening up a substantial gap between high-education individuals observed in 2004 versus similarly educated individuals observed eight years before. Meanwhile, individuals with low levels of education display similar, statistically indistinguishable, and relatively high levels of national pride in both periods. 
-
-\input{Tabs/tbl-regression-educ.tex}
 
 \begin{figure}[H]
 \centering
@@ -195,8 +162,6 @@ This shift directly supports the choice-process prediction: individuals with gre
 Following the choice-process framework, we assess how voluntary association membership acts as a nested grouping structure that correlates with attachment to the nation using the 2004 sample. As shown in Table \ref{tab:full2004}, the overall volume of voluntary memberships is a statistically significant, positive predictor of national pride, regardless of whether it is measured as a categorical variable or a continuous count. And this effect is robust to the inclusion of various controls, most notably nationalist sentiment, which is presumably the primary channel through which political ideology (e.g., conservatism) affects feelings of national pride. 
 
 However, a crucial dynamic emerges when disaggregating organizational memberships. According to choice-process theory, affective attachment to the nation requires that the proximate group be cognitively nested within the national structure. Our results confirm this: while the total number of memberships has a positive effect, specific groups that are inherently linked to the national fabric---such as Veterans Groups, Political Clubs, and Fraternal Organizations---foster autonomy that is easily attributed to the larger national collective, resulting in the most substantial increases in U.S. pride. As illustrated in Figure \ref{fig:membership_forest}, these specific nested groups strongly drive the positive relationship between associational embeddedness and national attachment. 
-
-\input{Tabs/tbl-regression-full-2004.tex}
 
 \begin{figure}[H]
 \centering
@@ -233,6 +198,62 @@ A related limitation follows directly from our decision to treat 9/11 as the cat
 \clearpage
 \bibliography{references} 
 
+\clearpage
+\section*{Tables}
+
+\begin{table}[htbp]
+\centering
+\caption{Descriptive Statistics for Variables Used in Analysis}
+\label{tab:descriptives}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Continuous Variables} & \textbf{Mean} & \textbf{Std. Dev.} & \textbf{Min} & \textbf{Max} \\
+\midrule
+U.S. Pride Scale & 3.88 & 2.79 & 0.0 & 10.0 \\
+Nationalism Scale & 3.72 & .71 & 1.0 & 5.0 \\
+Education (Years) & 13.53 & 2.91 & 0.0 & 20.0 \\
+Birth Cohort & 1954.57 & 17.18 & 1907 & 1986 \\
+Total Memberships & 1.61 & 1.88 & 0.0 & 13.0 \\
+\midrule
+\textbf{Categorical Variables} & \textbf{\% Yes} & & & \\
+\midrule
+Female & 55.1\% & & & \\
+Race: White & 80.2\% & & & \\
+Race: Black & 13.6\% & & & \\
+Race: Other & 6.2\% & & & \\
+Region: South & 36.7\% & & & \\
+Political Ideology: Conservative & 20.5\% & & & \\
+\midrule
+\textbf{Voluntary Association Memberships} & \textbf{\% Yes} & & & \\
+\midrule
+Church-affiliated & 31.0\% & & & \\
+Sports & 16.8\% & & & \\
+Professional & 15.1\% & & & \\
+School & 14.1\% & & & \\
+Hobby & 10.8\% & & & \\
+Literary or Art & 10.5\% & & & \\
+Youth & 10.3\% & & & \\
+Labor Union & 9.6\% & & & \\
+Service & 9.6\% & & & \\
+Fraternal & 6.8\% & & & \\
+Veterans & 5.3\% & & & \\
+Political & 4.3\% & & & \\
+School Fraternity/Sorority & 4.2\% & & & \\
+Farm & 3.0\% & & & \\
+Nationality & 2.7\% & & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+\input{Tabs/tbl-nationalism.tex}
+
+\clearpage
+\input{Tabs/tbl-regression-educ.tex}
+
+\clearpage
+\input{Tabs/tbl-regression-full-2004.tex}
+
 \newpage
 \appendix
 \section{Supplementary Models with Political Ideology (1996 Only)}
@@ -241,6 +262,8 @@ Because the 2004 GSS administered the political ideology and national attachment
 
 \newpage
 \input{Tabs/tbl-app-nationalism.tex}
+
+\clearpage
 \input{Tabs/tbl-app-regression-educ.tex}
 
 \end{document}
