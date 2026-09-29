@@ -1,0 +1,55 @@
+# Project Memory: patriotism-choice-process
+
+## Overview
+Manuscript project: *Patriotism as a Choice Process: National Pride After 9/11* (Omar Lizardo, UCLA). Currently under revise-and-resubmit at *Social Psychology Quarterly* (Manuscript ID SPQ-26-0082, decision received 2026-09-29).
+
+## Key Files
+- `manuscript.tex` — original submitted manuscript.
+- `manuscript_R1.tex` — working revision copy for the R&R response; make all revision edits here.
+- `response_to_reviewers.tex` / `.pdf` — point-by-point response memo to the editors and two reviewers, formatted to match the style used in `../NETWORKS/cultural-matching-egonets/response_to_reviewers.tex` (shaded `reviewercomment` tcolorbox for verbatim quotes, `Location in Revised Manuscript` + `Response` fields per point).
+- `Social Psychology Quarterly - Decision on Manuscript ID SPQ-26-0082.eml` — full decision letter with editor and reviewer comments (source of truth for the response memo).
+- `Tabs/*.tex` — regression tables, `\input`-ed into the manuscript (`tbl-nationalism.tex`, `tbl-regression-educ.tex`, `tbl-regression-full-2004.tex`, plus `tbl-app-*.tex` appendix tables).
+- `Plots/*.pdf` — figures `\includegraphics`-ed into the manuscript.
+- `scripts/generate_tables.R` — canonical data-cleaning and model-fitting pipeline; pulls live 1996 and 2004 GSS waves via the `gssr` package (`gss_get_yr()`), not from a static local file.
+- `data/patriotism.dta` — an older/different data snapshot. **Do not use this to verify current manuscript results** — its variable set and cleaning differ from `scripts/generate_tables.R` and produces different (non-matching) coefficients/significance patterns. For any data verification or robustness check, replicate the pipeline in `scripts/generate_tables.R` using `gssr::gss_get_yr(1996)` and `gss_get_yr(2004)` instead.
+- Git remotes: `origin` (GitHub) and `overleaf` (`https://git.overleaf.com/6a4e5a994d2c37330eafdfb5`) — the project is git-linked to Overleaf; `git fetch overleaf` / merge to sync with the web editor.
+
+## Modeling Notes
+- Two continuous outcomes: U.S. Pride Scale (0–10 additive count of ten dichotomized "very proud" items) and Nationalism Scale (mean of four reverse-coded 5-point Likert items).
+- All substantive hypothesis tests use weighted OLS (`lm()` with `weights = wtssall`); logistic regression is used only for the preliminary item-level "very proud" descriptive analysis (Figure 1).
+- Two model designs: pooled 1996/2004 models with year × education interaction (Tables 1–2), and 2004-only cross-sectional models for voluntary-association membership effects (Table 3), since the membership battery was fielded only in 2004.
+
+## Revision Status (R&R for SPQ-26-0082)
+
+### Editors
+| # | Comment | Status |
+|---|---|---|
+| 1 | Theoretical mechanisms underdeveloped | Not yet addressed |
+| 2 | Presentation/flow needs polish | Not yet addressed |
+| 3 | Methods section needs more detail/justification | **Addressed** — added Analytic Strategy subsection (Sec. 3.5) + HC1 robust-SE robustness check |
+| 4 | Revision memo required | **Addressed** — `response_to_reviewers.tex` serves as the memo |
+
+### Reviewer 1
+| # | Comment | Status |
+|---|---|---|
+| 1 | Theoretical mechanisms lack substance; outcome-variable distinction unclear; unsupported claims (proximal/distal weakening, saliency of nested subgroups, p.5) | Not yet addressed |
+| 2 | No discussion of the 9/11 event itself or its context/literature | Not yet addressed |
+| 3a | Confounding events (e.g., Iraq War) between 1996–2004 | Not yet addressed |
+| 3b | Why logistic regression instead of linear? | **Addressed** — clarified logistic regression is used only for preliminary item-level analysis; all substantive models are OLS |
+| 3c | Methods section completely missing | **Addressed** — new Analytic Strategy subsection added |
+| 3d | No descriptive tables/plots (placeholder only) | **Addressed** — descriptive statistics table moved into Data and Variables section with real values |
+| 3e | Dichotomization choices not justified (Pride vs. Nationalism scale) | **Addressed** — rationale added + robustness check with non-dichotomized alternative scale (r = 0.87 with original, same substantive conclusion) |
+| 4 (minor) | Introduction ends abruptly ("In this paper,") | **Addressed** — closing paragraph completed |
+| 5 (minor) | "Excessive" attachment undefined; no reference point | Not yet addressed |
+
+### Reviewer 2
+| # | Comment | Status |
+|---|---|---|
+| 1 | Needs-based approach / social identity theory relationship unclear; footnote should be integrated into text | Not yet addressed |
+| 2 | Proximal/distal group distinction should be introduced earlier in the paper | Not yet addressed |
+| 3 | Prose needs a careful re-write for flow and clarity | Not yet addressed |
+| 4 | Delete (or footnote) the supplemental political-ideology models | Not yet addressed — decision pending (remove Appendix A vs. retain with justification) |
+
+### Also Pending
+- "Summary of Comments Not Addressed" section in `response_to_reviewers.tex` is still a placeholder — needs to be filled in once all point-by-point decisions are finalized.
+- Overview letter's numbered summary-of-revisions paragraph is still a placeholder pending completion of the remaining points above.
