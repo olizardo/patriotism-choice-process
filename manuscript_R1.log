@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.9.29)  30 SEP 2026 09:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.9.29)  30 SEP 2026 09:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -537,47 +537,48 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 38.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6] [7]
 Overfull \hbox (2.51292pt too wide) in paragraph at lines 79--79
 []\OT1/cmr/bx/n/14.4 Lawler's Choice-Process The-ory and Nested At-tach-ments 
  []
 
-[7] [8] [9] [10]
+[8] [9] [10] [11] [12]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 100.
+(Font)              <8> on input line 102.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 100.
- [11] [12] [13] [14] [15] [16]
-<Plots/fig-logistic-pride.pdf, id=296, 505.89pt x 361.35pt>
+(Font)              <6> on input line 102.
+ [13] [14] [15] [16] [17] [18]
+<Plots/fig-logistic-pride.pdf, id=316, 505.89pt x 361.35pt>
 File: Plots/fig-logistic-pride.pdf Graphic file (type pdf)
 <use Plots/fig-logistic-pride.pdf>
-Package pdftex.def Info: Plots/fig-logistic-pride.pdf  used on input line 137.
+Package pdftex.def Info: Plots/fig-logistic-pride.pdf  used on input line 139.
 (pdftex.def)             Requested size: 433.62001pt x 309.7349pt.
- [17]
-<Plots/fig-pride-bar.pdf, id=303, 433.62pt x 289.08pt>
+ [19]
+<Plots/fig-pride-bar.pdf, id=324, 433.62pt x 289.08pt>
 File: Plots/fig-pride-bar.pdf Graphic file (type pdf)
 <use Plots/fig-pride-bar.pdf>
-Package pdftex.def Info: Plots/fig-pride-bar.pdf  used on input line 144.
+Package pdftex.def Info: Plots/fig-pride-bar.pdf  used on input line 146.
 (pdftex.def)             Requested size: 346.89732pt x 231.27754pt.
- [18 <./Plots/fig-logistic-pride.pdf>] [19 <./Plots/fig-pride-bar.pdf>]
-<Plots/fig-marginal-educ.pdf, id=332, 433.62pt x 289.08pt>
+ [20 <./Plots/fig-logistic-pride.pdf>] [21 <./Plots/fig-pride-bar.pdf>]
+<Plots/fig-marginal-educ.pdf, id=351, 433.62pt x 289.08pt>
 File: Plots/fig-marginal-educ.pdf Graphic file (type pdf)
 <use Plots/fig-marginal-educ.pdf>
-Package pdftex.def Info: Plots/fig-marginal-educ.pdf  used on input line 161.
+Package pdftex.def Info: Plots/fig-marginal-educ.pdf  used on input line 163.
 (pdftex.def)             Requested size: 346.89732pt x 231.27754pt.
- [20] [21 <./Plots/fig-marginal-educ.pdf>]
-<Plots/fig-membership-forest.pdf, id=352, 505.89pt x 433.62pt>
+ [22] [23 <./Plots/fig-marginal-educ.pdf>]
+<Plots/fig-membership-forest.pdf, id=371, 505.89pt x 433.62pt>
 File: Plots/fig-membership-forest.pdf Graphic file (type pdf)
 <use Plots/fig-membership-forest.pdf>
 Package pdftex.def Info: Plots/fig-membership-forest.pdf  used on input line 17
-4.
+6.
 (pdftex.def)             Requested size: 433.62001pt x 371.68188pt.
- [22 <./Plots/fig-membership-forest.pdf>] [23] [24] [25] [26] [27]
-(./manuscript_R1.bbl [28
+ [24 <./Plots/fig-membership-forest.pdf>] [25] [26] [27] [28]
+[29] (./manuscript_R1.bbl [30
 
-] [29] [30]) [31] [32
+] [31] [32]) [33] [34
 
-] [33] (./Tabs/tbl-nationalism.tex
+] [35]
+(./Tabs/tbl-nationalism.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -586,7 +587,7 @@ Package pdftex.def Info: Plots/fig-membership-forest.pdf  used on input line 17
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-) [34] (./Tabs/tbl-regression-educ.tex
+) [36] (./Tabs/tbl-regression-educ.tex
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -595,7 +596,7 @@ Package pdftex.def Info: Plots/fig-membership-forest.pdf  used on input line 17
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 > Step: build the whole table.
-) [35]
+) [37]
 (./Tabs/tbl-regression-full-2004.tex
 > Step: init table outer spec.
 > Step: parse table options.
@@ -614,21 +615,18 @@ Overfull \hbox (35.51604pt too wide) in paragraph at lines 47--48
  [][] 
  []
 
-) [36] (./manuscript_R1.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+) [38] (./manuscript_R1.aux)
 Package rerunfilecheck Info: File `manuscript_R1.out' has not changed.
-(rerunfilecheck)             Checksum: F4A1DA57DE2B27D32ECFCA1C6F59A737;4743.
+(rerunfilecheck)             Checksum: 6BB24642CA9459A62C4AB3423BFFB030;4743.
  ) 
 Here is how much of TeX's memory you used:
- 15969 strings out of 477975
- 334233 string characters out of 5839281
+ 15983 strings out of 477975
+ 334558 string characters out of 5839281
  1910330 words of memory out of 5000000
- 35839 multiletter control sequences out of 15000+600000
+ 35848 multiletter control sequences out of 15000+600000
  528102 words of font info for 69 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 78i,10n,111p,1879b,1162s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,10n,111p,2962b,1162s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 , replaced by a fixed one
@@ -651,10 +649,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on manuscript_R1.pdf (36 pages, 256670 bytes).
+Output written on manuscript_R1.pdf (38 pages, 259343 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 104 named destinations out of 1000 (max. 500000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 462 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
  189 words of extra memory for PDF output out of 10000 (max. 10000000)
 

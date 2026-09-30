@@ -5,45 +5,45 @@ The style file: apalike.bst
 Database file #1: references.bib
 Warning--empty journal in anderson1991imagined-c99
 Warning--empty journal in wuthnow2019left-c34
-You've used 30 entries,
+You've used 33 entries,
             1935 wiz_defined-function locations,
-            649 strings with 8577 characters,
-and the built_in function-call counts, 11431 in all, are:
-= -- 1141
-> -- 406
-< -- 23
-+ -- 142
-- -- 132
-* -- 966
-:= -- 2000
-add.period$ -- 90
-call.type$ -- 30
-change.case$ -- 212
-chr.to.int$ -- 30
-cite$ -- 32
-duplicate$ -- 427
-empty$ -- 825
-format.name$ -- 178
-if$ -- 2204
+            666 strings with 9048 characters,
+and the built_in function-call counts, 12627 in all, are:
+= -- 1264
+> -- 444
+< -- 25
++ -- 154
+- -- 144
+* -- 1075
+:= -- 2204
+add.period$ -- 99
+call.type$ -- 33
+change.case$ -- 233
+chr.to.int$ -- 33
+cite$ -- 35
+duplicate$ -- 469
+empty$ -- 915
+format.name$ -- 195
+if$ -- 2436
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 34
-newline$ -- 153
-num.names$ -- 90
-pop$ -- 161
+missing$ -- 37
+newline$ -- 168
+num.names$ -- 99
+pop$ -- 174
 preamble$ -- 1
-purify$ -- 216
+purify$ -- 237
 quote$ -- 0
-skip$ -- 332
+skip$ -- 364
 stack$ -- 0
-substring$ -- 900
-swap$ -- 37
+substring$ -- 1011
+swap$ -- 40
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 172
+type$ -- 190
 warning$ -- 2
-while$ -- 107
+while$ -- 119
 width$ -- 0
-write$ -- 386
+write$ -- 425
 (There were 2 warnings)
