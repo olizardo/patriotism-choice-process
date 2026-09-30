@@ -1,5 +1,6 @@
 \documentclass[11pt]{article}
-\usepackage[margin=1in]{geometry}
+\usepackage{hyphenat}
+\usepackage{natbib}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
@@ -92,14 +93,6 @@ Additionally, one reviewer believes, and we agree, that more detail and justific
 \noindent\textbf{Location in Revised Manuscript:} [PLACEHOLDER: Section~3 (Data and Variables) / new Methods subsection].\\[4pt]
 \textbf{Response:} [PLACEHOLDER]
 
-\subsection*{Point 4: Revision Memo}
-
-\begin{reviewercomment}
-When you submit your revised manuscript please indicate how you have addressed these comments in a separate, revision memo. [...] This revision memo should also provide a clear justification for any reviewer comments that you do not address in your revisions.
-\end{reviewercomment}
-
-\noindent\textbf{Response:} This document serves as that memo. A summary of any comments not directly incorporated into the revision, with justification, appears at the end of this document.
-
 \clearpage
 
 \section*{Response to Reviewer 1}
@@ -148,9 +141,9 @@ Third, the empirical analysis is too simplistic and not transparent enough. The 
 
 \textit{(b) Justification for logistic vs.\ linear regression:} The reviewer's concern stems from an ambiguity in our original wording rather than from our actual modeling strategy. Our two substantive dependent variables---the U.S. Pride Scale (a 0--10 additive index) and the Nationalism Scale (the mean of four items on a 1--5 scale)---are indeed treated as continuous, and every model that tests our substantive hypotheses (Tables~Table 1 (Predictors of Nationalism Scale), Table 2 (Effects of Education on U.S. Pride Scale), and Table 3 (Predictors of U.S. Pride, 2004 Sample)) is estimated via OLS linear regression, as reflected in the $R^2$, adjusted $R^2$, $F$-statistic, and RMSE diagnostics reported in each table.
 
-The only place logistic regression appears in the paper is in our preliminary, purely descriptive analysis of the ten individual binary items that comprise the U.S. Pride Scale (e.g., ``very proud'' vs.\ not, for each domain such as armed forces, history, or the arts). Because each of these ten underlying items is genuinely dichotomous in the GSS instrument, logistic regression is the appropriate choice for characterizing the item-by-item period shift illustrated in Figure 1; this analysis is meant only to document \textit{that} pride increased broadly across item domains before we turn to the composite scales. We have revised the opening of the Results section (Section~4.1) to state explicitly that these item-level logistic models are a preliminary descriptive step, distinct from the linear regression models used for all subsequent hypothesis tests, to eliminate any suggestion that logistic regression was used to model the continuous scales themselves.
+The only place logistic regression appears in the paper is in our preliminary, purely descriptive analysis of the ten individual binary items that comprise the U.S. Pride Scale (e.g., ``very proud'' vs.\ not, for each domain such as armed forces, history, or the arts). Because each of these ten underlying items was coded as dichotomous, logistic regression is the appropriate choice for characterizing the item-by-item period shift illustrated in Figure 1; this analysis is meant only to document \textit{that} pride increased broadly across item domains before we turn to the composite scales. We have revised the opening of the Results section (Section~4.1) to explicitly state that these item-level logistic models are a preliminary descriptive step, distinct from the linear regression models used for all subsequent hypothesis tests, to avoid any suggestion that logistic regression was used to model the continuous scales themselves.
 
-\textit{(c) Missing methods section:} We have added a new subsection, \textit{Analytic Strategy} (Section~3.5 of the revised manuscript), that details our estimation approach. In brief: (i)~because the U.S. Pride and Nationalism scales are continuous, all substantive hypothesis tests are estimated via weighted least squares (OLS) regression, with respondents weighted by the GSS full-sample probability weight (\texttt{wtssall}); (ii)~we distinguish two model designs---pooled 1996--2004 models with a year indicator and a year~$\times$~education interaction used to test whether the education effect changed across periods (Tables~Table 1 (Predictors of Nationalism Scale) and Table 2 (Effects of Education on U.S. Pride Scale)), versus 2004-only cross-sectional models for the nested-subgroup membership analysis (Table 3 (Predictors of U.S. Pride, 2004 Sample)), since the voluntary association battery was administered only in the 2004 wave; and (iii)~we describe our handling of missing data, noting that the U.S. Pride scale requires complete responses across all ten component items (listwise deletion at the scale level) while the Nationalism scale is computed as the mean of available items, and that analytic sample sizes are reported in each table.
+\textit{(c) Missing methods section:} We have added a new subsection, \textit{Analytic Strategy} (Section~3.5 of the revised manuscript), that details our estimation approach. In brief: (i)~because the U.S. Pride and Nationalism scales are continuous, all substantive hypothesis tests are estimated via weighted least squares (OLS) regression, with respondents weighted by the GSS full-sample probability weight (\texttt{wtssall}); (ii)~we distinguish two model designs---pooled 1996--2004 models with a year indicator and a year~$\times$~education interaction used to test whether the education effect changed across periods (Table 1 (Predictors of Nationalism Scale) and Table 2 (Effects of Education on U.S. Pride Scale)), versus 2004-only cross-sectional models for the nested-subgroup membership analysis (Table 3 (Predictors of U.S. Pride, 2004 Sample)), since the voluntary association battery was administered only in the 2004 wave; and (iii)~we describe our handling of missing data, noting that the U.S. Pride scale requires complete responses across all ten component items (listwise deletion at the scale level) while the Nationalism scale is computed as the mean of available items, and that analytic sample sizes are reported in each table.
 
 \textit{(d) Missing descriptive tables/plots:} We have moved the full descriptive statistics table (the Descriptive Statistics table) into the Data and Variables section (Section~3.5) and confirmed that all figures and regression tables referenced in the manuscript are included with real values rather than placeholders.
 
