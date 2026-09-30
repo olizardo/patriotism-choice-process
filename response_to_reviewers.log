@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.9.29)  30 SEP 2026 09:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.9.29)  30 SEP 2026 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,8 +797,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 6
-5.
+4.
+
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -806,49 +810,41 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1
+ [2] [3
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3
+]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+5.
 
-] [4] [5
-
-] [6]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-31.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7] [8]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-44.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-44.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+5.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-144.
+95.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-144.
+95.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 144.
+(Font)              <10.95> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 144.
+(Font)              <8> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 144.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 144
-.
+(Font)              <6> on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -856,45 +852,53 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 144
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [9] [10]
-[11] [12] [13] [14
+) [4] [5
 
-] [15] [16] (./response_to_reviewers.bbl) [17
+] [6]
+[7]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+34.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [8] [9] [10] [11] [12] [13]
+[14] [15
 
-]
+] [16] [17] [18] [19] (./response_to_reviewers.bbl [20
+
+]) [21]
 (./response_to_reviewers.aux)
 Package rerunfilecheck Info: File `response_to_reviewers.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26503 strings out of 477975
- 518068 string characters out of 5839281
- 1861330 words of memory out of 5000000
- 45977 multiletter control sequences out of 15000+600000
- 564120 words of font info for 157 fonts, out of 8000000 for 9000
+ 26544 strings out of 477975
+ 518716 string characters out of 5839281
+ 1862330 words of memory out of 5000000
+ 45989 multiletter control sequences out of 15000+600000
+ 565149 words of font info for 168 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 83i,12n,80p,1652b,1034s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,12n,80p,1670b,1034s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
 m-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/pu
 blic/lm/lmtt10.pfb>
-Output written on response_to_reviewers.pdf (17 pages, 219211 bytes).
+Output written on response_to_reviewers.pdf (21 pages, 234930 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
  27149 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -8,7 +8,9 @@ Adorno, T.~W., Aron, B., Frenkel-Brunswik, E., Levinson, D.~J., Morrow, W.,
 
 \bibitem[Anderson, 1991]{anderson1991imagined-c99}
 Anderson, B. (1991).
-\newblock Imagined communities. 1983. rev. ed.
+\newblock {\em Imagined Communities: Reflections on the Origin and Spread of
+  Nationalism}.
+\newblock Verso, London.
 
 \bibitem[Bell and Force, 1956]{bell1956social}
 Bell, W. and Force, M.~T. (1956).
@@ -32,6 +34,12 @@ Dederichs, K. (2024).
   socioeconomic inequalities.
 \newblock {\em Social Networks}, 76:42--50.
 
+\bibitem[Fine, 2021]{fine2021hinge}
+Fine, G.~A. (2021).
+\newblock {\em The hinge: Civil society, group cultures, and the power of local
+  commitments}.
+\newblock University of Chicago Press, Chicago, IL.
+
 \bibitem[Freeman et~al., 1957]{freeman1957correlates}
 Freeman, H.~E., Novak, E., and Reeder, L.~G. (1957).
 \newblock Correlates of membership in voluntary associations.
@@ -42,6 +50,12 @@ Giddens, A. (1984).
 \newblock {\em The Constitution of Society: Outline of the Theory of
   Structuration}.
 \newblock Polity Press.
+
+\bibitem[Hochschild, 1979]{hochschild1979emotion-624}
+Hochschild, A.~R. (1979).
+\newblock Emotion work, feeling rules, and social structure.
+\newblock {\em The American journal of sociology}, 85(3):551--575.
+\newblock doi: 10.1086/227049.
 
 \bibitem[Hogg and Terry, 2000]{hogg2000social-e0d}
 Hogg, M.~A. and Terry, D.~I. (2000).
@@ -178,6 +192,11 @@ Sullivan, J.~L., Fried, A., and Dietz, M.~G. (1992).
 \newblock Patriotism, politics, and the presidential election of 1988.
 \newblock {\em American Journal of Political Science}, 36(1):200--234.
 
+\bibitem[Swidler, 1992]{swidler1992inequality}
+Swidler, A. (1992).
+\newblock Inequality and american culture: The persistence of voluntarism.
+\newblock {\em American Behavioral Scientist}, 35(4-5):606--629.
+
 \bibitem[Tomeh, 1973]{tomeh1973formal}
 Tomeh, A.~K. (1973).
 \newblock Formal voluntary organizations: Participation, correlates, and
@@ -186,7 +205,7 @@ Tomeh, A.~K. (1973).
 
 \bibitem[Wuthnow, 2019]{wuthnow2019left-c34}
 Wuthnow, R. (2019).
-\newblock The left behind, decline and rage in small-town america.
-\newblock pages 159--164.
+\newblock {\em The Left Behind, Decline and Rage in Small-Town America}.
+\newblock Princeton University Press, Princeton, NJ.
 
 \end{thebibliography}

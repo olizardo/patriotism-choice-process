@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex manuscript_R1"] 1790786600 "manuscript_R1.aux" "manuscript_R1.bbl" "manuscript_R1" 1790786604 0
-  "./references.bib" 1790785496 10791 825e04e993d84b442740e2841157e5b7 ""
+["bibtex manuscript_R1"] 1790789052 "manuscript_R1.aux" "manuscript_R1.bbl" "manuscript_R1" 1790789056 0
+  "./references.bib" 1790788698 11795 ede3e393f40c9229620528c9a3f171f0 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "manuscript_R1.aux" 1790786604 8775 276085352010276884780a0d0c36904a "pdflatex"
+  "manuscript_R1.aux" 1790789056 8913 6594ec0f409d9e2bc2eba95a97aa2b01 "pdflatex"
   (generated)
   "manuscript_R1.bbl"
   "manuscript_R1.blg"
   (rewritten before read)
-["pdflatex"] 1790786600 "manuscript_R1.tex" "manuscript_R1.pdf" "manuscript_R1" 1790786604 0
+["pdflatex"] 1790789052 "manuscript_R1.tex" "manuscript_R1.pdf" "manuscript_R1" 1790789056 0
   "/etc/texmf/web2c/texmf.cnf" 1788206240 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1136768653 1536 73da8e8f1d2a4c957d51ca133585586b ""
@@ -118,10 +118,10 @@
   "Tabs/tbl-nationalism.tex" 1790724316 1337 704e32fb7e16016075cb385dde0d1f6f ""
   "Tabs/tbl-regression-educ.tex" 1790724316 1519 cc835a506364a96428bc97bd362d3adc ""
   "Tabs/tbl-regression-full-2004.tex" 1790724316 2467 dc8888019d4065afdd612d47ce1af042 ""
-  "manuscript_R1.aux" 1790786604 8775 276085352010276884780a0d0c36904a "pdflatex"
-  "manuscript_R1.bbl" 1790786600 7656 6f416e98d9ab026a2ec7eb41b7061703 "bibtex manuscript_R1"
-  "manuscript_R1.out" 1790786604 4743 6bb24642ca9459a62c4ab3423bffb030 "pdflatex"
-  "manuscript_R1.tex" 1790786561 49929 27d5bbb5a77b3ad254e3d4b914080aca ""
+  "manuscript_R1.aux" 1790789056 8913 6594ec0f409d9e2bc2eba95a97aa2b01 "pdflatex"
+  "manuscript_R1.bbl" 1790789052 8413 53c7453ca4d30254b3781b717adeecdc "bibtex manuscript_R1"
+  "manuscript_R1.out" 1790789056 4572 87121cde8c04fd175b7183e16faf8f5a "pdflatex"
+  "manuscript_R1.tex" 1790788839 49555 7fd47847bfee935ee6fd7fa06a68276a ""
   (generated)
   "manuscript_R1.aux"
   "manuscript_R1.log"
