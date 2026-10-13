@@ -32,17 +32,23 @@ gss_comb <- bind_rows(gss96, gss04) %>%
 
 gss_clean <- gss_comb %>%
   mutate(across(everything(), as.numeric)) %>%
-  filter(if_all(prouddem:proudgrp, ~ .x != 0 | is.na(.x))) %>%
+  # Exclude rows where ALL pride items are missing (listwise deletion at scale level)
+  filter(!if_all(prouddem:proudgrp, ~ is.na(.x))) %>%
   mutate(
+    # Set ambornin:amsports missing codes (0, 9) to NA
     across(ambornin:amsports, ~ na_if(.x, 0)),
     across(ambornin:amsports, ~ na_if(.x, 9)),
+    # Dichotomize pride items: 1 = "very proud", 0 = all other responses
     across(prouddem:proudgrp, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
+    # Dichotomize patriotism items: 1 if response is 1, 0 otherwise
     across(ambornin:amfeel, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
+    # Nationalism items: keep on 1-5 Likert scale, map code 8 to 3 (ambiguous code handling)
     across(c(amcitizn, amshamed, belikeus, ambetter, ifwrong), ~ ifelse(.x == 8, 3, .x)),
-    across(c(amcitizn, amshamed, belikeus, ambetter, ifwrong), ~ ifelse(.x < 3, 1, 0), .names = "{.col}bin"),
+    # Do NOT dichotomize nationalism items; keep them for mean calculation
     educ = ifelse(educ %in% c(98, 99), NA, educ),
     degree = ifelse(degree %in% c(8, 9), NA, degree),
-    memnum = ifelse(memnum == -1, NA, ifelse(memnum %in% c(98, 99), 0, memnum)),
+    # Treat -1 as missing, and 98/99 (DK/refused) as NA (not as 0 memberships)
+    memnum = ifelse(memnum == -1, NA, ifelse(memnum %in% c(98, 99), NA, memnum)),
     usaborn = ifelse(born == 1, 1, 0),
     south = ifelse(region == 3, 1, 0),
     conservative = ifelse(is.na(polviews), NA, ifelse(polviews %in% c(6, 7), 1, 0)),
@@ -58,10 +64,14 @@ gss_clean <- gss_comb %>%
   mutate(across(memfrat:memchurh, ~ ifelse(.x > 0 & !is.na(.x) & .x == 1, 1, 0), .names = "{.col}bin")) %>%
   rowwise() %>%
   mutate(
+    # U.S. Pride Scale: sum of dichotomized items (0-10), counts "very proud" responses
     uspridescal = if(any(is.na(c_across(prouddembin:proudgrpbin)))) NA_real_ 
                   else sum(c_across(prouddembin:proudgrpbin)),
-    patriotscal = if(any(is.na(c_across(c(amborninbin, amcitbin, amlivedbin, amgovtbin, amfeelbin))))) NA_real_ 
-                  else sum(c_across(c(amborninbin, amcitbin, amlivedbin, amgovtbin, amfeelbin))),
+    # Nationalism Scale: mean of 4 reverse-coded items on 1-5 Likert scale (higher = more nationalist)
+    # Items: amcitizn, belikeus, ambetter, ifwrong
+    # Original coding: 1=Strongly Agree, 5=Strongly Disagree
+    # Reverse-coded: 6 - original value, so 1→5, 5→1 (Agree→high, Disagree→low)
+    # Formula: 6 - mean() reverses the scale so higher values = stronger nationalism
     nationalistscal = 6 - mean(c_across(c(amcitizn, belikeus, ambetter, ifwrong)), na.rm = TRUE)
   ) %>%
   ungroup() %>%
