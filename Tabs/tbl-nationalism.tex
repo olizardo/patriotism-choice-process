@@ -1,36 +1,35 @@
-\begin{table}
+\begin{table}[htbp]
 \centering
-\begin{talltblr}[         %% tabularray outer open
-caption={Predictors of Nationalism Scale (1996 vs 2004)},
-label={tab:nationalism},
-note{}={Note: + p \num{< .1}, * p \num{< .05}, ** p \num{< .01}, *** p \num{< .001}},
-]                     %% tabularray outer close
-{                     %% tabularray inner open
-colspec={Q[]Q[]Q[]},
-hline{2}={1-3}{solid, black, .05em},
-hline{12}={1-3}{solid, black, .05em},
-hline{1}={1-3}{solid, black, .08em},
-hline{19}={1-3}{solid, black, .08em},
-column{2-3}={}{halign=c},
-column{1}={}{halign=l},
-}                     %% tabularray inner close
+\begin{threeparttable}
+\caption{Predictors of Nationalism Scale (1996 vs 2004)}
+\label{tab:nationalism}
+\small
+\begin{tabular}{lrr}
+\toprule
 & Base Change & Educ Interaction \\
-Education (Years) &  & \num{-.056}*** \\
-&  & (\num{.007}) \\
-Birth Cohort & \num{-.010}*** & \num{-.009}*** \\
-& (\num{.001}) & (\num{.001}) \\
-Year: 2004 & \num{.132}*** & \num{.159} \\
-& (\num{.028}) & (\num{.136}) \\
-Education × Year 2004 &  & \num{-0.000} \\
-&  & (\num{.010}) \\
-Intercept & \num{22.361}*** & \num{21.818}*** \\
-& (\num{1.651}) & (\num{1.612}) \\
-Num.Obs. & \num{2531} & \num{2528} \\
-R2 & \num{.050} & \num{.098} \\
-R2 Adj. & \num{.050} & \num{.096} \\
-AIC & \num{5566.8} & \num{5433.6} \\
-BIC & \num{5590.1} & \num{5468.6} \\
-Log.Lik. & \num{-2779.378} & \num{-2710.805} \\
-RMSE & \num{.69} & \num{.67} \\
-\end{talltblr}
+\midrule
+Education (Years) &  & -.056*** \\
+&  & (.007) \\
+Birth Cohort & -.010*** & -.009*** \\
+& (.001) & (.001) \\
+Year: 2004 & .132*** & .159 \\
+& (.028) & (.136) \\
+Education × Year 2004 &  & -0.000 \\
+&  & (.010) \\
+Intercept & 22.361*** & 21.818*** \\
+& (1.651) & (1.612) \\
+Num.Obs. & 2531 & 2528 \\
+R2 & .050 & .098 \\
+R2 Adj. & .050 & .096 \\
+AIC & 5566.8 & 5433.6 \\
+BIC & 5590.1 & 5468.6 \\
+Log.Lik. & -2779.378 & -2710.805 \\
+RMSE & .69 & .67 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\small
+Note: + $p < .1$, * $p < .05$, ** $p < .01$, *** $p < .001$
+\end{tablenotes}
+\end{threeparttable}
 \end{table}

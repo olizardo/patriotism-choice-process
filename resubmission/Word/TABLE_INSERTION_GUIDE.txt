@@ -1,0 +1,28 @@
+MANUAL TABLE INSERTION GUIDE FOR WORD DOCUMENT
+===============================================
+
+The Word conversion (manuscript_R1.docx) currently only shows Table 1 (Descriptive Statistics).
+Tables 2-4 need to be manually inserted. Here's how:
+
+TABLE 2: Predictors of Nationalism Scale (1996 vs 2004)
+Location: After the first paragraph discussing nationalism results
+- File: ../../Tabs/tbl-nationalism.tex
+- Cross-reference: \ref{tab:nationalism}
+- Placement: After "Table \ref{tab:nationalism}" text
+
+TABLE 3: Effects of Education on U.S. Pride Scale (1996 vs 2004)
+Location: After paragraph discussing education reversal
+- File: ../../Tabs/tbl-regression-educ.tex
+- Cross-reference: \ref{tab:educ}
+- Placement: After "Table \ref{tab:educ}" text
+
+TABLE 4: Predictors of U.S. Pride (2004 sample only)
+Location: After paragraph discussing voluntary membership effects
+- File: ../../Tabs/tbl-regression-full-2004.tex
+- Cross-reference: \ref{tab:full2004}
+- Placement: After "Table \ref{tab:full2004}" text
+
+ALTERNATIVE: Use a plain .tex file for journal submission instead of .docx
+The LaTeX version (manuscript_R1.tex) renders all tables correctly.
+Most journals accept LaTeX submissions and will typeset them properly.
+

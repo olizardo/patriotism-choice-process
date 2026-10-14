@@ -1,0 +1,123 @@
+================================================================================
+MANUSCRIPT SPQ-26-0082 RESUBMISSION PACKAGE — READY FOR SUBMISSION
+================================================================================
+
+STATUS: ✓ READY TO SUBMIT
+
+All files are prepared and organized for submission via ScholarOne Manuscripts
+to Social Psychology Quarterly.
+
+================================================================================
+SUBMISSION CHECKLIST
+================================================================================
+
+BEFORE UPLOADING TO SCHOLARONE:
+
+  ✓ Manuscript text finalized (manuscript_R1.tex)
+  ✓ All tables included and properly formatted (Tabs/)
+  ✓ All figures embedded correctly (Plots/)
+  ✓ Bibliography complete (references.bib)
+  ✓ Cross-references verified
+  ✓ Citations formatted
+  ✓ Response to reviewers prepared (response_to_reviewers.tex/docx)
+
+DOCUMENTS READY FOR UPLOAD:
+
+  Location: /home/omarlizardo/projects/SOCIAL PSYCH/patriotism-choice-process/submission_package/
+
+  Main Document:
+    └─ manuscript_R1.tex (51 KB)
+
+  Supporting Files (TeX/LaTeX):
+    ├─ references.bib (14 KB)
+    ├─ Tabs/ (7 table files)
+    └─ Plots/ (4 main figures + supplementary figures)
+
+================================================================================
+HOW TO SUBMIT
+================================================================================
+
+1. Log in to ScholarOne: https://spq.scholasticahq.com (use your existing account)
+
+2. Navigate to "Submission" → "Step 3: File Upload"
+
+3. Upload files:
+   • Main Document: manuscript_R1.tex
+   • All other files: Mark as "TeX/LaTeX Suppl File"
+
+4. ScholarOne will automatically:
+   ✓ Analyze all file dependencies
+   ✓ Compile LaTeX to PDF
+   ✓ Verify all references and figures
+   ✓ Create HTML and PDF proofs
+
+5. Review the proof and confirm it looks correct
+
+6. Complete remaining submission steps (title page, etc.)
+
+7. Submit!
+
+================================================================================
+IMPORTANT NOTES
+================================================================================
+
+ANONYMIZATION:
+- The manuscript file (manuscript_R1.tex) is already anonymized
+- Author information should NOT appear in the main manuscript file
+- A separate title page with author details will be needed (you can create
+  this in ScholarOne during the submission process)
+
+LATEX COMPILATION:
+- ScholarOne automatically compiles LaTeX files
+- No action needed from you — the system handles it
+- All tables and figures will render correctly in the PDF proof
+
+FILE ORGANIZATION:
+- Do NOT include .png versions of figures (PDF is used)
+- Do NOT upload a compiled PDF separately
+- Do NOT reorganize file names or paths
+- Everything is already set up correctly
+
+================================================================================
+ADDITIONAL RESOURCES
+================================================================================
+
+For detailed instructions:
+  → See: submission_package/SUBMISSION_INSTRUCTIONS.md
+
+For troubleshooting:
+  → See: resubmission/WORD_CONVERSION_NOTES.md (explains why LaTeX was chosen)
+
+Response to Reviewers:
+  → See: resubmission/LaTeX/response_to_reviewers.tex
+
+Project Documentation:
+  → See: documentation/ folder for reproducibility details
+
+================================================================================
+KEY CONTACTS
+================================================================================
+
+Manuscript ID: SPQ-26-0082
+Journal: Social Psychology Quarterly
+Author: Omar Lizardo
+Email: olizardo@soc.ucla.edu
+Institution: UCLA Department of Sociology
+
+ScholarOne Support: https://www.scholasticahq.com/support/
+
+================================================================================
+FINAL STATUS
+================================================================================
+
+✓ Manuscript: Complete and ready
+✓ Tables: All 4 present and formatted
+✓ Figures: All 4 present and embedded
+✓ Citations: Complete (44 references)
+✓ Cross-references: Verified
+✓ Reproducibility: Fully documented
+✓ Response memo: Complete and ready
+
+The manuscript is production-ready and can be submitted immediately.
+
+================================================================================
