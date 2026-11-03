@@ -5,74 +5,11 @@ library(modelsummary)
 
 source("scripts/00_utils.R")
 
-gss96 <- gss_get_yr(1996)
-gss04 <- gss_get_yr(2004)
+gss_comb <- gss_load_comb()
 
-vars_to_keep <- c("year", "age", "educ", "degree", "sex", "race", "polviews", "born", 
-                  "reg16", "region", "sei", "wtssall", "belikeus", "ifwrong")
-
-gss_comb <- bind_rows(gss96, gss04) %>%
-  select(any_of(vars_to_keep), 
-         starts_with("proud"), 
-         starts_with("am"), 
-         starts_with("mem")) %>%
-  filter(year %in% c(1996, 2004))
-
-gss_clean <- gss_comb %>%
-  mutate(across(everything(), as.numeric)) %>%
-  # Exclude rows where ALL pride items are missing (listwise deletion at scale level)
-  filter(!if_all(prouddem:proudgrp, ~ is.na(.x))) %>%
-  mutate(
-    # Set ambornin:amsports missing codes (0, 9) to NA
-    across(ambornin:amsports, ~ na_if(.x, 0)),
-    across(ambornin:amsports, ~ na_if(.x, 9)),
-    # Dichotomize pride items: 1 = "very proud", 0 = all other responses
-    across(prouddem:proudgrp, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
-    # Dichotomize patriotism items: 1 if response is 1, 0 otherwise
-    across(ambornin:amfeel, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
-    # Nationalism items: keep on 1-5 Likert scale, map code 8 to 3 (ambiguous code handling)
-    across(c(amcitizn, amshamed, belikeus, ambetter, ifwrong), ~ ifelse(.x == 8, 3, .x)),
-    # Do NOT dichotomize nationalism items; keep them for mean calculation
-    educ = ifelse(educ %in% c(98, 99), NA, educ),
-    degree = ifelse(degree %in% c(8, 9), NA, degree),
-    # Treat -1 as missing, and 98/99 (DK/refused) as NA (not as 0 memberships)
-    memnum = ifelse(memnum == -1, NA, ifelse(memnum %in% c(98, 99), NA, memnum)),
-    usaborn = ifelse(born == 1, 1, 0),
-    south = ifelse(region == 3, 1, 0),
-    conservative = ifelse(is.na(polviews), NA, ifelse(polviews %in% c(6, 7), 1, 0)),
-    memnumcat = case_when(
-      memnum == 0 ~ "0",
-      memnum %in% 1:2 ~ "1-2",
-      memnum >= 3 ~ "3+",
-      TRUE ~ NA_character_
-    ),
-    memnumcat = factor(memnumcat, levels = c("0", "1-2", "3+")),
-    cohort = year - age
-  ) %>%
-  mutate(across(memfrat:memchurh, ~ ifelse(.x > 0 & !is.na(.x) & .x == 1, 1, 0), .names = "{.col}bin")) %>%
-  rowwise() %>%
-  mutate(
-    # U.S. Pride Scale: sum of dichotomized items (0-10), counts "very proud" responses
-    uspridescal = if(any(is.na(c_across(prouddembin:proudgrpbin)))) NA_real_ 
-                  else sum(c_across(prouddembin:proudgrpbin)),
-    # U.S. Pride Scale (continuous): mean of un-dichotomized pride items
-    # Used for robustness check: values range from 1-4 (original response scale)
-    uspridescal_continuous = if(any(is.na(c_across(prouddem:proudgrp)))) NA_real_
-                              else mean(c_across(prouddem:proudgrp), na.rm = TRUE),
-    # Nationalism Scale: mean of 4 reverse-coded items on 1-5 Likert scale (higher = more nationalist)
-    # Items: amcitizn, belikeus, ambetter, ifwrong
-    # Original coding: 1=Strongly Agree, 5=Strongly Disagree
-    # Reverse-coded: 6 - original value, so 1→5, 5→1 (Agree→high, Disagree→low)
-    # Formula: 6 - mean() reverses the scale so higher values = stronger nationalism
-    nationalistscal = 6 - mean(c_across(c(amcitizn, belikeus, ambetter, ifwrong)), na.rm = TRUE)
-  ) %>%
-  ungroup() %>%
-  filter(!is.na(wtssall)) %>%
-  mutate(
-    year_f = factor(year),
-    sex_f = factor(sex),
-    race_f = factor(race)
-  )
+gss_clean <- gss_clean_data(gss_comb,
+                            pride_filter = "all_missing",
+                            memnum_dk_as_zero = FALSE)
 
 coef_labels <- c(
   "educ" = "Education (Years)",
@@ -187,10 +124,11 @@ pride_items <- gss_clean %>%
          starts_with("proudgrp")) %>%
   select(matches("^proud[a-z]+$"))
 
-# More robust way: get the original proud* items (not dichotomized)
+# Original proud* items (not dichotomized): the same 10 items that make up
+# uspridescal (prouddembin:proudgrpbin)
 pride_items_orig <- gss_clean %>% 
-  select(prouddem, proudeco, proudgen, proudartsci, proudeduc, 
-         proudtradeuniv, proudsports, proudparks, proudgrp, proudarmed) %>%
+  select(prouddem, proudpol, proudeco, proudsss, proudsci, proudspt,
+         proudart, proudmil, proudhis, proudgrp) %>%
   mutate(across(everything(), as.numeric))
 
 nationalism_items <- gss_clean %>%

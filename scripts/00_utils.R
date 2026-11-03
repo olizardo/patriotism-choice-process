@@ -62,6 +62,105 @@ convert_to_booktabs <- function(tex_file, caption, label, note = asa_significanc
   invisible(out)
 }
 
+# Shared GSS data-cleaning pipeline. All three analysis scripts source this
+# instead of carrying their own copies of the cleaning block. Two steps were
+# deliberately different between the accepted-R1 scripts, so they are
+# parameterized to preserve each script's published behavior exactly:
+#
+#   pride_filter:
+#     "all_missing" — drop rows where ALL pride items are NA (listwise
+#                     deletion at scale level); used by the regression/
+#                     figure scripts.
+#     "any_zero"    — drop rows where ANY pride item carries the invalid
+#                     code 0; used by the descriptives script (Table 1).
+#   memnum_dk_as_zero: if TRUE, recode DK/refused (98/99) memberships to 0
+#                     (descriptives denominator); if FALSE, recode to NA
+#                     (regression scripts).
+#
+# Data loading and variable selection stay in the calling scripts.
+gss_clean_data <- function(gss_comb,
+                           pride_filter = c("all_missing", "any_zero"),
+                           memnum_dk_as_zero = FALSE) {
+  pride_filter <- match.arg(pride_filter)
+
+  out <- gss_comb %>%
+    mutate(across(everything(), as.numeric))
+
+  if (pride_filter == "all_missing") {
+    out <- out %>% filter(!if_all(prouddem:proudgrp, ~ is.na(.x)))
+  } else {
+    # Drop rows where any pride item carries the invalid code 0
+    out <- out %>% filter(if_all(prouddem:proudgrp, ~ .x != 0 | is.na(.x)))
+  }
+
+  out <- out %>%
+    mutate(
+      # Set ambornin:amsports missing codes (0, 9) to NA
+      across(ambornin:amsports, ~ na_if(.x, 0)),
+      across(ambornin:amsports, ~ na_if(.x, 9)),
+      # Dichotomize pride items: 1 = "very proud", 0 = all other responses
+      across(prouddem:proudgrp, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
+      # Dichotomize patriotism items: 1 if response is 1, 0 otherwise
+      across(ambornin:amfeel, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
+      # Nationalism items: keep on 1-5 Likert scale, map code 8 to 3 (ambiguous code handling)
+      across(c(amcitizn, amshamed, belikeus, ambetter, ifwrong), ~ ifelse(.x == 8, 3, .x)),
+      educ = ifelse(educ %in% c(98, 99), NA, educ),
+      degree = ifelse(degree %in% c(8, 9), NA, degree),
+      # -1 is missing; 98/99 (DK/refused) as NA or 0 memberships per argument
+      memnum = ifelse(memnum == -1, NA,
+                      ifelse(memnum %in% c(98, 99),
+                             if (memnum_dk_as_zero) 0 else NA,
+                             memnum)),
+      usaborn = ifelse(born == 1, 1, 0),
+      south = ifelse(region == 3, 1, 0),
+      conservative = ifelse(is.na(polviews), NA, ifelse(polviews %in% c(6, 7), 1, 0)),
+      memnumcat = case_when(
+        memnum == 0 ~ "0",
+        memnum %in% 1:2 ~ "1-2",
+        memnum >= 3 ~ "3+",
+        TRUE ~ NA_character_
+      ),
+      memnumcat = factor(memnumcat, levels = c("0", "1-2", "3+")),
+      cohort = year - age
+    ) %>%
+    mutate(across(memfrat:memchurh, ~ ifelse(.x > 0 & !is.na(.x) & .x == 1, 1, 0), .names = "{.col}bin")) %>%
+    rowwise() %>%
+    mutate(
+      # U.S. Pride Scale: sum of dichotomized items (0-10), counts "very proud" responses
+      uspridescal = if(any(is.na(c_across(prouddembin:proudgrpbin)))) NA_real_
+                    else sum(c_across(prouddembin:proudgrpbin)),
+      # U.S. Pride Scale (continuous): mean of un-dichotomized pride items (1-4)
+      uspridescal_continuous = if(any(is.na(c_across(prouddem:proudgrp)))) NA_real_
+                                else mean(c_across(prouddem:proudgrp), na.rm = TRUE),
+      # Nationalism Scale: mean of 4 reverse-coded items on 1-5 Likert scale
+      # (6 - mean() reverses so higher values = stronger nationalism)
+      nationalistscal = 6 - mean(c_across(c(amcitizn, belikeus, ambetter, ifwrong)), na.rm = TRUE)
+    ) %>%
+    ungroup() %>%
+    filter(!is.na(wtssall)) %>%
+    mutate(
+      year_f = factor(year),
+      sex_f = factor(sex),
+      race_f = factor(race)
+    )
+  out
+}
+
+# Load and combine the 1996/2004 GSS extracts, keeping the analysis variables.
+# Any of vars_to_keep missing from an extract is silently skipped (any_of()).
+gss_load_comb <- function() {
+  gss_comb <- bind_rows(gss_get_yr(1996), gss_get_yr(2004)) %>%
+    select(
+      any_of(c("year", "age", "educ", "degree", "sex", "race", "polviews",
+               "born", "reg16", "region", "sei", "wtssall", "belikeus", "ifwrong")),
+      starts_with("proud"),
+      starts_with("am"),
+      starts_with("mem")
+    ) %>%
+    filter(year %in% c(1996, 2004))
+  gss_comb
+}
+
 # Write a modelsummary table to disk in the manuscript's booktabs format:
 # modelsummary renders to a temporary file, then convert_to_booktabs()
 # rewrites it. `...` passes arguments through to modelsummary().
