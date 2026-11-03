@@ -1,4 +1,6 @@
 library(gssr)
+
+source("scripts/00_utils.R")
 library(dplyr)
 library(tidyr)
 library(knitr)
@@ -26,7 +28,8 @@ gss_comb <- bind_rows(gss96, gss04) %>%
 
 gss_clean <- gss_comb %>%
   mutate(across(everything(), as.numeric)) %>%
-  filter(!if_all(prouddem:proudgrp, ~ is.na(.x))) %>%
+  # Drop rows where any pride item carries the invalid code 0
+  filter(if_all(prouddem:proudgrp, ~ .x != 0 | is.na(.x))) %>%
   mutate(
     across(ambornin:amsports, ~ na_if(.x, 0)),
     across(ambornin:amsports, ~ na_if(.x, 9)),
@@ -35,7 +38,8 @@ gss_clean <- gss_comb %>%
     across(c(amcitizn, amshamed, belikeus, ambetter, ifwrong), ~ ifelse(.x == 8, 3, .x)),
     educ = ifelse(educ %in% c(98, 99), NA, educ),
     degree = ifelse(degree %in% c(8, 9), NA, degree),
-    memnum = ifelse(memnum == -1, NA, ifelse(memnum %in% c(98, 99), NA, memnum)),
+    # Treat -1 as missing; DK/refused (98/99) count as zero memberships
+    memnum = ifelse(memnum == -1, NA, ifelse(memnum %in% c(98, 99), 0, memnum)),
     usaborn = ifelse(born == 1, 1, 0),
     south = ifelse(region == 3, 1, 0),
     conservative = ifelse(is.na(polviews), NA, ifelse(polviews %in% c(6, 7), 1, 0)),
@@ -117,7 +121,12 @@ desc_categorical <- tibble(
 ) %>%
   mutate(pct_yes = round(pct_yes, 1))
 
-# Membership types
+# Membership types (2004 wave only: membership items not asked in 1996)
+# Membership types (2004 wave only: membership items not asked in 1996).
+# Denominator = 2004 respondents with a valid membership count, matching the
+# manuscript's descriptive-table denominator.
+gss_2004 <- gss_clean %>% filter(year == 2004, !is.na(memnum))
+
 desc_memberships <- tibble(
   membership_type = c(
     "Church-affiliated", "Sports", "Professional", "School", "Hobby",
@@ -125,27 +134,24 @@ desc_memberships <- tibble(
     "Veterans", "Political", "School Fraternity/Sorority", "Farm", "Nationality"
   ),
   pct_member = c(
-    mean(gss_2004$memchurchbin == 1, na.rm = TRUE) * 100,
-    mean(gss_2004$memsportsbin == 1, na.rm = TRUE) * 100,
+    mean(gss_2004$memchurhbin == 1, na.rm = TRUE) * 100,
+    mean(gss_2004$memsportbin == 1, na.rm = TRUE) * 100,
     mean(gss_2004$memprofbin == 1, na.rm = TRUE) * 100,
-    mean(gss_2004$memschoolbin == 1, na.rm = TRUE) * 100,
-    mean(gss_2004$memhobbyin == 1, na.rm = TRUE) * 100,
-    mean(gss_2004$memlitbookbin == 1, na.rm = TRUE) * 100,
+    mean(gss_2004$memschlbin == 1, na.rm = TRUE) * 100,
+    mean(gss_2004$memhobbybin == 1, na.rm = TRUE) * 100,
+    mean(gss_2004$memlitbin == 1, na.rm = TRUE) * 100,
     mean(gss_2004$memyouthbin == 1, na.rm = TRUE) * 100,
-    mean(gss_2004$memlaborbin == 1, na.rm = TRUE) * 100,
+    mean(gss_2004$memunionbin == 1, na.rm = TRUE) * 100,
     mean(gss_2004$memservbin == 1, na.rm = TRUE) * 100,
-    mean(gss_2004$memfraterbinorg == 1, na.rm = TRUE) * 100,
-    mean(gss_2004$memveteransbin == 1, na.rm = TRUE) * 100,
-    mean(gss_2004$mempoliticalbin == 1, na.rm = TRUE) * 100,
     mean(gss_2004$memfratbin == 1, na.rm = TRUE) * 100,
+    mean(gss_2004$memvetbin == 1, na.rm = TRUE) * 100,
+    mean(gss_2004$mempolitbin == 1, na.rm = TRUE) * 100,
+    mean(gss_2004$memgreekbin == 1, na.rm = TRUE) * 100,
     mean(gss_2004$memfarmbin == 1, na.rm = TRUE) * 100,
-    mean(gss_2004$memnationalitybin == 1, na.rm = TRUE) * 100
+    mean(gss_2004$memnatbin == 1, na.rm = TRUE) * 100
   )
 ) %>%
   mutate(pct_member = round(pct_member, 1))
-
-# Filter 2004 for membership-specific stats
-gss_2004 <- gss_clean %>% filter(year == 2004)
 
 # ============================================================================
 # PRINT SUMMARY STATISTICS
@@ -159,72 +165,61 @@ cat("\n\nVOLUNTARY ASSOCIATION MEMBERSHIPS (2004 only):\n")
 print(desc_memberships)
 
 # ============================================================================
+# ============================================================================
 # CREATE LaTeX TABLE
 # ============================================================================
 
-latex_table <- "
-\\\\begin{table}[htbp]
-\\\\centering
-\\\\caption{Descriptive Statistics for Variables Used in Analysis}
-\\\\label{tab:descriptives}
-\\\\begin{tabular}{lcccc}
-\\\\toprule
-\\\\textbf{Continuous Variables} & \\\\textbf{Mean} & \\\\textbf{Std. Dev.} & \\\\textbf{Min} & \\\\textbf{Max} \\\\\\\\
-\\\\midrule
-"
+esc <- function(x) gsub("%", "\\\\%", x)
 
-# Add continuous variables
+fmt2 <- function(x) formatC(x, format = "f", digits = 2)
+fmt1 <- function(x) formatC(x, format = "f", digits = 1)
+
+rows <- c()
 for (i in seq_len(nrow(desc_continuous))) {
   row <- desc_continuous[i, ]
-  latex_table <- paste0(
-    latex_table,
-    row$variable, " & ",
-    format(row$mean, nsmall = 2), " & ",
-    format(row$sd, nsmall = 2), " & ",
-    format(row$min, nsmall = 1), " & ",
-    format(row$max, nsmall = 1), " \\\\\\\\\n"
-  )
+  # Birth cohort is reported as whole years; other min/max keep one decimal
+  dd <- if (row$variable == "Birth Cohort") 0 else 1
+  ln <- paste0(row$variable, " & ", fmt2(row$mean), " & ", fmt2(row$sd),
+               " & ", formatC(row$min, format = "f", digits = dd), " & ",
+               formatC(row$max, format = "f", digits = dd), " \\\\")
+  # ASA style: omit leading zeros on numbers below 1 (.71, not 0.71)
+  ln <- gsub("(?<![0-9.])0\\.(?=[1-9])", ".", ln, perl = TRUE)
+  rows <- c(rows, ln)
 }
 
-latex_table <- paste0(
-  latex_table,
-  "\\\\midrule\n",
-  "\\\\textbf{Categorical Variables} & \\\\textbf{\\\\% Yes} & & & \\\\\\\\\n",
-  "\\\\midrule\n"
-)
-
-# Add categorical variables
+cat_rows <- c()
 for (i in seq_len(nrow(desc_categorical))) {
-  row <- desc_categorical[i, ]
-  latex_table <- paste0(
-    latex_table,
-    row$variable, " & ",
-    format(row$pct_yes, nsmall = 1), "\\\\% & & & \\\\\\\\\n"
-  )
+  cat_rows <- c(cat_rows, paste0(desc_categorical$variable[i], " & ",
+                                 fmt1(desc_categorical$pct_yes[i]), "\\% & & & \\\\"))
 }
 
-latex_table <- paste0(
-  latex_table,
-  "\\\\midrule\n",
-  "\\\\textbf{Voluntary Association Memberships} & \\\\textbf{\\\\% Yes} & & & \\\\\\\\\n",
-  "\\\\midrule\n"
-)
-
-# Add membership variables
+mem_rows <- c()
 for (i in seq_len(nrow(desc_memberships))) {
-  row <- desc_memberships[i, ]
-  latex_table <- paste0(
-    latex_table,
-    row$membership_type, " & ",
-    format(row$pct_member, nsmall = 1), "\\\\% & & & \\\\\\\\\n"
-  )
+  mem_rows <- c(mem_rows, paste0(desc_memberships$membership_type[i], " & ",
+                                 fmt1(desc_memberships$pct_member[i]), "\\% & & & \\\\"))
 }
 
-latex_table <- paste0(
-  latex_table,
-  "\\\\bottomrule\n",
-  "\\\\end{tabular}\n",
-  "\\\\end{table}\n"
+latex_table <- c(
+  "\\begin{table}[htbp]",
+  "\\centering",
+  "\\caption{Descriptive Statistics for Variables Used in Analysis}",
+  "\\label{tab:descriptives}",
+  "\\begin{tabular}{lcccc}",
+  "\\toprule",
+  "\\textbf{Continuous Variables} & \\textbf{Mean} & \\textbf{Std. Dev.} & \\textbf{Min} & \\textbf{Max} \\\\",
+  "\\midrule",
+  rows,
+  "\\midrule",
+  "\\textbf{Categorical Variables} & \\textbf{\\% Yes} & & & \\\\",
+  "\\midrule",
+  cat_rows,
+  "\\midrule",
+  "\\textbf{Voluntary Association Memberships} & \\textbf{\\% Yes} & & & \\\\",
+  "\\midrule",
+  mem_rows,
+  "\\bottomrule",
+  "\\end{tabular}",
+  "\\end{table}"
 )
 
 # Write to file
@@ -233,25 +228,3 @@ writeLines(latex_table, "Tabs/tbl-descriptives.tex")
 cat("\n" %+% strrep("=", 70) %+% "\n")
 cat("✓ Descriptive statistics table generated: Tabs/tbl-descriptives.tex\n")
 cat(strrep("=", 70) %+% "\n")
-
-# ============================================================================
-# PRINT TO CONSOLE FOR VERIFICATION
-# ============================================================================
-
-cat("\nDESCRIPTIVE STATISTICS SUMMARY:\n\n")
-cat("Continuous Variables (Pooled 1996/2004):\n")
-cat(sprintf("  U.S. Pride Scale:      M = %.2f, SD = %.2f, range [%.0f, %.0f]\n",
-            desc_continuous$mean[1], desc_continuous$sd[1], 
-            desc_continuous$min[1], desc_continuous$max[1]))
-cat(sprintf("  Nationalism Scale:     M = %.2f, SD = %.2f, range [%.0f, %.0f]\n",
-            desc_continuous$mean[2], desc_continuous$sd[2],
-            desc_continuous$min[2], desc_continuous$max[2]))
-cat(sprintf("  Education (Years):     M = %.2f, SD = %.2f, range [%.0f, %.0f]\n",
-            desc_continuous$mean[3], desc_continuous$sd[3],
-            desc_continuous$min[3], desc_continuous$max[3]))
-cat(sprintf("  Birth Cohort:          M = %.2f, SD = %.2f, range [%.0f, %.0f]\n",
-            desc_continuous$mean[4], desc_continuous$sd[4],
-            desc_continuous$min[4], desc_continuous$max[4]))
-cat(sprintf("  Total Memberships:     M = %.2f, SD = %.2f, range [%.0f, %.0f]\n",
-            desc_continuous$mean[5], desc_continuous$sd[5],
-            desc_continuous$min[5], desc_continuous$max[5]))

@@ -1,4 +1,6 @@
 library(gssr)
+
+source("scripts/00_utils.R")
 library(dplyr)
 library(tidyr)
 library(modelsummary)
@@ -254,6 +256,7 @@ cat(strrep("=", 70) %+% "\n\n")
 
 # These tables are already generated in generate_tables.R, but regenerate here
 # for completeness as a standalone document
+dir.create("Supplementary", showWarnings = FALSE)
 
 modelsummary(list("Base" = mod_nat_base_app, "With Educ" = mod_nat_int_app),
              stars = TRUE, coef_map = coef_labels, 

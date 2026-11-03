@@ -1,8 +1,11 @@
 library(gssr)
+
+source("scripts/00_utils.R")
 library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(broom)
+library(forcats)
 
 # ============================================================================
 # GENERATE FIGURES: Reproducible pipeline for all manuscript figures
@@ -80,16 +83,16 @@ cat("Data loaded and cleaned. Generating figures...\n\n")
 cat("Generating Figure 1: Item-level logistic regression odds ratios...\n")
 
 pride_items <- c(
-  "prouddem" = "Democracy Works",
+  "prouddem" = "Democracy",
   "proudpol" = "Political Influence",
-  "proudgen" = "Economic Achievements",
-  "proudartsci" = "Science & Tech",
-  "proudeduc" = "Education",
-  "proudtradeuniv" = "Trade Universities",
-  "proudsports" = "Sports",
-  "proudparks" = "Parks/Recreation",
-  "proudgrp" = "Fair Treatment",
-  "proudarmed" = "Armed Forces"
+  "proudeco" = "Economic Achievements",
+  "proudsss" = "Social Security",
+  "proudsci" = "Science & Tech",
+  "proudspt" = "Sports",
+  "proudart" = "Arts & Literature",
+  "proudmil" = "Armed Forces",
+  "proudhis" = "History",
+  "proudgrp" = "Fair Treatment"
 )
 
 # Fit logistic regression for each pride item
@@ -120,7 +123,7 @@ fig_logistic <- ggplot(logistic_results, aes(x = odds_ratio, y = label)) +
   geom_vline(xintercept = 1, linetype = "dashed", color = "#E31C23", linewidth = 1) +
   geom_point(color = "#003087", size = 3.5) +
   geom_linerange(aes(xmin = ci_lower, xmax = ci_upper), color = "#003087", linewidth = 1) +
-  scale_x_continuous(breaks = seq(1, 4, by = 0.5), limits = c(0.8, 4.2)) +
+  scale_x_continuous(breaks = 1:4, limits = c(0.8, 4.2)) +
   labs(
     title = "Increase in Likelihood of Being 'Very Proud' Post-9/11",
     subtitle = NULL,
@@ -165,7 +168,6 @@ fig_pride_bar <- ggplot(pride_dist, aes(x = uspridescal, y = proportion, fill = 
   ) +
   scale_x_continuous(breaks = 0:10) +
   labs(
-    title = "Distribution of U.S. Pride Scale Scores (1996 vs. 2004)",
     x = "U.S. Pride Scale Score",
     y = "Proportion"
   ) +
@@ -191,13 +193,13 @@ cat("  ✓ Saved: Plots/fig-pride-bar.pdf\n")
 
 cat("Generating Figure 3: Marginal effects of education on U.S. Pride by year...\n")
 
-# Fit the main model
-mod_educ_interaction <- lm(uspridescal ~ educ * year_f + cohort, 
+# Fit the main model (education centered at 12 years, as in the manuscript)
+mod_educ_interaction <- lm(uspridescal ~ I(educ - 12) * year_f + cohort,
                             data = gss_clean, weights = wtssall)
 
 # Create prediction grid
 pred_grid <- expand_grid(
-  educ = seq(0, 20, by = 1),
+  educ = seq(-10, 5, by = 1),
   year_f = factor(c(1996, 2004)),
   cohort = mean(gss_clean$cohort, na.rm = TRUE)
 )
@@ -222,12 +224,12 @@ fig_marginal <- ggplot(pred_data, aes(x = educ, y = fit, color = year, fill = ye
   geom_line(linewidth = 1.2) +
   scale_color_manual(values = colors, name = "Year") +
   scale_fill_manual(values = fills, name = "Year") +
-  scale_x_continuous(breaks = seq(0, 20, by = 5), limits = c(0, 20)) +
+  scale_x_continuous(breaks = seq(-10, 5, by = 5), limits = c(-10, 5)) +
   scale_y_continuous(limits = c(2.5, 5.5)) +
   labs(
-    title = "Predicted U.S. Pride Score across Education Levels by Year",
-    x = "Years of Education",
-    y = "Predicted U.S. Pride Score"
+    title = "Predicted U.S. Pride Score",
+    x = "Education (Centered at 12 Years)",
+    y = NULL
   ) +
   theme_minimal() +
   theme(
@@ -255,20 +257,21 @@ cat("Generating Figure 4: Membership effects forest plot...\n")
 gss_2004 <- gss_clean %>% filter(year == 2004)
 
 membership_vars <- c(
-  "memhobbyin" = "Hobby Club",
-  "memschoolbin" = "School Service",
-  "memlitbookbin" = "Literary/Art Group",
+  "memhobbybin" = "Hobby Club",
+  "memschlbin" = "School Service",
+  "memlitbin" = "Literary/Art Group",
   "memservbin" = "Service Club",
   "memyouthbin" = "Youth Group",
   "memfarmbin" = "Farm Organization",
-  "mempoliticalbin" = "Political Club",
-  "memlaborbin" = "Labor Union",
+  "mempolitbin" = "Political Club",
+  "memunionbin" = "Labor Union",
   "memprofbin" = "Professional Society",
-  "memfratbin" = "School Fraternity",
-  "memsportsbin" = "Sports Group",
-  "memfraterbinorg" = "Fraternal Group",
-  "memveteransbin" = "Veterans Group",
-  "memnationalitybin" = "Nationality Group"
+  "memgreekbin" = "School Fraternity",
+  "memsportbin" = "Sports Group",
+  "memfratbin" = "Fraternal Group",
+  "memvetbin" = "Veterans Group",
+  "memnatbin" = "Nationality Group",
+  "memchurhbin" = "Church Group"
 )
 
 membership_results <- tibble()

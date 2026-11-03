@@ -1,2 +1,46 @@
-# ScholarOne decision emails
+# =====================================================================
+# Replication repository for SPQ-26-0082 (Patriotism as a Choice Process)
+# Tracked: analysis pipeline (scripts/), renv lockfile, final outputs
+# (Tabs/, Plots/), README. Everything else is local-only.
+# =====================================================================
+
+# --- Local working files (kept locally, not in the public repo) ---
+archive/
+data/
+documentation/
+lit/
+presentations/
+submission/
+Supplementary/
+AGENTS.md
+RESUBMISSION_READY.txt
 *.eml
+
+# --- Manuscript and LaTeX build artifacts ---
+manuscript*.tex
+manuscript*.pdf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+.latex_cache/
+
+# --- Assistant / IDE state ---
+.posit/
+.Rproj.user
+.Rhistory
+.RData
+
+# --- R session artifacts ---
+*.Rproj
+*.Rout
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+manuscript*.synctex*

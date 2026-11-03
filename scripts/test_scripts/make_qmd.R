@@ -1,1 +1,0 @@
-cat("Generating QMD...\n")
