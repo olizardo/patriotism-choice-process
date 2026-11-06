@@ -10,11 +10,13 @@ library(forcats)
 # ============================================================================
 # GENERATE FIGURES: Reproducible pipeline for all manuscript figures
 # ============================================================================
-# This script generates all four figures referenced in manuscript_R1.tex:
+# This script generates the five figures in the manuscript (Figure 5 is a
+# supplementary-style variant of Figure 4 with 90/95% CIs and is not in the text):
 # 1. fig-logistic-pride.pdf — Item-level odds ratios (logistic regression)
 # 2. fig-pride-bar.pdf — Distribution of U.S. Pride scale by year
 # 3. fig-marginal-educ.pdf — Predicted U.S. Pride by education × year
 # 4. fig-membership-forest.pdf — Effect of specific association types on U.S. Pride
+# 5. fig-membership-forest-ci.pdf — Same models with 90%/95% CIs
 # ============================================================================
 
 # Load and clean data (same as generate_tables.R)

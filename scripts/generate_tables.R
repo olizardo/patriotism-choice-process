@@ -2,6 +2,7 @@ library(gssr)
 library(dplyr)
 library(tidyr)
 library(modelsummary)
+library(psych)
 
 source("scripts/00_utils.R")
 
@@ -109,106 +110,94 @@ cat("\n---\n")
 print(summary(mod_educ_interaction_cont))
 
 # ============================================================================
-# COMPREHENSIVE NUMERICAL AUDIT: Verify all claims in the manuscript
+# NUMERICAL AUDIT: Verify statistics reported in the manuscript text
 # ============================================================================
 cat("\n\n" %+% strrep("=", 70) %+% "\n")
 cat("NUMERICAL AUDIT: Manuscript Claim Verification\n")
 cat(strrep("=", 70) %+% "\n\n")
 
-# Cronbach's alphas for the main scales
-library(psych)
-pride_items <- gss_clean %>% 
-  select(starts_with("prouddem"), starts_with("proudeco"), starts_with("proudgov"), 
-         starts_with("proudart"), starts_with("proudsci"), starts_with("proudspo"),
-         starts_with("proudarmed"), starts_with("proudhist"), starts_with("proudfair"),
-         starts_with("proudgrp")) %>%
-  select(matches("^proud[a-z]+$"))
+# Scale reliability uses the dichotomized items that make up uspridescal
+pride_bins <- gss_clean %>% select(prouddembin:proudgrpbin)
+nationalism_items <- gss_clean %>% select(amcitizn, belikeus, ambetter, ifwrong)
 
-# Original proud* items (not dichotomized): the same 10 items that make up
-# uspridescal (prouddembin:proudgrpbin)
-pride_items_orig <- gss_clean %>% 
-  select(prouddem, proudpol, proudeco, proudsss, proudsci, proudspt,
-         proudart, proudmil, proudhis, proudgrp) %>%
-  mutate(across(everything(), as.numeric))
+cat("SCALE RELIABILITY (Cronbach's alpha):\n")
+cat(sprintf("  U.S. Pride Scale (dichotomized items): %.3f (text: .80)\n",
+            alpha(pride_bins, warnings = FALSE)$total$raw_alpha))
+cat(sprintf("  Nationalism Scale: %.3f (text: .64)\n\n",
+            alpha(nationalism_items, warnings = FALSE)$total$raw_alpha))
 
-nationalism_items <- gss_clean %>%
-  select(amcitizn, belikeus, ambetter, ifwrong) %>%
-  mutate(across(everything(), as.numeric))
+# Descriptive statistics use the Table 1 specification (any_zero pride filter,
+# DK/refused memberships coded 0), so they can be compared with the table
+gss_desc <- gss_clean_data(gss_comb, pride_filter = "any_zero", memnum_dk_as_zero = TRUE)
+cat("DESCRIPTIVE STATISTICS (Table 1 sample):\n")
+cat(sprintf("  U.S. Pride: M = %.2f, SD = %.2f, range [%.1f, %.1f] (text: 3.88 ± 2.79, [0.0, 10.0])\n",
+            mean(gss_desc$uspridescal, na.rm = TRUE), sd(gss_desc$uspridescal, na.rm = TRUE),
+            min(gss_desc$uspridescal, na.rm = TRUE), max(gss_desc$uspridescal, na.rm = TRUE)))
+cat(sprintf("  Nationalism: M = %.2f, SD = %.2f, range [%.1f, %.1f] (text: 3.72 ± .71, [1.0, 5.0])\n",
+            mean(gss_desc$nationalistscal, na.rm = TRUE), sd(gss_desc$nationalistscal, na.rm = TRUE),
+            min(gss_desc$nationalistscal, na.rm = TRUE), max(gss_desc$nationalistscal, na.rm = TRUE)))
+cat(sprintf("  Education: M = %.2f, SD = %.2f, range [%.1f, %.1f] (text: 13.53 ± 2.91, [0.0, 20.0])\n",
+            mean(gss_desc$educ, na.rm = TRUE), sd(gss_desc$educ, na.rm = TRUE),
+            min(gss_desc$educ, na.rm = TRUE), max(gss_desc$educ, na.rm = TRUE)))
+cat(sprintf("  Total Memberships: M = %.2f, SD = %.2f (text: 1.61 ± 1.88)\n",
+            mean(gss_desc$memnum, na.rm = TRUE), sd(gss_desc$memnum, na.rm = TRUE)))
+cat(sprintf("  Birth cohort: M = %.2f (text: birth cohort is not centered)\n\n",
+            mean(gss_desc$cohort, na.rm = TRUE)))
 
-cronbach_pride <- alpha(pride_items_orig, warnings = FALSE)$total$raw_alpha
-cronbach_nationalism <- alpha(nationalism_items, warnings = FALSE)$total$raw_alpha
+# Model-specific claims (Analytic Strategy and Results)
+cat("KEY MODEL RESULTS (classical SEs; HC1 robust SEs in brackets):\n")
 
-cat("SCALE RELIABILITY:\n")
-cat(sprintf("  U.S. Pride Scale Cronbach's α: %.2f (reported: .80)\n", cronbach_pride))
-cat(sprintf("  Nationalism Scale Cronbach's α: %.2f (reported: .64)\n", cronbach_nationalism))
-cat("\n")
+m_nat_int <- lm(nationalistscal ~ educ * year_f + cohort, data = gss_clean, weights = wtssall)
+cat(sprintf("  Nationalism Educ x 2004: b = %.4f, p = %.4f (text: b = -.0004, p = .964)\n",
+            coef(m_nat_int)["educ:year_f2004"],
+            summary(m_nat_int)$coefficients["educ:year_f2004", "Pr(>|t|)"]))
 
-# Descriptive statistics
-cat("DESCRIPTIVE STATISTICS (pooled 1996/2004):\n")
-desc_stats <- gss_clean %>%
-  summarise(
-    pride_mean = mean(uspridescal, na.rm = TRUE),
-    pride_sd = sd(uspridescal, na.rm = TRUE),
-    pride_min = min(uspridescal, na.rm = TRUE),
-    pride_max = max(uspridescal, na.rm = TRUE),
-    nat_mean = mean(nationalistscal, na.rm = TRUE),
-    nat_sd = sd(nationalistscal, na.rm = TRUE),
-    nat_min = min(nationalistscal, na.rm = TRUE),
-    nat_max = max(nationalistscal, na.rm = TRUE),
-    educ_mean = mean(educ, na.rm = TRUE),
-    educ_sd = sd(educ, na.rm = TRUE),
-    memnum_mean = mean(memnum, na.rm = TRUE),
-    memnum_sd = sd(memnum, na.rm = TRUE)
-  )
+m_pride_int <- lm(uspridescal ~ educ * year_f + cohort, data = gss_clean, weights = wtssall)
+int_hc1 <- coef(summary(m_pride_int))["educ:year_f2004", "Estimate"] /
+  sqrt(diag(vcovHC(m_pride_int, type = "HC1")))["educ:year_f2004"]
+cat(sprintf("  Pride Educ x 2004: b = %.4f, p = %.4f [HC1 p = %.4f] (text: b = .114, p = .010; robust p = .021)\n",
+            coef(m_pride_int)["educ:year_f2004"],
+            summary(m_pride_int)$coefficients["educ:year_f2004", "Pr(>|t|)"],
+            2 * pt(-abs(int_hc1), df = nobs(m_pride_int) - length(coef(m_pride_int)))))
 
-cat(sprintf("  U.S. Pride: M = %.2f, SD = %.2f, range [%.1f, %.1f] (reported: 3.88 ± 2.79, [0.0, 10.0])\n",
-            desc_stats$pride_mean, desc_stats$pride_sd, desc_stats$pride_min, desc_stats$pride_max))
-cat(sprintf("  Nationalism: M = %.2f, SD = %.2f, range [%.1f, %.1f] (reported: 3.72 ± .71, [1.0, 5.0])\n",
-            desc_stats$nat_mean, desc_stats$nat_sd, desc_stats$nat_min, desc_stats$nat_max))
-cat(sprintf("  Education: M = %.2f, SD = %.2f, range [%.1f, %.1f] (reported: 13.53 ± 2.91, [0.0, 20.0])\n",
-            desc_stats$educ_mean, desc_stats$educ_sd, min(gss_clean$educ, na.rm=T), max(gss_clean$educ, na.rm=T)))
-cat(sprintf("  Total Memberships: M = %.2f, SD = %.2f (reported: 1.61 ± 1.88)\n",
-            desc_stats$memnum_mean, desc_stats$memnum_sd))
-cat("\n")
+m_pride_96 <- lm(uspridescal ~ educ + cohort, data = gss_clean, subset = year == 1996, weights = wtssall)
+m_pride_04 <- lm(uspridescal ~ educ + cohort, data = gss_clean, subset = year == 2004, weights = wtssall)
+cat(sprintf("  Pride Educ, 1996: b = %.4f, p = %.4f (text: b = -.066, p = .030)\n",
+            coef(m_pride_96)["educ"], summary(m_pride_96)$coefficients["educ", "Pr(>|t|)"]))
+cat(sprintf("  Pride Educ, 2004: b = %.4f, p = %.4f (text: b = .040, p = .213)\n",
+            coef(m_pride_04)["educ"], summary(m_pride_04)$coefficients["educ", "Pr(>|t|)"]))
 
-# Model-specific claims: interaction p-values
-cat("KEY MODEL RESULTS:\n")
-cat("Education × Year 2004 Interaction Effects:\n")
+# Robust/classical SE ratio across the focal models (text: about 11-17%)
+focal <- list(
+  `Pride interaction` = m_pride_int,
+  `Nationalism interaction` = m_nat_int,
+  `1996 educ` = m_pride_96
+)
+term_for <- c("Pride interaction" = "educ:year_f2004",
+              "Nationalism interaction" = "educ:year_f2004",
+              "1996 educ" = "educ")
+for (nm in names(focal)) {
+  t <- term_for[[nm]]
+  cat(sprintf("  SE ratio (HC1/classical), %s: %.3f\n", nm,
+              sqrt(diag(vcovHC(focal[[nm]], type = "HC1")))[t] /
+                sqrt(diag(vcov(focal[[nm]])))[t]))
+}
 
-# 1. Nationalism interaction
-mod_nat_int <- lm(nationalistscal ~ educ * year_f + cohort, data = gss_clean, weights = wtssall)
-sum_nat <- summary(mod_nat_int)
-nat_int_pval <- sum_nat$coefficients["educ:year_f2004", "Pr(>|t|)"]
-cat(sprintf("  Nationalism interaction p-value: %.4f (reported: clearly non-significant)\n", nat_int_pval))
-
-# 2. U.S. Pride interaction (classical SEs)
-mod_pride_int <- lm(uspridescal ~ educ * year_f + cohort, data = gss_clean, weights = wtssall)
-sum_pride <- summary(mod_pride_int)
-pride_int_coef <- sum_pride$coefficients["educ:year_f2004", "Estimate"]
-pride_int_se_classical <- sum_pride$coefficients["educ:year_f2004", "Std. Error"]
-pride_int_pval_classical <- sum_pride$coefficients["educ:year_f2004", "Pr(>|t|)"]
-
-cat(sprintf("  U.S. Pride interaction coef: %.4f (Footnote 1 reports positive direction)\n", pride_int_coef))
-cat(sprintf("  U.S. Pride interaction p-value (classical): %.4f (reported: .021 robust)\n", pride_int_pval_classical))
-
-# 3. U.S. Pride 1996-only education effect
-mod_pride_96 <- lm(uspridescal ~ educ + cohort, data = gss_clean, subset = year == 1996, weights = wtssall)
-sum_96 <- summary(mod_pride_96)
-pride_96_pval <- sum_96$coefficients["educ", "Pr(>|t|)"]
-cat(sprintf("  1996 education effect p-value: %.4f (reported: p = .030)\n", pride_96_pval))
-
-# Robust SEs comparison
-se_robust_pride <- sqrt(diag(vcovHC(mod_pride_int, type = "HC1")))["educ:year_f2004"]
-se_ratio <- se_robust_pride / pride_int_se_classical
-cat(sprintf("\n  Robust / Classical SE ratio for interaction: %.2f (reported: 1.08–1.15)\n", se_ratio))
-
-# Test 1996 education under robust SEs
-mod_96_robust_se <- sqrt(diag(vcovHC(mod_pride_96, type = "HC1")))["educ"]
-t_96_robust <- sum_96$coefficients["educ", "Estimate"] / mod_96_robust_se
-p_96_robust <- 2 * pt(-abs(t_96_robust), df = nobs(mod_pride_96) - length(coef(mod_pride_96)))
-cat(sprintf("  1996 education effect p-value (robust): %.4f (reported: p = .055)\n", p_96_robust))
+m_cnt <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south + memnum,
+            data = gss_clean, subset = year == 2004, weights = wtssall)
+m_full <- lm(uspridescal ~ educ + cohort + sex_f + race_f + south + memnum + nationalistscal,
+             data = gss_clean, subset = year == 2004, weights = wtssall)
+hc1_p <- function(m, term) {
+  b <- coef(m)[term]
+  se <- sqrt(diag(vcovHC(m, type = "HC1")))[term]
+  2 * pt(-abs(b / se), df = nobs(m) - length(coef(m)))
+}
+cat(sprintf("  Count model memnum: b = %.4f, p = %.4f (text: b = .115, p = .011)\n",
+            coef(m_cnt)["memnum"], summary(m_cnt)$coefficients["memnum", "Pr(>|t|)"]))
+cat(sprintf("  Full model memnum: b = %.4f, p = %.4f, HC1 p = %.4f (text: robust p = .027)\n\n",
+            coef(m_full)["memnum"], summary(m_full)$coefficients["memnum", "Pr(>|t|)"],
+            hc1_p(m_full, "memnum")))
 
 cat("\n" %+% strrep("=", 70) %+% "\n")
 cat("END OF NUMERICAL AUDIT\n")
 cat(strrep("=", 70) %+% "\n")
-

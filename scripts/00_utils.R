@@ -129,9 +129,10 @@ gss_clean_data <- function(gss_comb,
       # U.S. Pride Scale: sum of dichotomized items (0-10), counts "very proud" responses
       uspridescal = if(any(is.na(c_across(prouddembin:proudgrpbin)))) NA_real_
                     else sum(c_across(prouddembin:proudgrpbin)),
-      # U.S. Pride Scale (continuous): mean of un-dichotomized pride items (1-4)
+      # U.S. Pride Scale (continuous): mean of un-dichotomized pride items,
+      # reverse-coded (5 - x) so higher values = more pride (raw 1 = very proud)
       uspridescal_continuous = if(any(is.na(c_across(prouddem:proudgrp)))) NA_real_
-                                else mean(c_across(prouddem:proudgrp), na.rm = TRUE),
+                                else 5 - mean(c_across(prouddem:proudgrp), na.rm = TRUE),
       # Nationalism Scale: mean of 4 reverse-coded items on 1-5 Likert scale
       # (6 - mean() reverses so higher values = stronger nationalism)
       nationalistscal = 6 - mean(c_across(c(amcitizn, belikeus, ambetter, ifwrong)), na.rm = TRUE)

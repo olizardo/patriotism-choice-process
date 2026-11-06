@@ -8,7 +8,7 @@ library(modelsummary)
 # ============================================================================
 # SUPPLEMENTARY ANALYSIS: Footnote 2
 # ============================================================================
-# Footnote 2 (line 131, manuscript_R1.tex) states:
+# Footnote 2 of manuscript_final.tex states:
 #
 # "As a check on this exclusion, I re-estimated the core Nationalism and U.S. 
 # Pride models on the 1996 subsample of respondents with valid data on both 
@@ -23,58 +23,11 @@ library(modelsummary)
 
 cat("Loading and cleaning data for supplementary analysis (Footnote 2)...\n\n")
 
-# Load data (same pipeline as generate_tables.R)
-gss96 <- gss_get_yr(1996)
-gss04 <- gss_get_yr(2004)
-
-vars_to_keep <- c("year", "age", "educ", "degree", "sex", "race", "polviews", "born", 
-                  "reg16", "region", "sei", "wtssall", "belikeus", "ifwrong")
-
-gss_comb <- bind_rows(gss96, gss04) %>%
-  select(any_of(vars_to_keep), 
-         starts_with("proud"), 
-         starts_with("am"), 
-         starts_with("mem")) %>%
-  filter(year %in% c(1996, 2004))
-
-gss_clean <- gss_comb %>%
-  mutate(across(everything(), as.numeric)) %>%
-  filter(!if_all(prouddem:proudgrp, ~ is.na(.x))) %>%
-  mutate(
-    across(ambornin:amsports, ~ na_if(.x, 0)),
-    across(ambornin:amsports, ~ na_if(.x, 9)),
-    across(prouddem:proudgrp, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
-    across(ambornin:amfeel, ~ ifelse(.x == 1, 1, 0), .names = "{.col}bin"),
-    across(c(amcitizn, amshamed, belikeus, ambetter, ifwrong), ~ ifelse(.x == 8, 3, .x)),
-    educ = ifelse(educ %in% c(98, 99), NA, educ),
-    degree = ifelse(degree %in% c(8, 9), NA, degree),
-    memnum = ifelse(memnum == -1, NA, ifelse(memnum %in% c(98, 99), NA, memnum)),
-    usaborn = ifelse(born == 1, 1, 0),
-    south = ifelse(region == 3, 1, 0),
-    conservative = ifelse(is.na(polviews), NA, ifelse(polviews %in% c(6, 7), 1, 0)),
-    memnumcat = case_when(
-      memnum == 0 ~ "0",
-      memnum %in% 1:2 ~ "1-2",
-      memnum >= 3 ~ "3+",
-      TRUE ~ NA_character_
-    ),
-    memnumcat = factor(memnumcat, levels = c("0", "1-2", "3+")),
-    cohort = year - age
-  ) %>%
-  mutate(across(memfrat:memchurh, ~ ifelse(.x > 0 & !is.na(.x) & .x == 1, 1, 0), .names = "{.col}bin")) %>%
-  rowwise() %>%
-  mutate(
-    uspridescal = if(any(is.na(c_across(prouddembin:proudgrpbin)))) NA_real_ 
-                  else sum(c_across(prouddembin:proudgrpbin)),
-    nationalistscal = 6 - mean(c_across(c(amcitizn, belikeus, ambetter, ifwrong)), na.rm = TRUE)
-  ) %>%
-  ungroup() %>%
-  filter(!is.na(wtssall)) %>%
-  mutate(
-    year_f = factor(year),
-    sex_f = factor(sex),
-    race_f = factor(race)
-  )
+# Shared pipeline (same cleaning as generate_tables.R)
+gss_comb <- gss_load_comb()
+gss_clean <- gss_clean_data(gss_comb,
+                            pride_filter = "all_missing",
+                            memnum_dk_as_zero = FALSE)
 
 # ============================================================================
 # SUBSET: 1996 respondents with valid political ideology data

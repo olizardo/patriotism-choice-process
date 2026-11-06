@@ -1,19 +1,19 @@
 # Replication Package: *Patriotism as a Choice Process: National Pride After 9/11*
 
-Omar Lizardo (UCLA). Forthcoming in *Social Psychology Quarterly* (Manuscript ID SPQ-26-0082).
+Omar Lizardo (UCLA). Accepted at *Social Psychology Quarterly* (Manuscript ID SPQ-26-0082).
 
-This repository contains the data-analysis pipeline that generates all numerical results, tables, and figures in the paper.
+This repository contains the data-analysis pipeline that generates the numerical results, tables, and figures reported in the paper.
 
 ## Contents
 
 ```
 scripts/
-  00_utils.R                          Shared helpers (table formatting, modelsummary options)
-  generate_tables.R                   Tables 2-4 (regression tables, booktabs LaTeX)
+  00_utils.R                          Shared helpers: GSS loading and cleaning, table formatting
+  generate_tables.R                   Tables 2-4 (regression tables) + numerical audit of text claims
   generate_descriptives.R             Table 1 (descriptive statistics)
-  generate_figures.R                  Figures 1-4
-  supplementary_analysis_footnote2.R  Footnote 2 robustness check (political ideology)
-Tabs/                                 Generated LaTeX tables
+  generate_figures.R                  Figures 1-4, plus Figure 5 (membership forest plot with 90/95% CIs)
+  supplementary_analysis_footnote2.R  Footnote 2 robustness check (1996 models with political ideology)
+Tabs/                                 Generated LaTeX tables (booktabs + threeparttable)
 Plots/                                Generated figures (PDF)
 renv.lock, renv/                      R environment specification
 ```
@@ -30,11 +30,7 @@ renv::restore()
 
 ## Data
 
-All analyses use the **General Social Survey (GSS)**, 1996 and 2004 waves, obtained from
-NORC. The scripts fetch the data directly from NORC at runtime via the
-[`gssr`](https://github.com/kjhealy/gssr) package (`gss_get_yr()`), which downloads the
-official Stata files from https://gss.norc.org. No local data files are required; an
-internet connection is needed on first run.
+All analyses use the **General Social Survey (GSS)**, 1996 and 2004 waves, obtained from NORC. The scripts fetch the data at runtime via the [`gssr`](https://github.com/kjhealy/gssr) package (`gss_get_yr()`), which downloads the official Stata files from https://gss.norc.org. No local data files are required; an internet connection is needed on the first run.
 
 ## Running the pipeline
 
@@ -42,43 +38,35 @@ From the repository root:
 
 ```r
 source("scripts/generate_tables.R")                  # Tables 2-4 + numerical audit
-source("scripts/generate_descriptives.R")            # Table 1 (descriptives)
-source("scripts/generate_figures.R")                 # Figures 1-4
-source("scripts/supplementary_analysis_footnote2.R") # Footnote 2 check (optional)
+source("scripts/generate_descriptives.R")            # Table 1
+source("scripts/generate_figures.R")                 # Figures 1-5
+source("scripts/supplementary_analysis_footnote2.R") # Footnote 2 check (writes to Supplementary/)
 ```
 
-Approximate runtime: 5-10 minutes total (dominated by the GSS downloads, which are
-cached after the first fetch within a session).
+Each script sources `scripts/00_utils.R` and runs its own GSS fetch. The `Supplementary/` directory is created by the footnote 2 script and is not tracked.
 
 ## Outputs
 
-- `Tabs/tbl-nationalism.tex`, `Tabs/tbl-regression-educ.tex`,
-  `Tabs/tbl-regression-full-2004.tex` — regression tables in the manuscript
-  (booktabs + threeparttable format)
-- `Tabs/tbl-descriptives.tex` — descriptive statistics (Table 1)
-- `Plots/fig-logistic-pride.pdf` — Figure 1: item-level odds ratios (2004 vs 1996)
-- `Plots/fig-pride-bar.pdf` — Figure 2: distribution of the U.S. Pride scale by year
-- `Plots/fig-marginal-educ.pdf` — Figure 3: predicted pride across education by year
-- `Plots/fig-membership-forest.pdf` — Figure 4: membership-type effects on pride
+- `Tabs/tbl-nationalism.tex`, `Tabs/tbl-regression-educ.tex`, `Tabs/tbl-regression-full-2004.tex`: regression tables (Tables 2-4)
+- `Tabs/tbl-descriptives.tex`: descriptive statistics (Table 1)
+- `Plots/fig-logistic-pride.pdf`: Figure 1, item-level odds ratios (2004 vs 1996)
+- `Plots/fig-pride-bar.pdf`: Figure 2, distribution of the U.S. Pride scale by year
+- `Plots/fig-marginal-educ.pdf`: Figure 3, predicted pride across education by year
+- `Plots/fig-membership-forest-ci.pdf`: Figure 4, membership-type effects on pride with 90% and 95% intervals (swapped in for `fig-membership-forest.pdf` after acceptance, 2026-11-05)
+- `Plots/fig-membership-forest.pdf`: earlier version with 95% intervals only (no longer in the manuscript)
+- `Supplementary/`: footnote 2 models with political ideology (1996 only)
 
-`generate_tables.R` also prints a numerical audit verifying the statistics reported in
-the text (Cronbach's alpha, interaction p-values, robust/classical SE ratios).
+`generate_tables.R` prints a numerical audit that compares the statistics in the manuscript text (scale alphas, descriptive statistics, interaction and period-specific p-values, robust-to-classical SE ratios, membership-count tests) against freshly estimated models. Each line shows the pipeline value next to the value printed in the text.
 
 ## Notes on fidelity
 
-- Regression tables regenerate **byte-identical** to the accepted manuscript versions.
-- Descriptive statistics reproduce the manuscript's Table 1 exactly, except two
-  membership percentages that differ by 0.1 percentage points at a rounding boundary
-  (Church-affiliated, Hobby); these derive from the original Stata pipeline's marginally
-  different sample denominator.
-- Figures regenerate with identical content. Minor cosmetic differences (ordering of
-  adjacent items with near-equal estimates) can arise because NORC occasionally updates
-  the underlying GSS Stata files between releases.
+- Regression tables (`Tabs/tbl-nationalism.tex`, `tbl-regression-educ.tex`, `tbl-regression-full-2004.tex`) and the descriptives table regenerate byte-identical to the tracked versions.
+- Figures 1-5 regenerate pixel-identical to the tracked PDFs when rasterized. Byte-level PDF comparison is not meaningful because of embedded timestamps.
+- The GSS Stata files are fetched from NORC at runtime. If NORC revises those files, estimates could change; the audit output will show any such change.
+- Figure 1 uses `glm(family = binomial)` with survey weights as prior weights. Point estimates match survey-weighted logistic regression, but the confidence intervals do not account for the sampling design (R warns about non-integer successes). Treat these intervals as approximate.
 
 ## Citation
 
-Lizardo, Omar. 2026. "Patriotism as a Choice Process: National Pride After 9/11."
-*Social Psychology Quarterly*. Forthcoming.
+Lizardo, Omar. 2026. "Patriotism as a Choice Process: National Pride After 9/11." *Social Psychology Quarterly*. Accepted.
 
-Data: Smith, T. W., et al. General Social Survey, 1996 and 2004. NORC at the
-University of Chicago. Accessed via the `gssr` R package (Healy 2024).
+Data: Smith, T. W., et al. General Social Survey, 1996 and 2004. NORC at the University of Chicago. Accessed via the `gssr` R package (Healy 2024).
