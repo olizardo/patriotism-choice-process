@@ -15,8 +15,7 @@ library(forcats)
 # 1. fig-logistic-pride.pdf — Item-level odds ratios (logistic regression)
 # 2. fig-pride-bar.pdf — Distribution of U.S. Pride scale by year
 # 3. fig-marginal-educ.pdf — Predicted U.S. Pride by education × year
-# 4. fig-membership-forest.pdf — Effect of specific association types on U.S. Pride
-# 5. fig-membership-forest-ci.pdf — Same models with 90%/95% CIs
+# 4. fig-membership-forest-ci.pdf — Effect of specific association types on U.S. Pride (90%/95% CIs)
 # ============================================================================
 
 # Load and clean data (same as generate_tables.R)
@@ -188,11 +187,11 @@ ggsave("Plots/fig-marginal-educ.pdf", fig_marginal, width = 10, height = 7, dpi 
 cat("  ✓ Saved: Plots/fig-marginal-educ.pdf\n")
 
 # ============================================================================
-# FIGURE 4: Forest Plot of Membership Effects on U.S. Pride
+# FIGURE 4: Forest Plot of Membership Effects on U.S. Pride (90/95% CIs)
 # ============================================================================
 # Shows the association between specific membership types and national pride
 
-cat("Generating Figure 4: Membership effects forest plot...\n")
+cat("Generating Figure 4: Membership forest plot with 90/95% CIs...\n")
 
 # Fit models for each membership type (2004 only)
 gss_2004 <- gss_clean %>% filter(year == 2004)
@@ -215,67 +214,7 @@ membership_vars <- c(
   "memchurhbin" = "Church Group"
 )
 
-membership_results <- tibble()
-
-for (var in names(membership_vars)) {
-  if (!var %in% colnames(gss_2004)) next
-  
-  formula <- as.formula(paste0("uspridescal ~ ", var, " + cohort + sex_f + race_f + south"))
-  model <- lm(formula, data = gss_2004, weights = wtssall)
-  
-  coef_val <- coef(model)[var]
-  se_val <- sqrt(diag(vcov(model)))[var]
-  
-  membership_results <- bind_rows(membership_results, tibble(
-    var = var,
-    label = membership_vars[var],
-    coefficient = coef_val,
-    se = se_val,
-    ci_lower = coefficient - 1.96 * se,
-    ci_upper = coefficient + 1.96 * se
-  ))
-}
-
-# Remove any with missing values and sort
-membership_results <- membership_results %>%
-  filter(!is.na(coefficient)) %>%
-  mutate(label = fct_reorder(label, coefficient))
-
-# Plot
-fig_forest <- ggplot(membership_results, aes(x = coefficient, y = label)) +
-  geom_vline(xintercept = 0, linetype = "dashed", color = "#E31C23", linewidth = 1) +
-  geom_point(size = 3.5, color = ifelse(membership_results$ci_lower > 0 | membership_results$ci_upper < 0, 
-                                          "#27AE60", "#95A5A6")) +
-  geom_linerange(aes(xmin = ci_lower, xmax = ci_upper), 
-                 color = ifelse(membership_results$ci_lower > 0 | membership_results$ci_upper < 0, 
-                               "#27AE60", "#95A5A6"),
-                 linewidth = 0.8) +
-  scale_x_continuous(breaks = seq(-1, 2, by = 0.5), limits = c(-1.1, 2.1)) +
-  labs(
-    title = "Effect of Memberships on National Pride",
-    x = "Estimate (Change in U.S. Pride Scale)",
-    y = "Membership Type"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(size = 14, face = "bold", hjust = 0.5),
-    axis.title = element_text(size = 12),
-    axis.text = element_text(size = 11),
-    panel.grid.minor = element_blank(),
-    panel.grid.major.y = element_blank(),
-    plot.margin = margin(10, 15, 10, 10)
-  )
-
-ggsave("Plots/fig-membership-forest.pdf", fig_forest, width = 10, height = 8, dpi = 300)
-cat("  ✓ Saved: Plots/fig-membership-forest.pdf\n")
-
-# ============================================================================
-# FIGURE 5: Forest Plot of Membership Effects (Demographic Controls, 90/95% CI)
-# ============================================================================
-# Same models as Figure 4 (cohort, sex, race, South; no education).
 # The 90% CI (dark bar) and 95% CI (light bar) are drawn as separate layers.
-
-cat("Generating Figure 5: Membership forest plot with 90/95% CIs...\n")
 
 membership_results_ci <- tibble()
 
@@ -348,6 +287,5 @@ cat("Generated files:\n")
 cat("  1. Plots/fig-logistic-pride.pdf\n")
 cat("  2. Plots/fig-pride-bar.pdf\n")
 cat("  3. Plots/fig-marginal-educ.pdf\n")
-cat("  4. Plots/fig-membership-forest.pdf\n")
-cat("  5. Plots/fig-membership-forest-ci.pdf\n")
+cat("  4. Plots/fig-membership-forest-ci.pdf\n")
 cat("\nAll figures are now reproducible from the canonical data pipeline.\n")
