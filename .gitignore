@@ -1,13 +1,12 @@
 # =====================================================================
-# Replication repository for SPQ-26-0082 (Patriotism as a Choice Process)
+# Replication repository for "Patriotism as a Choice Process"
 # Tracked: analysis pipeline (scripts/), renv lockfile, final outputs
 # (Tabs/, Plots/), README. Everything else is local-only.
 # =====================================================================
 
 # --- Local working files (kept locally, not in the public repo) ---
 archive/
-data/
-documentation/
+word_port/
 lit/
 presentations/
 submission/
