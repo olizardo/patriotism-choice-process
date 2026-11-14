@@ -1,10 +1,19 @@
+# ============================================================================
+# GENERATE REGRESSION TABLES (Tables 2-4)
+# ============================================================================
+# Fits the manuscript's weighted OLS models and writes them to Tabs/ in the
+# booktabs + threeparttable format the manuscript uses. Ends with a numerical
+# audit that reproduces every statistic quoted in the manuscript text.
+# Outputs: Tabs/tbl-nationalism.tex, Tabs/tbl-regression-educ.tex,
+#          Tabs/tbl-regression-full-2004.tex
+# ============================================================================
+
+source("scripts/00_utils.R")
 library(gssr)
 library(dplyr)
 library(tidyr)
 library(modelsummary)
 library(psych)
-
-source("scripts/00_utils.R")
 
 gss_comb <- gss_load_comb()
 
@@ -37,6 +46,8 @@ write_table_booktabs(
   "Tabs/tbl-nationalism.tex", caption = "Predictors of Nationalism Scale (1996 vs 2004)", label = "tab:nationalism",
   models = list("Base Change" = mod_nat_base, "Educ Interaction" = mod_nat_int),
   stars = TRUE, coef_map = coef_labels,
+  # The interaction is b = -.0004; 3-decimal rounding would print "-.000".
+  tex_fixups = c("& -0\\.000 \\\\\\\\" = "& -.0004 \\\\\\\\")
 
 )
 

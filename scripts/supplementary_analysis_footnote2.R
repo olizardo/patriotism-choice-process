@@ -180,8 +180,7 @@ pride_cons_p <- 2 * pt(-abs(pride_cons_t), df = nobs(mod_educ_96_app) - length(c
 cat("U.S. PRIDE SCALE:\n")
 cat(sprintf("  Conservative ideology effect:    β = %.4f, SE = %.4f, p = %.4f\n",
             pride_cons_coef, pride_cons_se, pride_cons_p))
-cat(sprintf("  Interpretation: Conservatives %s %.2f points %s on pride scale (0-10)\n",
-            if(pride_cons_coef > 0) "score" else "score",
+cat(sprintf("  Interpretation: Conservatives score %.2f points %s on pride scale (0-10)\n",
             abs(pride_cons_coef),
             if(pride_cons_coef > 0) "higher" else "lower"))
 
@@ -194,8 +193,7 @@ nat_cons_p <- 2 * pt(-abs(nat_cons_t), df = nobs(mod_nat_int_app) - length(coef(
 cat("\nNATIONALISM SCALE:\n")
 cat(sprintf("  Conservative ideology effect:    β = %.4f, SE = %.4f, p = %.4f\n",
             nat_cons_coef, nat_cons_se, nat_cons_p))
-cat(sprintf("  Interpretation: Conservatives %s %.2f points %s on nationalism scale (1-5)\n",
-            if(nat_cons_coef > 0) "score" else "score",
+cat(sprintf("  Interpretation: Conservatives score %.2f points %s on nationalism scale (1-5)\n",
             abs(nat_cons_coef),
             if(nat_cons_coef > 0) "higher" else "lower"))
 

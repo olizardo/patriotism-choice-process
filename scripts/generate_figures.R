@@ -10,8 +10,7 @@ library(forcats)
 # ============================================================================
 # GENERATE FIGURES: Reproducible pipeline for all manuscript figures
 # ============================================================================
-# This script generates the five figures in the manuscript (Figure 5 is a
-# supplementary-style variant of Figure 4 with 90/95% CIs and is not in the text):
+# This script generates the four figures in the manuscript:
 # 1. fig-logistic-pride.pdf — Item-level odds ratios (logistic regression)
 # 2. fig-pride-bar.pdf — Distribution of U.S. Pride scale by year
 # 3. fig-marginal-educ.pdf — Predicted U.S. Pride by education × year
@@ -214,7 +213,8 @@ membership_vars <- c(
   "memchurhbin" = "Church Group"
 )
 
-# The 90% CI (dark bar) and 95% CI (light bar) are drawn as separate layers.
+# Each membership type's 90% CI (darker, thicker bar) and 95% CI (lighter,
+# thinner bar) are drawn as separate linerange layers.
 
 membership_results_ci <- tibble()
 

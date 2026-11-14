@@ -72,7 +72,6 @@ desc_categorical <- tibble(
 ) %>%
   mutate(pct_yes = round(pct_yes, 1))
 
-# Membership types (2004 wave only: membership items not asked in 1996)
 # Membership types (2004 wave only: membership items not asked in 1996).
 # Denominator = 2004 respondents with a valid membership count, matching the
 # manuscript's descriptive-table denominator.

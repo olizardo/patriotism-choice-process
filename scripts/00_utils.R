@@ -165,10 +165,14 @@ gss_load_comb <- function() {
 # Write a modelsummary table to disk in the manuscript's booktabs format:
 # modelsummary renders to a temporary file, then convert_to_booktabs()
 # rewrites it. `...` passes arguments through to modelsummary().
-write_table_booktabs <- function(path, caption, label, ...) {
+# `tex_fixups`: optional named vector of (pattern = replacement) regex pairs
+# applied to the final table text, for cases where 3-decimal rounding hides a
+# nonzero estimate (e.g. b = -.0004 rendered as "-.000").
+write_table_booktabs <- function(path, caption, label, ..., tex_fixups = NULL) {
   tmp <- tempfile(fileext = ".tex")
   modelsummary::modelsummary(..., output = tmp, gof_omit = "^F$")
   tex <- convert_to_booktabs(tmp, caption, label)
+  for (pat in names(tex_fixups)) tex <- gsub(pat, tex_fixups[[pat]], tex)
   writeLines(tex, path)
   cat("  ✓ Saved:", path, "\n")
 }
